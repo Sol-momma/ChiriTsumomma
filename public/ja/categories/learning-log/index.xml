@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+    <title>Learning Log on ChiriTsumomma</title>
+    <link>/ja/categories/learning-log/</link>
+    <description>最近の記事 で Learning Log オン ChiriTsumomma</description>
+    <generator>Hugo 0.152.2</generator>
+    <language>ja-JP</language>
+    <managingEditor>sol0608sol@gmail.com (So Momma)</managingEditor>
+    <webMaster>sol0608sol@gmail.com (So Momma)</webMaster>
+    <lastBuildDate>Sat, 22 Nov 2025 00:34:21 +0800</lastBuildDate>
+    <atom:link href="/ja/categories/learning-log/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning Log - January 21, 2025</title>
+      <link>/ja/en/posts/learning-log-2025-01-21/</link>
+      <pubDate>Tue, 21 Jan 2025 23:58:06 +0900</pubDate>
+      <author>sol0608sol@gmail.com (So Momma)</author>
+      <dc:creator>So Momma</dc:creator>
+      <guid>/ja/en/posts/learning-log-2025-01-21/</guid>
+      <description>&lt;h2 id=&#34;what-i-learned-today&#34;&gt;What I Learned Today&lt;/h2&gt;&#xA;&lt;h3 id=&#34;git-command&#34;&gt;Git Command&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git diff origin/develop &amp;gt; diff.txt&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;I learned how to output the difference between the develop branch and the current branch to a file. This is useful for reviews and checking changes.&lt;/p&gt;&#xA;&lt;h3 id=&#34;about-schema&#34;&gt;About Schema&lt;/h3&gt;&#xA;&lt;p&gt;I deepened my understanding of database schema design. Table structure design is an important foundation for applications.&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-achievements&#34;&gt;Today&amp;rsquo;s Achievements&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;✅ Understood schema design&lt;/li&gt;&#xA;&lt;li&gt;✅ Successfully started a new blog&lt;/li&gt;&#xA;&lt;li&gt;✅ Selected Hugo as the technology&lt;/li&gt;&#xA;&lt;li&gt;✅ Installed a Windows-style AltTab application&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Small steps matter. Let&amp;rsquo;s keep going tomorrow!&lt;/p&gt;</description>
+      <content:encoded>&lt;h2 id=&#34;what-i-learned-today&#34;&gt;What I Learned Today&lt;/h2&gt;&#xA;&lt;h3 id=&#34;git-command&#34;&gt;Git Command&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git diff origin/develop &amp;gt; diff.txt&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;I learned how to output the difference between the develop branch and the current branch to a file. This is useful for reviews and checking changes.&lt;/p&gt;&#xA;&lt;h3 id=&#34;about-schema&#34;&gt;About Schema&lt;/h3&gt;&#xA;&lt;p&gt;I deepened my understanding of database schema design. Table structure design is an important foundation for applications.&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-achievements&#34;&gt;Today&amp;rsquo;s Achievements&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;✅ Understood schema design&lt;/li&gt;&#xA;&lt;li&gt;✅ Successfully started a new blog&lt;/li&gt;&#xA;&lt;li&gt;✅ Selected Hugo as the technology&lt;/li&gt;&#xA;&lt;li&gt;✅ Installed a Windows-style AltTab application&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Small steps matter. Let&amp;rsquo;s keep going tomorrow!&lt;/p&gt;&#xA;</content:encoded>
+      <category>Diary</category>
+      <category>Learning Log</category>
+    </item>
+  </channel>
+</rss>

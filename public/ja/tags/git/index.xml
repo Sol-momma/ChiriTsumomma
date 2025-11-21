@@ -2,25 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
   <channel>
     <title>Git on ChiriTsumomma</title>
-    <link>//localhost:1313/ja/tags/git/</link>
+    <link>/ja/tags/git/</link>
     <description>最近の記事 で Git オン ChiriTsumomma</description>
     <generator>Hugo 0.152.2</generator>
     <language>ja-JP</language>
     <managingEditor>sol0608sol@gmail.com (So Momma)</managingEditor>
     <webMaster>sol0608sol@gmail.com (So Momma)</webMaster>
-    <lastBuildDate>Sat, 22 Nov 2025 00:28:02 +0800</lastBuildDate>
-    <atom:link href="//localhost:1313/ja/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Nov 2025 00:34:21 +0800</lastBuildDate>
+    <atom:link href="/ja/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2025年1月21日の学習記録</title>
-      <link>//localhost:1313/ja/ja/posts/1121/</link>
+      <link>/ja/ja/posts/1121/</link>
       <pubDate>Tue, 21 Jan 2025 23:58:06 +0900</pubDate>
       <author>sol0608sol@gmail.com (So Momma)</author>
       <dc:creator>So Momma</dc:creator>
-      <guid>//localhost:1313/ja/ja/posts/1121/</guid>
+      <guid>/ja/ja/posts/1121/</guid>
       <description>&lt;h2 id=&#34;今日学んだこと&#34;&gt;今日学んだこと&lt;/h2&gt;&#xA;&lt;h3 id=&#34;gitコマンド&#34;&gt;Gitコマンド&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git diff origin/develop &amp;gt; diff.txt&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;developブランチとの差分をファイルに出力する方法を学びました。レビューや変更内容の確認に便利です。&lt;/p&gt;&#xA;&lt;h3 id=&#34;スキーマについて&#34;&gt;スキーマについて&lt;/h3&gt;&#xA;&lt;p&gt;データベースのスキーマ設計について理解を深めました。テーブル構造の設計は、アプリケーションの基盤となる重要な部分ですね。&lt;/p&gt;&#xA;&lt;h2 id=&#34;今日の成果&#34;&gt;今日の成果&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;✅ スキーマについて理解した&lt;/li&gt;&#xA;&lt;li&gt;✅ 新しくブログを始められた&lt;/li&gt;&#xA;&lt;li&gt;✅ Hugoの技術選定ができた&lt;/li&gt;&#xA;&lt;li&gt;✅ Windows風のAltTabアプリケーションを導入できた&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;小さな積み重ねが大切です。明日も頑張ります！&lt;/p&gt;</description>
       <content:encoded>&lt;h2 id=&#34;今日学んだこと&#34;&gt;今日学んだこと&lt;/h2&gt;&#xA;&lt;h3 id=&#34;gitコマンド&#34;&gt;Gitコマンド&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git diff origin/develop &amp;gt; diff.txt&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;developブランチとの差分をファイルに出力する方法を学びました。レビューや変更内容の確認に便利です。&lt;/p&gt;&#xA;&lt;h3 id=&#34;スキーマについて&#34;&gt;スキーマについて&lt;/h3&gt;&#xA;&lt;p&gt;データベースのスキーマ設計について理解を深めました。テーブル構造の設計は、アプリケーションの基盤となる重要な部分ですね。&lt;/p&gt;&#xA;&lt;h2 id=&#34;今日の成果&#34;&gt;今日の成果&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;✅ スキーマについて理解した&lt;/li&gt;&#xA;&lt;li&gt;✅ 新しくブログを始められた&lt;/li&gt;&#xA;&lt;li&gt;✅ Hugoの技術選定ができた&lt;/li&gt;&#xA;&lt;li&gt;✅ Windows風のAltTabアプリケーションを導入できた&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;小さな積み重ねが大切です。明日も頑張ります！&lt;/p&gt;&#xA;</content:encoded>
       <category>日記</category>
       <category>学習記録</category>
+    </item>
+    <item>
+      <title>Learning Log - January 21, 2025</title>
+      <link>/ja/en/posts/learning-log-2025-01-21/</link>
+      <pubDate>Tue, 21 Jan 2025 23:58:06 +0900</pubDate>
+      <author>sol0608sol@gmail.com (So Momma)</author>
+      <dc:creator>So Momma</dc:creator>
+      <guid>/ja/en/posts/learning-log-2025-01-21/</guid>
+      <description>&lt;h2 id=&#34;what-i-learned-today&#34;&gt;What I Learned Today&lt;/h2&gt;&#xA;&lt;h3 id=&#34;git-command&#34;&gt;Git Command&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git diff origin/develop &amp;gt; diff.txt&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;I learned how to output the difference between the develop branch and the current branch to a file. This is useful for reviews and checking changes.&lt;/p&gt;&#xA;&lt;h3 id=&#34;about-schema&#34;&gt;About Schema&lt;/h3&gt;&#xA;&lt;p&gt;I deepened my understanding of database schema design. Table structure design is an important foundation for applications.&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-achievements&#34;&gt;Today&amp;rsquo;s Achievements&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;✅ Understood schema design&lt;/li&gt;&#xA;&lt;li&gt;✅ Successfully started a new blog&lt;/li&gt;&#xA;&lt;li&gt;✅ Selected Hugo as the technology&lt;/li&gt;&#xA;&lt;li&gt;✅ Installed a Windows-style AltTab application&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Small steps matter. Let&amp;rsquo;s keep going tomorrow!&lt;/p&gt;</description>
+      <content:encoded>&lt;h2 id=&#34;what-i-learned-today&#34;&gt;What I Learned Today&lt;/h2&gt;&#xA;&lt;h3 id=&#34;git-command&#34;&gt;Git Command&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git diff origin/develop &amp;gt; diff.txt&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;I learned how to output the difference between the develop branch and the current branch to a file. This is useful for reviews and checking changes.&lt;/p&gt;&#xA;&lt;h3 id=&#34;about-schema&#34;&gt;About Schema&lt;/h3&gt;&#xA;&lt;p&gt;I deepened my understanding of database schema design. Table structure design is an important foundation for applications.&lt;/p&gt;&#xA;&lt;h2 id=&#34;todays-achievements&#34;&gt;Today&amp;rsquo;s Achievements&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;✅ Understood schema design&lt;/li&gt;&#xA;&lt;li&gt;✅ Successfully started a new blog&lt;/li&gt;&#xA;&lt;li&gt;✅ Selected Hugo as the technology&lt;/li&gt;&#xA;&lt;li&gt;✅ Installed a Windows-style AltTab application&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Small steps matter. Let&amp;rsquo;s keep going tomorrow!&lt;/p&gt;&#xA;</content:encoded>
+      <category>Diary</category>
+      <category>Learning Log</category>
+    </item>
+    <item>
+      <title>學習記錄 - 2025年1月21日</title>
+      <link>/ja/zh/posts/learning-log-2025-01-21/</link>
+      <pubDate>Tue, 21 Jan 2025 23:58:06 +0900</pubDate>
+      <author>sol0608sol@gmail.com (So Momma)</author>
+      <dc:creator>So Momma</dc:creator>
+      <guid>/ja/zh/posts/learning-log-2025-01-21/</guid>
+      <description>&lt;h2 id=&#34;今天學到的東西&#34;&gt;今天學到的東西&lt;/h2&gt;&#xA;&lt;h3 id=&#34;git指令&#34;&gt;Git指令&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git diff origin/develop &amp;gt; diff.txt&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;我學會了如何將develop分支與目前分支的差異輸出到檔案。這對於審查和檢查變更很有用。&lt;/p&gt;&#xA;&lt;h3 id=&#34;關於資料庫架構&#34;&gt;關於資料庫架構&lt;/h3&gt;&#xA;&lt;p&gt;我加深了對資料庫架構設計的理解。資料表結構設計是應用程式的重要基礎。&lt;/p&gt;&#xA;&lt;h2 id=&#34;今天的成果&#34;&gt;今天的成果&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;✅ 理解了資料庫架構設計&lt;/li&gt;&#xA;&lt;li&gt;✅ 成功開始了新部落格&lt;/li&gt;&#xA;&lt;li&gt;✅ 選擇了Hugo作為技術&lt;/li&gt;&#xA;&lt;li&gt;✅ 安裝了Windows風格的AltTab應用程式&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;小的積累很重要。明天繼續努力！&lt;/p&gt;</description>
+      <content:encoded>&lt;h2 id=&#34;今天學到的東西&#34;&gt;今天學到的東西&lt;/h2&gt;&#xA;&lt;h3 id=&#34;git指令&#34;&gt;Git指令&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git diff origin/develop &amp;gt; diff.txt&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;我學會了如何將develop分支與目前分支的差異輸出到檔案。這對於審查和檢查變更很有用。&lt;/p&gt;&#xA;&lt;h3 id=&#34;關於資料庫架構&#34;&gt;關於資料庫架構&lt;/h3&gt;&#xA;&lt;p&gt;我加深了對資料庫架構設計的理解。資料表結構設計是應用程式的重要基礎。&lt;/p&gt;&#xA;&lt;h2 id=&#34;今天的成果&#34;&gt;今天的成果&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;✅ 理解了資料庫架構設計&lt;/li&gt;&#xA;&lt;li&gt;✅ 成功開始了新部落格&lt;/li&gt;&#xA;&lt;li&gt;✅ 選擇了Hugo作為技術&lt;/li&gt;&#xA;&lt;li&gt;✅ 安裝了Windows風格的AltTab應用程式&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;小的積累很重要。明天繼續努力！&lt;/p&gt;&#xA;</content:encoded>
+      <category>日記</category>
+      <category>學習記錄</category>
     </item>
   </channel>
 </rss>

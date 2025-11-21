@@ -2,180 +2,288 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
   <channel>
     <title>Tags on ChiriTsumomma</title>
-    <link>//localhost:1313/ja/tags/</link>
+    <link>/ja/tags/</link>
     <description>最近の記事 で Tags オン ChiriTsumomma</description>
     <generator>Hugo 0.152.2</generator>
     <language>ja-JP</language>
     <managingEditor>sol0608sol@gmail.com (So Momma)</managingEditor>
     <webMaster>sol0608sol@gmail.com (So Momma)</webMaster>
-    <lastBuildDate>Sat, 22 Nov 2025 00:28:02 +0800</lastBuildDate>
-    <atom:link href="//localhost:1313/ja/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Nov 2025 00:34:21 +0800</lastBuildDate>
+    <atom:link href="/ja/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git</title>
-      <link>//localhost:1313/ja/tags/git/</link>
+      <link>/ja/tags/git/</link>
       <pubDate>Tue, 21 Jan 2025 23:58:06 +0900</pubDate>
       <author>sol0608sol@gmail.com (So Momma)</author>
       <dc:creator>So Momma</dc:creator>
-      <guid>//localhost:1313/ja/tags/git/</guid>
+      <guid>/ja/tags/git/</guid>
       <description></description>
       <content:encoded></content:encoded>
     </item>
     <item>
       <title>Hugo</title>
-      <link>//localhost:1313/ja/tags/hugo/</link>
+      <link>/ja/tags/hugo/</link>
       <pubDate>Tue, 21 Jan 2025 23:58:06 +0900</pubDate>
       <author>sol0608sol@gmail.com (So Momma)</author>
       <dc:creator>So Momma</dc:creator>
-      <guid>//localhost:1313/ja/tags/hugo/</guid>
+      <guid>/ja/tags/hugo/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>Schema</title>
+      <link>/ja/tags/schema/</link>
+      <pubDate>Tue, 21 Jan 2025 23:58:06 +0900</pubDate>
+      <author>sol0608sol@gmail.com (So Momma)</author>
+      <dc:creator>So Momma</dc:creator>
+      <guid>/ja/tags/schema/</guid>
       <description></description>
       <content:encoded></content:encoded>
     </item>
     <item>
       <title>スキーマ</title>
-      <link>//localhost:1313/ja/tags/%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9E/</link>
+      <link>/ja/tags/%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9E/</link>
       <pubDate>Tue, 21 Jan 2025 23:58:06 +0900</pubDate>
       <author>sol0608sol@gmail.com (So Momma)</author>
       <dc:creator>So Momma</dc:creator>
-      <guid>//localhost:1313/ja/tags/%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9E/</guid>
+      <guid>/ja/tags/%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9E/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>資料庫架構</title>
+      <link>/ja/tags/%E8%B3%87%E6%96%99%E5%BA%AB%E6%9E%B6%E6%A7%8B/</link>
+      <pubDate>Tue, 21 Jan 2025 23:58:06 +0900</pubDate>
+      <author>sol0608sol@gmail.com (So Momma)</author>
+      <dc:creator>So Momma</dc:creator>
+      <guid>/ja/tags/%E8%B3%87%E6%96%99%E5%BA%AB%E6%9E%B6%E6%A7%8B/</guid>
       <description></description>
       <content:encoded></content:encoded>
     </item>
     <item>
       <title>Blog-Setup</title>
-      <link>//localhost:1313/ja/tags/blog-setup/</link>
+      <link>/ja/tags/blog-setup/</link>
       <pubDate>Tue, 21 Jan 2025 23:30:00 +0900</pubDate>
       <author>sol0608sol@gmail.com (So Momma)</author>
       <dc:creator>So Momma</dc:creator>
-      <guid>//localhost:1313/ja/tags/blog-setup/</guid>
+      <guid>/ja/tags/blog-setup/</guid>
       <description></description>
       <content:encoded></content:encoded>
     </item>
     <item>
       <title>Vercel</title>
-      <link>//localhost:1313/ja/tags/vercel/</link>
+      <link>/ja/tags/vercel/</link>
       <pubDate>Tue, 21 Jan 2025 23:30:00 +0900</pubDate>
       <author>sol0608sol@gmail.com (So Momma)</author>
       <dc:creator>So Momma</dc:creator>
-      <guid>//localhost:1313/ja/tags/vercel/</guid>
+      <guid>/ja/tags/vercel/</guid>
       <description></description>
       <content:encoded></content:encoded>
     </item>
     <item>
       <title>ブログ開設</title>
-      <link>//localhost:1313/ja/tags/%E3%83%96%E3%83%AD%E3%82%B0%E9%96%8B%E8%A8%AD/</link>
+      <link>/ja/tags/%E3%83%96%E3%83%AD%E3%82%B0%E9%96%8B%E8%A8%AD/</link>
       <pubDate>Tue, 21 Jan 2025 23:30:00 +0900</pubDate>
       <author>sol0608sol@gmail.com (So Momma)</author>
       <dc:creator>So Momma</dc:creator>
-      <guid>//localhost:1313/ja/tags/%E3%83%96%E3%83%AD%E3%82%B0%E9%96%8B%E8%A8%AD/</guid>
+      <guid>/ja/tags/%E3%83%96%E3%83%AD%E3%82%B0%E9%96%8B%E8%A8%AD/</guid>
       <description></description>
       <content:encoded></content:encoded>
     </item>
     <item>
       <title>部落格開設</title>
-      <link>//localhost:1313/ja/tags/%E9%83%A8%E8%90%BD%E6%A0%BC%E9%96%8B%E8%A8%AD/</link>
+      <link>/ja/tags/%E9%83%A8%E8%90%BD%E6%A0%BC%E9%96%8B%E8%A8%AD/</link>
       <pubDate>Tue, 21 Jan 2025 23:30:00 +0900</pubDate>
       <author>sol0608sol@gmail.com (So Momma)</author>
       <dc:creator>So Momma</dc:creator>
-      <guid>//localhost:1313/ja/tags/%E9%83%A8%E8%90%BD%E6%A0%BC%E9%96%8B%E8%A8%AD/</guid>
+      <guid>/ja/tags/%E9%83%A8%E8%90%BD%E6%A0%BC%E9%96%8B%E8%A8%AD/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>/ja/tags/programming/</link>
+      <pubDate>Tue, 21 Jan 2025 13:00:00 +0900</pubDate>
+      <author>sol0608sol@gmail.com (So Momma)</author>
+      <dc:creator>So Momma</dc:creator>
+      <guid>/ja/tags/programming/</guid>
       <description></description>
       <content:encoded></content:encoded>
     </item>
     <item>
       <title>Python</title>
-      <link>//localhost:1313/ja/tags/python/</link>
+      <link>/ja/tags/python/</link>
       <pubDate>Tue, 21 Jan 2025 13:00:00 +0900</pubDate>
       <author>sol0608sol@gmail.com (So Momma)</author>
       <dc:creator>So Momma</dc:creator>
-      <guid>//localhost:1313/ja/tags/python/</guid>
+      <guid>/ja/tags/python/</guid>
       <description></description>
       <content:encoded></content:encoded>
     </item>
     <item>
       <title>Tips</title>
-      <link>//localhost:1313/ja/tags/tips/</link>
+      <link>/ja/tags/tips/</link>
       <pubDate>Tue, 21 Jan 2025 13:00:00 +0900</pubDate>
       <author>sol0608sol@gmail.com (So Momma)</author>
       <dc:creator>So Momma</dc:creator>
-      <guid>//localhost:1313/ja/tags/tips/</guid>
+      <guid>/ja/tags/tips/</guid>
       <description></description>
       <content:encoded></content:encoded>
     </item>
     <item>
       <title>プログラミング</title>
-      <link>//localhost:1313/ja/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/</link>
+      <link>/ja/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/</link>
       <pubDate>Tue, 21 Jan 2025 13:00:00 +0900</pubDate>
       <author>sol0608sol@gmail.com (So Momma)</author>
       <dc:creator>So Momma</dc:creator>
-      <guid>//localhost:1313/ja/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/</guid>
+      <guid>/ja/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/</guid>
       <description></description>
       <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>技巧</title>
+      <link>/ja/tags/%E6%8A%80%E5%B7%A7/</link>
+      <pubDate>Tue, 21 Jan 2025 13:00:00 +0900</pubDate>
+      <author>sol0608sol@gmail.com (So Momma)</author>
+      <dc:creator>So Momma</dc:creator>
+      <guid>/ja/tags/%E6%8A%80%E5%B7%A7/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>程式設計</title>
+      <link>/ja/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/</link>
+      <pubDate>Tue, 21 Jan 2025 13:00:00 +0900</pubDate>
+      <author>sol0608sol@gmail.com (So Momma)</author>
+      <dc:creator>So Momma</dc:creator>
+      <guid>/ja/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>Backend</title>
+      <link>/ja/tags/backend/</link>
+      <pubDate>Tue, 21 Jan 2025 12:00:00 +0900</pubDate>
+      <author>sol0608sol@gmail.com (So Momma)</author>
+      <dc:creator>So Momma</dc:creator>
+      <guid>/ja/tags/backend/</guid>
+      <description></description>
     </item>
     <item>
       <title>Go</title>
-      <link>//localhost:1313/ja/tags/go/</link>
+      <link>/ja/tags/go/</link>
       <pubDate>Tue, 21 Jan 2025 12:00:00 +0900</pubDate>
       <author>sol0608sol@gmail.com (So Momma)</author>
       <dc:creator>So Momma</dc:creator>
-      <guid>//localhost:1313/ja/tags/go/</guid>
+      <guid>/ja/tags/go/</guid>
       <description></description>
-      <content:encoded></content:encoded>
     </item>
     <item>
       <title>バックエンド</title>
-      <link>//localhost:1313/ja/tags/%E3%83%90%E3%83%83%E3%82%AF%E3%82%A8%E3%83%B3%E3%83%89/</link>
+      <link>/ja/tags/%E3%83%90%E3%83%83%E3%82%AF%E3%82%A8%E3%83%B3%E3%83%89/</link>
       <pubDate>Tue, 21 Jan 2025 12:00:00 +0900</pubDate>
       <author>sol0608sol@gmail.com (So Momma)</author>
       <dc:creator>So Momma</dc:creator>
-      <guid>//localhost:1313/ja/tags/%E3%83%90%E3%83%83%E3%82%AF%E3%82%A8%E3%83%B3%E3%83%89/</guid>
+      <guid>/ja/tags/%E3%83%90%E3%83%83%E3%82%AF%E3%82%A8%E3%83%B3%E3%83%89/</guid>
       <description></description>
-      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>後端</title>
+      <link>/ja/tags/%E5%BE%8C%E7%AB%AF/</link>
+      <pubDate>Tue, 21 Jan 2025 12:00:00 +0900</pubDate>
+      <author>sol0608sol@gmail.com (So Momma)</author>
+      <dc:creator>So Momma</dc:creator>
+      <guid>/ja/tags/%E5%BE%8C%E7%AB%AF/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Authoring</title>
+      <link>/ja/tags/authoring/</link>
+      <pubDate>Tue, 21 Jan 2025 11:00:00 +0900</pubDate>
+      <author>sol0608sol@gmail.com (So Momma)</author>
+      <dc:creator>So Momma</dc:creator>
+      <guid>/ja/tags/authoring/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Guide</title>
+      <link>/ja/tags/guide/</link>
+      <pubDate>Tue, 21 Jan 2025 11:00:00 +0900</pubDate>
+      <author>sol0608sol@gmail.com (So Momma)</author>
+      <dc:creator>So Momma</dc:creator>
+      <guid>/ja/tags/guide/</guid>
+      <description></description>
     </item>
     <item>
       <title>Markdown</title>
-      <link>//localhost:1313/ja/tags/markdown/</link>
+      <link>/ja/tags/markdown/</link>
       <pubDate>Tue, 21 Jan 2025 11:00:00 +0900</pubDate>
       <author>sol0608sol@gmail.com (So Momma)</author>
       <dc:creator>So Momma</dc:creator>
-      <guid>//localhost:1313/ja/tags/markdown/</guid>
+      <guid>/ja/tags/markdown/</guid>
       <description></description>
-      <content:encoded></content:encoded>
     </item>
     <item>
       <title>ガイド</title>
-      <link>//localhost:1313/ja/tags/%E3%82%AC%E3%82%A4%E3%83%89/</link>
+      <link>/ja/tags/%E3%82%AC%E3%82%A4%E3%83%89/</link>
       <pubDate>Tue, 21 Jan 2025 11:00:00 +0900</pubDate>
       <author>sol0608sol@gmail.com (So Momma)</author>
       <dc:creator>So Momma</dc:creator>
-      <guid>//localhost:1313/ja/tags/%E3%82%AC%E3%82%A4%E3%83%89/</guid>
+      <guid>/ja/tags/%E3%82%AC%E3%82%A4%E3%83%89/</guid>
       <description></description>
-      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>指南</title>
+      <link>/ja/tags/%E6%8C%87%E5%8D%97/</link>
+      <pubDate>Tue, 21 Jan 2025 11:00:00 +0900</pubDate>
+      <author>sol0608sol@gmail.com (So Momma)</author>
+      <dc:creator>So Momma</dc:creator>
+      <guid>/ja/tags/%E6%8C%87%E5%8D%97/</guid>
+      <description></description>
     </item>
     <item>
       <title>執筆</title>
-      <link>//localhost:1313/ja/tags/%E5%9F%B7%E7%AD%86/</link>
+      <link>/ja/tags/%E5%9F%B7%E7%AD%86/</link>
       <pubDate>Tue, 21 Jan 2025 11:00:00 +0900</pubDate>
       <author>sol0608sol@gmail.com (So Momma)</author>
       <dc:creator>So Momma</dc:creator>
-      <guid>//localhost:1313/ja/tags/%E5%9F%B7%E7%AD%86/</guid>
+      <guid>/ja/tags/%E5%9F%B7%E7%AD%86/</guid>
       <description></description>
-      <content:encoded></content:encoded>
     </item>
     <item>
-      <title>ブログ構築</title>
-      <link>//localhost:1313/ja/tags/%E3%83%96%E3%83%AD%E3%82%B0%E6%A7%8B%E7%AF%89/</link>
+      <title>Configuration</title>
+      <link>/ja/tags/configuration/</link>
       <pubDate>Tue, 21 Jan 2025 10:00:00 +0900</pubDate>
       <author>sol0608sol@gmail.com (So Momma)</author>
       <dc:creator>So Momma</dc:creator>
-      <guid>//localhost:1313/ja/tags/%E3%83%96%E3%83%AD%E3%82%B0%E6%A7%8B%E7%AF%89/</guid>
+      <guid>/ja/tags/configuration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ブログ構築</title>
+      <link>/ja/tags/%E3%83%96%E3%83%AD%E3%82%B0%E6%A7%8B%E7%AF%89/</link>
+      <pubDate>Tue, 21 Jan 2025 10:00:00 +0900</pubDate>
+      <author>sol0608sol@gmail.com (So Momma)</author>
+      <dc:creator>So Momma</dc:creator>
+      <guid>/ja/tags/%E3%83%96%E3%83%AD%E3%82%B0%E6%A7%8B%E7%AF%89/</guid>
       <description></description>
     </item>
     <item>
       <title>設定</title>
-      <link>//localhost:1313/ja/tags/%E8%A8%AD%E5%AE%9A/</link>
+      <link>/ja/tags/%E8%A8%AD%E5%AE%9A/</link>
       <pubDate>Tue, 21 Jan 2025 10:00:00 +0900</pubDate>
       <author>sol0608sol@gmail.com (So Momma)</author>
       <dc:creator>So Momma</dc:creator>
-      <guid>//localhost:1313/ja/tags/%E8%A8%AD%E5%AE%9A/</guid>
+      <guid>/ja/tags/%E8%A8%AD%E5%AE%9A/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>部落格構建</title>
+      <link>/ja/tags/%E9%83%A8%E8%90%BD%E6%A0%BC%E6%A7%8B%E5%BB%BA/</link>
+      <pubDate>Tue, 21 Jan 2025 10:00:00 +0900</pubDate>
+      <author>sol0608sol@gmail.com (So Momma)</author>
+      <dc:creator>So Momma</dc:creator>
+      <guid>/ja/tags/%E9%83%A8%E8%90%BD%E6%A0%BC%E6%A7%8B%E5%BB%BA/</guid>
       <description></description>
     </item>
   </channel>

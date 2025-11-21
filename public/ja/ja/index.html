@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja-JP" dir="ltr">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
     <!-- head.html --><!-- meta.html -->
 
 <meta charset="utf-8">
@@ -9,7 +9,7 @@
 <title> | ChiriTsumomma</title>
 <meta name="author" content="So Momma">
 <meta name="description" content="section | ChiriTsumomma" >
-<link rel="canonical" href="//localhost:1313/ja/ja/">
+<link rel="canonical" href="/ja/ja/">
 
 
 
@@ -25,7 +25,7 @@
     <meta property="og:title" content=" | ChiriTsumomma" />
     <meta property="og:description" content="section | ChiriTsumomma" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="//localhost:1313/ja/ja/" />
+    <meta property="og:url" content="/ja/ja/" />
         <meta property="og:image" content="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/22.svg" />
     <meta property="og:site_name" content="ChiriTsumomma" />
     
@@ -56,14 +56,15 @@
             }
         }
     </script>
-    <link rel="alternate" type="application/rss+xml" href="//localhost:1313/ja/ja/index.xml" title=" | ChiriTsumomma (RSS)" />
+    <link rel="alternate" type="application/rss+xml" href="/ja/ja/index.xml" title=" | ChiriTsumomma (RSS)" />
     <!-- js.html -->
 
+<script src="/js/hugo-brewm.min.js"
+            integrity="sha384-/lNm2crwebBv13u0jb2m7lrn5uHl9XmQJrxSoL2QgUDmP4GE8rPsAhE/qob/B2pl" crossorigin="anonymous"
+            defer></script><!-- css.html -->
 
-    <script src="//localhost:1313/js/hugo-brewm.min.js" defer></script><!-- css.html -->
 
-
-    <link rel="stylesheet" href="//localhost:1313/css/hugo-brewm.min.css">
+        <link rel="stylesheet" href="/css/hugo-brewm.min.css" integrity="sha256-SeCrg2fnly4gRe4BvI1yca2P0yQqHbckbLv&#43;UBsrjbk=" crossorigin="anonymous">
 
 
 
@@ -89,7 +90,7 @@
     </nav>
     
     <div id="logo">
-        <a href="//localhost:1313/ja/" aria-label="ChiriTsumomma" aria-description="ホームページ">
+        <a href="/ja/" aria-label="ChiriTsumomma" aria-description="ホームページ">
                 <!-- logotype.html --><svg id="logotype" xmlns="http://www.w3.org/2000/svg" version="1.1" width="364pt" aria-label="ChiriTsumomma">
             <text id="logotype__text" y="19.5pt" x="0">ChiriTsumomma</text>
         </svg>
@@ -114,14 +115,14 @@
                     
     
         <li role="presentation" >
-    <a   class=on-deck href=//localhost:1313/>
+    <a   class=on-deck href=/>
         
             <span>
                 ホーム</span>
     </a>
         </li>
         <li role="presentation" >
-    <a   class=on-deck href=//localhost:1313/ja/posts/>
+    <a   class=on-deck href=/ja/posts/>
         
             <span>
                 記事一覧</span>
@@ -186,7 +187,7 @@
     </a>
         </li>
         <li role="presentation" >
-    <a   class=on-deck href=//localhost:1313/ja/about/>
+    <a   class=on-deck href=/ja/about/>
         
             <span>
                 About</span>
@@ -205,7 +206,7 @@
     <div id="search" class="on-hull">
         <div role="presentation" class="screening js-cgpn"></div>
     </div>
-    <script src="//localhost:1313/pagefind/pagefind-ui.js" type="text/javascript"></script>
+    <script src="/pagefind/pagefind-ui.js" type="text/javascript"></script>
     <script>
         let pageFindInitialized = false;
         const initPageFind = function(event) {
@@ -235,7 +236,7 @@
     <form id="duckduckgo" class="form on-plank"
         name="[i18n] seach" action="//duckduckgo.com/"
         role="search" aria-label="検索">
-        <input type="hidden" value="localhost:1313" name="sites"></input>
+        <input type="hidden" value="" name="sites"></input>
         <input type="hidden" value="1" name="kh"></input>
         <input type="hidden" value="1" name="kn"></input>
         <input type="hidden" value="1" name="kac"></input>
@@ -264,13 +265,13 @@
             <nav id="i18n-menu" aria-label="言語選択">
                 <ul class="on-plank">
                         <li>
-                            <a href="//localhost:1313/en/" aria-label="Change language to English">
+                            <a href="/en/" aria-label="Change language to English">
                                 <span class="emoji">🇺🇸&nbsp;</span>
                                 <span class="languangeName">English</span>
                             </a>
                         </li>
                         <li>
-                            <a href="//localhost:1313/zh/" aria-label="Change language to 繁體中文">
+                            <a href="/zh/" aria-label="Change language to 繁體中文">
                                 <span class="emoji">🇹🇼&nbsp;</span>
                                 <span class="languangeName">繁體中文</span>
                             </a>
@@ -295,7 +296,7 @@
                         data-i18n-print="印刷"
                         data-i18n-copy="URLをコピー"
                         data-i18n-copying="コピー中...">
-                                <a id="rss-button" href="//localhost:1313/ja/ja/index.xml" title="RSSでフォロー" role="button" aria-label="RSSでフォロー">
+                                <a id="rss-button" href="/ja/ja/index.xml" title="RSSでフォロー" role="button" aria-label="RSSでフォロー">
                                     <span class="t srt" role="tooltip">RSSでフォロー</span>
                                 </a>
                     </menu>
@@ -353,16 +354,52 @@
         <ul class="rounded has-hash" role="presentation">
             
                     <li >
-                        <a href="//localhost:1313/ja/tags/hugo/"
+                        <a href="/ja/tags/hugo/"
                             aria-label="タグ: Hugo"
-                            aria-description="5 記事"
-                            data-post-counter="5"
+                            aria-description="9 記事"
+                            data-post-counter="9"
                             >
                             <span>Hugo</span>
                         </a>
                     </li>
                     <li >
-                        <a href="//localhost:1313/ja/tags/vercel/"
+                        <a href="/ja/tags/git/"
+                            aria-label="タグ: Git"
+                            aria-description="3 記事"
+                            data-post-counter="3"
+                            >
+                            <span>Git</span>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/ja/tags/go/"
+                            aria-label="タグ: Go"
+                            aria-description="3 記事"
+                            data-post-counter="3"
+                            >
+                            <span>Go</span>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/ja/tags/markdown/"
+                            aria-label="タグ: Markdown"
+                            aria-description="3 記事"
+                            data-post-counter="3"
+                            >
+                            <span>Markdown</span>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/ja/tags/python/"
+                            aria-label="タグ: Python"
+                            aria-description="3 記事"
+                            data-post-counter="3"
+                            >
+                            <span>Python</span>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/ja/tags/vercel/"
                             aria-label="タグ: Vercel"
                             aria-description="3 記事"
                             data-post-counter="3"
@@ -371,7 +408,34 @@
                         </a>
                     </li>
                     <li >
-                        <a href="//localhost:1313/ja/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/"
+                        <a href="/ja/tags/blog-setup/"
+                            aria-label="タグ: Blog-Setup"
+                            aria-description="2 記事"
+                            data-post-counter="2"
+                            >
+                            <span>Blog-Setup</span>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/ja/tags/programming/"
+                            aria-label="タグ: Programming"
+                            aria-description="2 記事"
+                            data-post-counter="2"
+                            >
+                            <span>Programming</span>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/ja/tags/tips/"
+                            aria-label="タグ: Tips"
+                            aria-description="2 記事"
+                            data-post-counter="2"
+                            >
+                            <span>Tips</span>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/ja/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/"
                             aria-label="タグ: プログラミング"
                             aria-description="2 記事"
                             data-post-counter="2"
@@ -380,61 +444,79 @@
                         </a>
                     </li>
                     <li >
-                        <a href="//localhost:1313/ja/tags/blog-setup/"
-                            aria-label="タグ: Blog-Setup"
-                            aria-description="1 記事"
-                            data-post-counter="1"
+                        <a href="/ja/tags/%E5%9F%B7%E7%AD%86/"
+                            aria-label="タグ: 執筆"
+                            aria-description="2 記事"
+                            data-post-counter="2"
                             >
-                            <span>Blog-Setup</span>
+                            <span>執筆</span>
                         </a>
                     </li>
                     <li >
-                        <a href="//localhost:1313/ja/tags/git/"
-                            aria-label="タグ: Git"
-                            aria-description="1 記事"
-                            data-post-counter="1"
+                        <a href="/ja/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/"
+                            aria-label="タグ: 程式設計"
+                            aria-description="2 記事"
+                            data-post-counter="2"
                             >
-                            <span>Git</span>
+                            <span>程式設計</span>
                         </a>
                     </li>
                     <li >
-                        <a href="//localhost:1313/ja/tags/go/"
-                            aria-label="タグ: Go"
-                            aria-description="1 記事"
-                            data-post-counter="1"
+                        <a href="/ja/tags/%E8%A8%AD%E5%AE%9A/"
+                            aria-label="タグ: 設定"
+                            aria-description="2 記事"
+                            data-post-counter="2"
                             >
-                            <span>Go</span>
+                            <span>設定</span>
                         </a>
                     </li>
                     <li >
-                        <a href="//localhost:1313/ja/tags/markdown/"
-                            aria-label="タグ: Markdown"
+                        <a href="/ja/tags/authoring/"
+                            aria-label="タグ: Authoring"
                             aria-description="1 記事"
                             data-post-counter="1"
                             >
-                            <span>Markdown</span>
+                            <span>Authoring</span>
                         </a>
                     </li>
                     <li >
-                        <a href="//localhost:1313/ja/tags/python/"
-                            aria-label="タグ: Python"
+                        <a href="/ja/tags/backend/"
+                            aria-label="タグ: Backend"
                             aria-description="1 記事"
                             data-post-counter="1"
                             >
-                            <span>Python</span>
+                            <span>Backend</span>
                         </a>
                     </li>
                     <li >
-                        <a href="//localhost:1313/ja/tags/tips/"
-                            aria-label="タグ: Tips"
+                        <a href="/ja/tags/configuration/"
+                            aria-label="タグ: Configuration"
                             aria-description="1 記事"
                             data-post-counter="1"
                             >
-                            <span>Tips</span>
+                            <span>Configuration</span>
                         </a>
                     </li>
                     <li >
-                        <a href="//localhost:1313/ja/tags/%E3%82%AC%E3%82%A4%E3%83%89/"
+                        <a href="/ja/tags/guide/"
+                            aria-label="タグ: Guide"
+                            aria-description="1 記事"
+                            data-post-counter="1"
+                            >
+                            <span>Guide</span>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/ja/tags/schema/"
+                            aria-label="タグ: Schema"
+                            aria-description="1 記事"
+                            data-post-counter="1"
+                            >
+                            <span>Schema</span>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/ja/tags/%E3%82%AC%E3%82%A4%E3%83%89/"
                             aria-label="タグ: ガイド"
                             aria-description="1 記事"
                             data-post-counter="1"
@@ -443,7 +525,7 @@
                         </a>
                     </li>
                     <li >
-                        <a href="//localhost:1313/ja/tags/%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9E/"
+                        <a href="/ja/tags/%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9E/"
                             aria-label="タグ: スキーマ"
                             aria-description="1 記事"
                             data-post-counter="1"
@@ -452,7 +534,7 @@
                         </a>
                     </li>
                     <li >
-                        <a href="//localhost:1313/ja/tags/%E3%83%90%E3%83%83%E3%82%AF%E3%82%A8%E3%83%B3%E3%83%89/"
+                        <a href="/ja/tags/%E3%83%90%E3%83%83%E3%82%AF%E3%82%A8%E3%83%B3%E3%83%89/"
                             aria-label="タグ: バックエンド"
                             aria-description="1 記事"
                             data-post-counter="1"
@@ -461,7 +543,7 @@
                         </a>
                     </li>
                     <li >
-                        <a href="//localhost:1313/ja/tags/%E3%83%96%E3%83%AD%E3%82%B0%E6%A7%8B%E7%AF%89/"
+                        <a href="/ja/tags/%E3%83%96%E3%83%AD%E3%82%B0%E6%A7%8B%E7%AF%89/"
                             aria-label="タグ: ブログ構築"
                             aria-description="1 記事"
                             data-post-counter="1"
@@ -470,7 +552,7 @@
                         </a>
                     </li>
                     <li >
-                        <a href="//localhost:1313/ja/tags/%E3%83%96%E3%83%AD%E3%82%B0%E9%96%8B%E8%A8%AD/"
+                        <a href="/ja/tags/%E3%83%96%E3%83%AD%E3%82%B0%E9%96%8B%E8%A8%AD/"
                             aria-label="タグ: ブログ開設"
                             aria-description="1 記事"
                             data-post-counter="1"
@@ -479,25 +561,52 @@
                         </a>
                     </li>
                     <li >
-                        <a href="//localhost:1313/ja/tags/%E5%9F%B7%E7%AD%86/"
-                            aria-label="タグ: 執筆"
+                        <a href="/ja/tags/%E5%BE%8C%E7%AB%AF/"
+                            aria-label="タグ: 後端"
                             aria-description="1 記事"
                             data-post-counter="1"
                             >
-                            <span>執筆</span>
+                            <span>後端</span>
                         </a>
                     </li>
                     <li >
-                        <a href="//localhost:1313/ja/tags/%E8%A8%AD%E5%AE%9A/"
-                            aria-label="タグ: 設定"
+                        <a href="/ja/tags/%E6%8A%80%E5%B7%A7/"
+                            aria-label="タグ: 技巧"
                             aria-description="1 記事"
                             data-post-counter="1"
                             >
-                            <span>設定</span>
+                            <span>技巧</span>
                         </a>
                     </li>
                     <li >
-                        <a href="//localhost:1313/ja/tags/%E9%83%A8%E8%90%BD%E6%A0%BC%E9%96%8B%E8%A8%AD/"
+                        <a href="/ja/tags/%E6%8C%87%E5%8D%97/"
+                            aria-label="タグ: 指南"
+                            aria-description="1 記事"
+                            data-post-counter="1"
+                            >
+                            <span>指南</span>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/ja/tags/%E8%B3%87%E6%96%99%E5%BA%AB%E6%9E%B6%E6%A7%8B/"
+                            aria-label="タグ: 資料庫架構"
+                            aria-description="1 記事"
+                            data-post-counter="1"
+                            >
+                            <span>資料庫架構</span>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/ja/tags/%E9%83%A8%E8%90%BD%E6%A0%BC%E6%A7%8B%E5%BB%BA/"
+                            aria-label="タグ: 部落格構建"
+                            aria-description="1 記事"
+                            data-post-counter="1"
+                            >
+                            <span>部落格構建</span>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/ja/tags/%E9%83%A8%E8%90%BD%E6%A0%BC%E9%96%8B%E8%A8%AD/"
                             aria-label="タグ: 部落格開設"
                             aria-description="1 記事"
                             data-post-counter="1"
@@ -529,11 +638,11 @@
                 </span>
                 
             </div>
-            <a href="//localhost:1313/ja/ja/slide/" class="sr0" tabindex="-1" aria-describedby="desc-1">
+            <a href="/ja/ja/slide/" class="sr0" tabindex="-1" aria-describedby="desc-1">
                 <h1 id="title-1">ChiriTsumommaへようこそ</h1>
             </a>
         </hgroup>
-        <a class="sri" href="//localhost:1313/ja/ja/slide/" aria-label="ChiriTsumommaへようこそ" aria-describedby="desc-1"></a>
+        <a class="sri" href="/ja/ja/slide/" aria-label="ChiriTsumommaへようこそ" aria-describedby="desc-1"></a>
         
         <section class="has-cover">
                 <img src=https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/28.svg alt="特徴画像: ChiriTsumommaへようこそ" loading="lazy">
@@ -561,11 +670,11 @@
                 </span>
                 
             </div>
-            <a href="//localhost:1313/ja/ja/slide-2/" class="sr0" tabindex="-1" aria-describedby="desc-2">
+            <a href="/ja/ja/slide-2/" class="sr0" tabindex="-1" aria-describedby="desc-2">
                 <h1 id="title-2">技術メモと学習記録</h1>
             </a>
         </hgroup>
-        <a class="sri" href="//localhost:1313/ja/ja/slide-2/" aria-label="技術メモと学習記録" aria-describedby="desc-2"></a>
+        <a class="sri" href="/ja/ja/slide-2/" aria-label="技術メモと学習記録" aria-describedby="desc-2"></a>
         
         <section class="has-cover">
                 <img src=https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/22.svg alt="特徴画像: 技術メモと学習記録" loading="lazy">
@@ -592,14 +701,14 @@
                 </span>
                 
             </div>
-            <a href="//localhost:1313/ja/ja/slide-pin/" class="sr0" tabindex="-1" aria-describedby="desc-3">
+            <a href="/ja/ja/slide-pin/" class="sr0" tabindex="-1" aria-describedby="desc-3">
                 <h1 id="title-3">プロジェクト紹介</h1>
             </a>
         </hgroup>
-        <a class="sri" href="//localhost:1313/ja/ja/slide-pin/" aria-label="プロジェクト紹介" aria-describedby="desc-3"></a>
+        <a class="sri" href="/ja/ja/slide-pin/" aria-label="プロジェクト紹介" aria-describedby="desc-3"></a>
         
         <section class="has-cover">
-                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/11.svg" alt="" style="object-position: 30% 34%" loading="lazy">
+                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/20.svg" alt="" style="object-position: 46% 78%" loading="lazy">
             <div class="par" id="desc-3">{{&lt; pin &gt;}} ショートコードを使ったプロジェクト紹介です。
 技術スタック Hugo Vercel Go Python JavaScript Docker 
             </div>
@@ -623,19 +732,19 @@
                         <span>で</span>
                         <!-- terms.html -->
             
-                <a href="//localhost:1313/ja/categories/%E6%97%A5%E8%A8%98/" tabindex="-1">日記</a> & 
-                <a href="//localhost:1313/ja/categories/%E5%AD%A6%E7%BF%92%E8%A8%98%E9%8C%B2/" tabindex="-1">学習記録</a>
+                <a href="/ja/categories/%E6%97%A5%E8%A8%98/" tabindex="-1">日記</a> & 
+                <a href="/ja/categories/%E5%AD%A6%E7%BF%92%E8%A8%98%E9%8C%B2/" tabindex="-1">学習記録</a>
                 </span>
                 
             </div>
-            <a href="//localhost:1313/ja/ja/posts/1121/" class="sr0" tabindex="-1" aria-describedby="desc-4">
+            <a href="/ja/ja/posts/1121/" class="sr0" tabindex="-1" aria-describedby="desc-4">
                 <h1 id="title-4">2025年1月21日の学習記録</h1>
             </a>
         </hgroup>
-        <a class="sri" href="//localhost:1313/ja/ja/posts/1121/" aria-label="2025年1月21日の学習記録" aria-describedby="desc-4"></a>
+        <a class="sri" href="/ja/ja/posts/1121/" aria-label="2025年1月21日の学習記録" aria-describedby="desc-4"></a>
         
         <section class="has-cover">
-                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/14.svg" alt="" style="object-position: 35% 24%" loading="lazy">
+                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/17.svg" alt="" style="object-position: 16% 71%" loading="lazy">
             <div class="par" id="desc-4">今日学んだこと Gitコマンド git diff origin/develop &gt; diff.txt developブランチとの差分をファイルに出力する方法を学びました。レビューや変更内容の確認に便利です。
 スキーマについて データベースのスキーマ設計について理解を深めました。テーブル構造の設計は、アプリケーションの基盤となる重要な部分ですね。
 今日の成果 ✅ スキーマについて理解した ✅ 新しくブログを始められた ✅ Hugoの技術選定ができた ✅ Windows風のAltTabアプリケーションを導入できた 小さな積み重ねが大切です。明日も頑張ります！
@@ -648,9 +757,9 @@
             
                     <!-- terms.html -->
             <ul class="rounded invert" role="presentation">
-                    <li><a href="//localhost:1313/ja/tags/git/" tabindex="-1">Git</a></li>
-                    <li><a href="//localhost:1313/ja/tags/hugo/" tabindex="-1">Hugo</a></li>
-                    <li><a href="//localhost:1313/ja/tags/%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9E/" tabindex="-1">スキーマ</a></li>
+                    <li><a href="/ja/tags/git/" tabindex="-1">Git</a></li>
+                    <li><a href="/ja/tags/hugo/" tabindex="-1">Hugo</a></li>
+                    <li><a href="/ja/tags/%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9E/" tabindex="-1">スキーマ</a></li>
             </ul>
         </footer>
     </article><hr class="ldots" role="presentation" aria-hidden="true">
@@ -666,18 +775,18 @@
                         <span>で</span>
                         <!-- terms.html -->
             
-                <a href="//localhost:1313/ja/categories/%E3%83%96%E3%83%AD%E3%82%B0/" tabindex="-1">ブログ</a>
+                <a href="/ja/categories/%E3%83%96%E3%83%AD%E3%82%B0/" tabindex="-1">ブログ</a>
                 </span>
                 
             </div>
-            <a href="//localhost:1313/ja/ja/posts/first-post/" class="sr0" tabindex="-1" aria-describedby="desc-5">
+            <a href="/ja/ja/posts/first-post/" class="sr0" tabindex="-1" aria-describedby="desc-5">
                 <h1 id="title-5">ブログ始めました</h1>
             </a>
         </hgroup>
-        <a class="sri" href="//localhost:1313/ja/ja/posts/first-post/" aria-label="ブログ始めました" aria-describedby="desc-5"></a>
+        <a class="sri" href="/ja/ja/posts/first-post/" aria-label="ブログ始めました" aria-describedby="desc-5"></a>
         
         <section class="has-cover">
-                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/7.svg" alt="" style="object-position: 16% 2%" loading="lazy">
+                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/17.svg" alt="" style="object-position: 76% 33%" loading="lazy">
             <div class="par" id="desc-5">エンジニアです、ブログ始めました これから技術的なアウトプットをここに積み上げていきます。 Hugo + Vercel の爆速環境で構築しました。
 技術スタック Static Site Generator: Hugo Theme: hugo-brewm Deployment: Vercel HugoのシンプルさとVercelの高速デプロイが気に入っています。
 今後の予定 📝 技術メモ: 開発で学んだこと、詰まったポイントの備忘録 📚 読書感想: 技術書やその他の本の読書記録 💭 ポエム: エンジニアとしての日々の気づきや思考 print(&#34;Hello, ChiriTsumomma!&#34;) 小さな学びを積み重ねて、大きな成長につなげていきたいと思います。
@@ -690,9 +799,9 @@
             
                     <!-- terms.html -->
             <ul class="rounded invert" role="presentation">
-                    <li><a href="//localhost:1313/ja/tags/hugo/" tabindex="-1">Hugo</a></li>
-                    <li><a href="//localhost:1313/ja/tags/vercel/" tabindex="-1">Vercel</a></li>
-                    <li><a href="//localhost:1313/ja/tags/%E3%83%96%E3%83%AD%E3%82%B0%E9%96%8B%E8%A8%AD/" tabindex="-1">ブログ開設</a></li>
+                    <li><a href="/ja/tags/hugo/" tabindex="-1">Hugo</a></li>
+                    <li><a href="/ja/tags/vercel/" tabindex="-1">Vercel</a></li>
+                    <li><a href="/ja/tags/%E3%83%96%E3%83%AD%E3%82%B0%E9%96%8B%E8%A8%AD/" tabindex="-1">ブログ開設</a></li>
             </ul>
         </footer>
     </article><hr class="ldots" role="presentation" aria-hidden="true">
@@ -708,18 +817,18 @@
                         <span>で</span>
                         <!-- terms.html -->
             
-                <a href="//localhost:1313/ja/categories/%E6%8A%80%E8%A1%93%E3%83%A1%E3%83%A2/" tabindex="-1">技術メモ</a>
+                <a href="/ja/categories/%E6%8A%80%E8%A1%93%E3%83%A1%E3%83%A2/" tabindex="-1">技術メモ</a>
                 </span>
                 
             </div>
-            <a href="//localhost:1313/ja/ja/posts/python-tips/" class="sr0" tabindex="-1" aria-describedby="desc-6">
+            <a href="/ja/ja/posts/python-tips/" class="sr0" tabindex="-1" aria-describedby="desc-6">
                 <h1 id="title-6">Python便利なTips</h1>
             </a>
         </hgroup>
-        <a class="sri" href="//localhost:1313/ja/ja/posts/python-tips/" aria-label="Python便利なTips" aria-describedby="desc-6"></a>
+        <a class="sri" href="/ja/ja/posts/python-tips/" aria-label="Python便利なTips" aria-describedby="desc-6"></a>
         
         <section class="has-cover">
-                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/19.svg" alt="" style="object-position: 81% 49%" loading="lazy">
+                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/11.svg" alt="" style="object-position: 74% 34%" loading="lazy">
             <div class="par" id="desc-6">Python便利なTips 開発でよく使うPythonのTipsをまとめます。
 便利な機能 リスト内包表記 f-string デコレータ 日々の開発で重宝しています。
 
@@ -731,9 +840,9 @@
             
                     <!-- terms.html -->
             <ul class="rounded invert" role="presentation">
-                    <li><a href="//localhost:1313/ja/tags/python/" tabindex="-1">Python</a></li>
-                    <li><a href="//localhost:1313/ja/tags/tips/" tabindex="-1">Tips</a></li>
-                    <li><a href="//localhost:1313/ja/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/" tabindex="-1">プログラミング</a></li>
+                    <li><a href="/ja/tags/python/" tabindex="-1">Python</a></li>
+                    <li><a href="/ja/tags/tips/" tabindex="-1">Tips</a></li>
+                    <li><a href="/ja/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/" tabindex="-1">プログラミング</a></li>
             </ul>
         </footer>
     </article><hr class="ldots" role="presentation" aria-hidden="true">
@@ -749,18 +858,18 @@
                         <span>で</span>
                         <!-- terms.html -->
             
-                <a href="//localhost:1313/ja/categories/%E6%8A%80%E8%A1%93%E3%83%A1%E3%83%A2/" tabindex="-1">技術メモ</a>
+                <a href="/ja/categories/%E6%8A%80%E8%A1%93%E3%83%A1%E3%83%A2/" tabindex="-1">技術メモ</a>
                 </span>
                 
             </div>
-            <a href="//localhost:1313/ja/ja/posts/go-basics/" class="sr0" tabindex="-1" aria-describedby="desc-7">
+            <a href="/ja/ja/posts/go-basics/" class="sr0" tabindex="-1" aria-describedby="desc-7">
                 <h1 id="title-7">Go言語の基礎</h1>
             </a>
         </hgroup>
-        <a class="sri" href="//localhost:1313/ja/ja/posts/go-basics/" aria-label="Go言語の基礎" aria-describedby="desc-7"></a>
+        <a class="sri" href="/ja/ja/posts/go-basics/" aria-label="Go言語の基礎" aria-describedby="desc-7"></a>
         
         <section class="has-cover">
-                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/15.svg" alt="" style="object-position: 3% 69%" loading="lazy">
+                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/7.svg" alt="" style="object-position: 14% 57%" loading="lazy">
             <div class="par" id="desc-7">Go言語の基礎 Go言語について学んだことをまとめます。
 特徴 シンプルな構文 高速なコンパイル 並行処理のサポート バックエンド開発でよく使用しています。
 
@@ -772,9 +881,9 @@
             
                     <!-- terms.html -->
             <ul class="rounded invert" role="presentation">
-                    <li><a href="//localhost:1313/ja/tags/go/" tabindex="-1">Go</a></li>
-                    <li><a href="//localhost:1313/ja/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/" tabindex="-1">プログラミング</a></li>
-                    <li><a href="//localhost:1313/ja/tags/%E3%83%90%E3%83%83%E3%82%AF%E3%82%A8%E3%83%B3%E3%83%89/" tabindex="-1">バックエンド</a></li>
+                    <li><a href="/ja/tags/go/" tabindex="-1">Go</a></li>
+                    <li><a href="/ja/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/" tabindex="-1">プログラミング</a></li>
+                    <li><a href="/ja/tags/%E3%83%90%E3%83%83%E3%82%AF%E3%82%A8%E3%83%B3%E3%83%89/" tabindex="-1">バックエンド</a></li>
             </ul>
         </footer>
     </article><hr class="ldots" role="presentation" aria-hidden="true">
@@ -790,18 +899,18 @@
                         <span>で</span>
                         <!-- terms.html -->
             
-                <a href="//localhost:1313/ja/categories/%E5%9F%B7%E7%AD%86/" tabindex="-1">執筆</a>
+                <a href="/ja/categories/%E5%9F%B7%E7%AD%86/" tabindex="-1">執筆</a>
                 </span>
                 
             </div>
-            <a href="//localhost:1313/ja/ja/posts/markdown-guide/" class="sr0" tabindex="-1" aria-describedby="desc-8">
+            <a href="/ja/ja/posts/markdown-guide/" class="sr0" tabindex="-1" aria-describedby="desc-8">
                 <h1 id="title-8">Markdown記法ガイド</h1>
             </a>
         </hgroup>
-        <a class="sri" href="//localhost:1313/ja/ja/posts/markdown-guide/" aria-label="Markdown記法ガイド" aria-describedby="desc-8"></a>
+        <a class="sri" href="/ja/ja/posts/markdown-guide/" aria-label="Markdown記法ガイド" aria-describedby="desc-8"></a>
         
         <section class="has-cover">
-                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/7.svg" alt="" style="object-position: 62% 5%" loading="lazy">
+                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/18.svg" alt="" style="object-position: 2% 56%" loading="lazy">
             <div class="par" id="desc-8">Markdown記法ガイド このブログではMarkdownを使用して記事を書いています。
 基本的な記法 太字: **太字** イタリック: *イタリック* コード: バッククォートで囲む シンプルで読みやすい記法です。
 
@@ -813,9 +922,9 @@
             
                     <!-- terms.html -->
             <ul class="rounded invert" role="presentation">
-                    <li><a href="//localhost:1313/ja/tags/markdown/" tabindex="-1">Markdown</a></li>
-                    <li><a href="//localhost:1313/ja/tags/%E5%9F%B7%E7%AD%86/" tabindex="-1">執筆</a></li>
-                    <li><a href="//localhost:1313/ja/tags/%E3%82%AC%E3%82%A4%E3%83%89/" tabindex="-1">ガイド</a></li>
+                    <li><a href="/ja/tags/markdown/" tabindex="-1">Markdown</a></li>
+                    <li><a href="/ja/tags/%E5%9F%B7%E7%AD%86/" tabindex="-1">執筆</a></li>
+                    <li><a href="/ja/tags/%E3%82%AC%E3%82%A4%E3%83%89/" tabindex="-1">ガイド</a></li>
             </ul>
         </footer>
     </article><hr class="ldots" role="presentation" aria-hidden="true">
@@ -831,19 +940,19 @@
                         <span>で</span>
                         <!-- terms.html -->
             
-                <a href="//localhost:1313/ja/categories/%E8%A8%AD%E5%AE%9A/" tabindex="-1">設定</a> & 
-                <a href="//localhost:1313/ja/categories/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8/" tabindex="-1">ホームページ</a>
+                <a href="/ja/categories/%E8%A8%AD%E5%AE%9A/" tabindex="-1">設定</a> & 
+                <a href="/ja/categories/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8/" tabindex="-1">ホームページ</a>
                 </span>
                 
             </div>
-            <a href="//localhost:1313/ja/ja/posts/hugo-setup/" class="sr0" tabindex="-1" aria-describedby="desc-9">
+            <a href="/ja/ja/posts/hugo-setup/" class="sr0" tabindex="-1" aria-describedby="desc-9">
                 <h1 id="title-9">Hugoブログの構築</h1>
             </a>
         </hgroup>
-        <a class="sri" href="//localhost:1313/ja/ja/posts/hugo-setup/" aria-label="Hugoブログの構築" aria-describedby="desc-9"></a>
+        <a class="sri" href="/ja/ja/posts/hugo-setup/" aria-label="Hugoブログの構築" aria-describedby="desc-9"></a>
         
         <section class="has-cover">
-                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/17.svg" alt="" style="object-position: 74% 18%" loading="lazy">
+                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/6.svg" alt="" style="object-position: 61% 38%" loading="lazy">
             <div class="par" id="desc-9">Hugoブログの構築 このブログはHugoとhugo-brewmテーマを使用して構築しました。
 セットアップ手順 Hugoのインストール テーマの設定 Vercelへのデプロイ シンプルで高速な静的サイトジェネレーターです。
 
@@ -855,9 +964,9 @@
             
                     <!-- terms.html -->
             <ul class="rounded invert" role="presentation">
-                    <li><a href="//localhost:1313/ja/tags/hugo/" tabindex="-1">Hugo</a></li>
-                    <li><a href="//localhost:1313/ja/tags/%E8%A8%AD%E5%AE%9A/" tabindex="-1">設定</a></li>
-                    <li><a href="//localhost:1313/ja/tags/%E3%83%96%E3%83%AD%E3%82%B0%E6%A7%8B%E7%AF%89/" tabindex="-1">ブログ構築</a></li>
+                    <li><a href="/ja/tags/hugo/" tabindex="-1">Hugo</a></li>
+                    <li><a href="/ja/tags/%E8%A8%AD%E5%AE%9A/" tabindex="-1">設定</a></li>
+                    <li><a href="/ja/tags/%E3%83%96%E3%83%AD%E3%82%B0%E6%A7%8B%E7%AF%89/" tabindex="-1">ブログ構築</a></li>
             </ul>
         </footer>
     </article><hr class="ldots" role="presentation" aria-hidden="true">
@@ -873,14 +982,14 @@
                 </span>
                 
             </div>
-            <a href="//localhost:1313/ja/ja/about/" class="sr0" tabindex="-1" aria-describedby="desc-10">
+            <a href="/ja/ja/about/" class="sr0" tabindex="-1" aria-describedby="desc-10">
                 <h1 id="title-10">About Me</h1>
             </a>
         </hgroup>
-        <a class="sri" href="//localhost:1313/ja/ja/about/" aria-label="About Me" aria-describedby="desc-10"></a>
+        <a class="sri" href="/ja/ja/about/" aria-label="About Me" aria-describedby="desc-10"></a>
         
         <section class="has-cover">
-                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/21.svg" alt="" style="object-position: 16% 61%" loading="lazy">
+                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/5.svg" alt="" style="object-position: 23% 38%" loading="lazy">
             <div class="par" id="desc-10">
 So Momma（モンマ ソウ） ソフトウェアエンジニアです。「毎日少しずつ成長」をモットーに、日々技術を磨いています。
 スキルセット プログラミング言語 Go: バックエンド開発、API構築 Python: スクリプティング、データ処理 JavaScript/TypeScript: フロントエンド開発 フレームワーク・ツール Web: Hugo, Next.js バージョン管理: Git コンテナ: Docker BaaS: Firebase このブログについて ChiriTsumomma（ちりつも）は、「ちりも積もれば山となる」という言葉から名付けました。

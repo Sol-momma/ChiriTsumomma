@@ -2,24 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
   <channel>
     <title>Markdown on ChiriTsumomma</title>
-    <link>//localhost:1313/ja/tags/markdown/</link>
+    <link>/ja/tags/markdown/</link>
     <description>最近の記事 で Markdown オン ChiriTsumomma</description>
     <generator>Hugo 0.152.2</generator>
     <language>ja-JP</language>
     <managingEditor>sol0608sol@gmail.com (So Momma)</managingEditor>
     <webMaster>sol0608sol@gmail.com (So Momma)</webMaster>
-    <lastBuildDate>Sat, 22 Nov 2025 00:28:02 +0800</lastBuildDate>
-    <atom:link href="//localhost:1313/ja/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Nov 2025 00:34:21 +0800</lastBuildDate>
+    <atom:link href="/ja/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Markdown記法ガイド</title>
-      <link>//localhost:1313/ja/ja/posts/markdown-guide/</link>
+      <title>Markdown Syntax Guide</title>
+      <link>/ja/en/posts/markdown-guide/</link>
       <pubDate>Tue, 21 Jan 2025 11:00:00 +0900</pubDate>
       <author>sol0608sol@gmail.com (So Momma)</author>
       <dc:creator>So Momma</dc:creator>
-      <guid>//localhost:1313/ja/ja/posts/markdown-guide/</guid>
+      <guid>/ja/en/posts/markdown-guide/</guid>
+      <description>&lt;h2 id=&#34;markdown-syntax-guide&#34;&gt;Markdown Syntax Guide&lt;/h2&gt;&#xA;&lt;p&gt;This blog uses Markdown for writing articles.&lt;/p&gt;&#xA;&lt;h3 id=&#34;basic-syntax&#34;&gt;Basic Syntax&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Bold&lt;/strong&gt;: &lt;code&gt;**Bold**&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;Italic&lt;/em&gt;: &lt;code&gt;*Italic*&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;Code&lt;/code&gt;: Wrap with backticks&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;It&amp;rsquo;s a simple and readable syntax.&lt;/p&gt;</description>
+      <content:encoded>&lt;h2 id=&#34;markdown-syntax-guide&#34;&gt;Markdown Syntax Guide&lt;/h2&gt;&#xA;&lt;p&gt;This blog uses Markdown for writing articles.&lt;/p&gt;&#xA;&lt;h3 id=&#34;basic-syntax&#34;&gt;Basic Syntax&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Bold&lt;/strong&gt;: &lt;code&gt;**Bold**&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;Italic&lt;/em&gt;: &lt;code&gt;*Italic*&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;Code&lt;/code&gt;: Wrap with backticks&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;It&amp;rsquo;s a simple and readable syntax.&lt;/p&gt;&#xA;</content:encoded>
+      <category>Authoring</category>
+      <category>Blog</category>
+    </item>
+    <item>
+      <title>Markdown記法ガイド</title>
+      <link>/ja/ja/posts/markdown-guide/</link>
+      <pubDate>Tue, 21 Jan 2025 11:00:00 +0900</pubDate>
+      <author>sol0608sol@gmail.com (So Momma)</author>
+      <dc:creator>So Momma</dc:creator>
+      <guid>/ja/ja/posts/markdown-guide/</guid>
       <description>&lt;h2 id=&#34;markdown記法ガイド&#34;&gt;Markdown記法ガイド&lt;/h2&gt;&#xA;&lt;p&gt;このブログではMarkdownを使用して記事を書いています。&lt;/p&gt;&#xA;&lt;h3 id=&#34;基本的な記法&#34;&gt;基本的な記法&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;太字&lt;/strong&gt;: &lt;code&gt;**太字**&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;イタリック&lt;/em&gt;: &lt;code&gt;*イタリック*&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;コード&lt;/code&gt;: バッククォートで囲む&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;シンプルで読みやすい記法です。&lt;/p&gt;</description>
       <content:encoded>&lt;h2 id=&#34;markdown記法ガイド&#34;&gt;Markdown記法ガイド&lt;/h2&gt;&#xA;&lt;p&gt;このブログではMarkdownを使用して記事を書いています。&lt;/p&gt;&#xA;&lt;h3 id=&#34;基本的な記法&#34;&gt;基本的な記法&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;太字&lt;/strong&gt;: &lt;code&gt;**太字**&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;イタリック&lt;/em&gt;: &lt;code&gt;*イタリック*&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;コード&lt;/code&gt;: バッククォートで囲む&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;シンプルで読みやすい記法です。&lt;/p&gt;&#xA;</content:encoded>
       <category>執筆</category>
+    </item>
+    <item>
+      <title>Markdown語法指南</title>
+      <link>/ja/zh/posts/markdown-guide/</link>
+      <pubDate>Tue, 21 Jan 2025 11:00:00 +0900</pubDate>
+      <author>sol0608sol@gmail.com (So Momma)</author>
+      <dc:creator>So Momma</dc:creator>
+      <guid>/ja/zh/posts/markdown-guide/</guid>
+      <description>&lt;h2 id=&#34;markdown語法指南&#34;&gt;Markdown語法指南&lt;/h2&gt;&#xA;&lt;p&gt;這個部落格使用Markdown來撰寫文章。&lt;/p&gt;&#xA;&lt;h3 id=&#34;基本語法&#34;&gt;基本語法&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;粗體&lt;/strong&gt;: &lt;code&gt;**粗體**&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;斜體&lt;/em&gt;: &lt;code&gt;*斜體*&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;程式碼&lt;/code&gt;: 用反引號包圍&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;這是一個簡單且易讀的語法。&lt;/p&gt;</description>
+      <content:encoded>&lt;h2 id=&#34;markdown語法指南&#34;&gt;Markdown語法指南&lt;/h2&gt;&#xA;&lt;p&gt;這個部落格使用Markdown來撰寫文章。&lt;/p&gt;&#xA;&lt;h3 id=&#34;基本語法&#34;&gt;基本語法&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;粗體&lt;/strong&gt;: &lt;code&gt;**粗體**&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;斜體&lt;/em&gt;: &lt;code&gt;*斜體*&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;程式碼&lt;/code&gt;: 用反引號包圍&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;這是一個簡單且易讀的語法。&lt;/p&gt;&#xA;</content:encoded>
+      <category>執筆</category>
+      <category>部落格</category>
     </item>
   </channel>
 </rss>

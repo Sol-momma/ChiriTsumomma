@@ -2,24 +2,83 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
   <channel>
     <title>ChiriTsumomma</title>
-    <link>//localhost:1313/ja/zh/</link>
+    <link>/ja/zh/</link>
     <description>最近の記事 オン ChiriTsumomma</description>
     <generator>Hugo 0.152.2</generator>
     <language>ja-JP</language>
     <managingEditor>sol0608sol@gmail.com (So Momma)</managingEditor>
     <webMaster>sol0608sol@gmail.com (So Momma)</webMaster>
-    <lastBuildDate>Sat, 22 Nov 2025 00:28:02 +0800</lastBuildDate>
-    <atom:link href="//localhost:1313/ja/zh/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Nov 2025 00:34:21 +0800</lastBuildDate>
+    <atom:link href="/ja/zh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>學習記錄 - 2025年1月21日</title>
+      <link>/ja/zh/posts/learning-log-2025-01-21/</link>
+      <pubDate>Tue, 21 Jan 2025 23:58:06 +0900</pubDate>
+      <author>sol0608sol@gmail.com (So Momma)</author>
+      <dc:creator>So Momma</dc:creator>
+      <guid>/ja/zh/posts/learning-log-2025-01-21/</guid>
+      <description>&lt;h2 id=&#34;今天學到的東西&#34;&gt;今天學到的東西&lt;/h2&gt;&#xA;&lt;h3 id=&#34;git指令&#34;&gt;Git指令&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git diff origin/develop &amp;gt; diff.txt&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;我學會了如何將develop分支與目前分支的差異輸出到檔案。這對於審查和檢查變更很有用。&lt;/p&gt;&#xA;&lt;h3 id=&#34;關於資料庫架構&#34;&gt;關於資料庫架構&lt;/h3&gt;&#xA;&lt;p&gt;我加深了對資料庫架構設計的理解。資料表結構設計是應用程式的重要基礎。&lt;/p&gt;&#xA;&lt;h2 id=&#34;今天的成果&#34;&gt;今天的成果&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;✅ 理解了資料庫架構設計&lt;/li&gt;&#xA;&lt;li&gt;✅ 成功開始了新部落格&lt;/li&gt;&#xA;&lt;li&gt;✅ 選擇了Hugo作為技術&lt;/li&gt;&#xA;&lt;li&gt;✅ 安裝了Windows風格的AltTab應用程式&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;小的積累很重要。明天繼續努力！&lt;/p&gt;</description>
+      <content:encoded>&lt;h2 id=&#34;今天學到的東西&#34;&gt;今天學到的東西&lt;/h2&gt;&#xA;&lt;h3 id=&#34;git指令&#34;&gt;Git指令&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git diff origin/develop &amp;gt; diff.txt&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;我學會了如何將develop分支與目前分支的差異輸出到檔案。這對於審查和檢查變更很有用。&lt;/p&gt;&#xA;&lt;h3 id=&#34;關於資料庫架構&#34;&gt;關於資料庫架構&lt;/h3&gt;&#xA;&lt;p&gt;我加深了對資料庫架構設計的理解。資料表結構設計是應用程式的重要基礎。&lt;/p&gt;&#xA;&lt;h2 id=&#34;今天的成果&#34;&gt;今天的成果&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;✅ 理解了資料庫架構設計&lt;/li&gt;&#xA;&lt;li&gt;✅ 成功開始了新部落格&lt;/li&gt;&#xA;&lt;li&gt;✅ 選擇了Hugo作為技術&lt;/li&gt;&#xA;&lt;li&gt;✅ 安裝了Windows風格的AltTab應用程式&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;小的積累很重要。明天繼續努力！&lt;/p&gt;&#xA;</content:encoded>
+      <category>日記</category>
+      <category>學習記錄</category>
+    </item>
     <item>
       <title>開始寫部落格</title>
-      <link>//localhost:1313/ja/zh/posts/first-post/</link>
+      <link>/ja/zh/posts/first-post/</link>
       <pubDate>Tue, 21 Jan 2025 23:30:00 +0900</pubDate>
       <author>sol0608sol@gmail.com (So Momma)</author>
       <dc:creator>So Momma</dc:creator>
-      <guid>//localhost:1313/ja/zh/posts/first-post/</guid>
+      <guid>/ja/zh/posts/first-post/</guid>
       <description>&lt;h2 id=&#34;我是工程師開始寫部落格&#34;&gt;我是工程師，開始寫部落格&lt;/h2&gt;&#xA;&lt;p&gt;我將在這裡積累技術輸出。&#xA;使用 Hugo + Vercel 構建的極速環境。&lt;/p&gt;&#xA;&lt;h3 id=&#34;技術棧&#34;&gt;技術棧&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;靜態網站生成器&lt;/strong&gt;: &lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;external noopener noreferrer nofollow&#34;&gt;Hugo&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;主題&lt;/strong&gt;: &lt;a href=&#34;https://github.com/foxihd/hugo-brewm&#34; target=&#34;_blank&#34; rel=&#34;external noopener noreferrer nofollow&#34;&gt;hugo-brewm&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;部署&lt;/strong&gt;: &lt;a href=&#34;https://vercel.com/&#34; target=&#34;_blank&#34; rel=&#34;external noopener noreferrer nofollow&#34;&gt;Vercel&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;我喜歡 Hugo 的簡潔和 Vercel 的快速部署。&lt;/p&gt;&#xA;&lt;h3 id=&#34;未來計劃&#34;&gt;未來計劃&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;📝 &lt;strong&gt;技術筆記&lt;/strong&gt;: 開發中學到的東西、遇到問題的備忘錄&lt;/li&gt;&#xA;&lt;li&gt;📚 &lt;strong&gt;讀書感想&lt;/strong&gt;: 技術書籍和其他書籍的閱讀記錄&lt;/li&gt;&#xA;&lt;li&gt;💭 &lt;strong&gt;隨筆&lt;/strong&gt;: 作為工程師的日常見解和思考&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello, ChiriTsumomma!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;我想積累小的學習，並將它們連接到巨大的成長。&lt;/p&gt;</description>
       <content:encoded>&lt;h2 id=&#34;我是工程師開始寫部落格&#34;&gt;我是工程師，開始寫部落格&lt;/h2&gt;&#xA;&lt;p&gt;我將在這裡積累技術輸出。&#xA;使用 Hugo + Vercel 構建的極速環境。&lt;/p&gt;&#xA;&lt;h3 id=&#34;技術棧&#34;&gt;技術棧&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;靜態網站生成器&lt;/strong&gt;: &lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;external noopener noreferrer nofollow&#34;&gt;Hugo&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;主題&lt;/strong&gt;: &lt;a href=&#34;https://github.com/foxihd/hugo-brewm&#34; target=&#34;_blank&#34; rel=&#34;external noopener noreferrer nofollow&#34;&gt;hugo-brewm&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;部署&lt;/strong&gt;: &lt;a href=&#34;https://vercel.com/&#34; target=&#34;_blank&#34; rel=&#34;external noopener noreferrer nofollow&#34;&gt;Vercel&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;我喜歡 Hugo 的簡潔和 Vercel 的快速部署。&lt;/p&gt;&#xA;&lt;h3 id=&#34;未來計劃&#34;&gt;未來計劃&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;📝 &lt;strong&gt;技術筆記&lt;/strong&gt;: 開發中學到的東西、遇到問題的備忘錄&lt;/li&gt;&#xA;&lt;li&gt;📚 &lt;strong&gt;讀書感想&lt;/strong&gt;: 技術書籍和其他書籍的閱讀記錄&lt;/li&gt;&#xA;&lt;li&gt;💭 &lt;strong&gt;隨筆&lt;/strong&gt;: 作為工程師的日常見解和思考&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello, ChiriTsumomma!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;我想積累小的學習，並將它們連接到巨大的成長。&lt;/p&gt;&#xA;</content:encoded>
       <category>部落格</category>
+    </item>
+    <item>
+      <title>Python實用技巧</title>
+      <link>/ja/zh/posts/python-tips/</link>
+      <pubDate>Tue, 21 Jan 2025 13:00:00 +0900</pubDate>
+      <author>sol0608sol@gmail.com (So Momma)</author>
+      <dc:creator>So Momma</dc:creator>
+      <guid>/ja/zh/posts/python-tips/</guid>
+      <description>&lt;h2 id=&#34;python實用技巧&#34;&gt;Python實用技巧&lt;/h2&gt;&#xA;&lt;p&gt;我將總結我在開發中常用的Python技巧。&lt;/p&gt;&#xA;&lt;h3 id=&#34;實用功能&#34;&gt;實用功能&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;列表推導式&lt;/li&gt;&#xA;&lt;li&gt;f-string&lt;/li&gt;&#xA;&lt;li&gt;裝飾器&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;這些在日常開發中非常有用。&lt;/p&gt;</description>
+      <content:encoded>&lt;h2 id=&#34;python實用技巧&#34;&gt;Python實用技巧&lt;/h2&gt;&#xA;&lt;p&gt;我將總結我在開發中常用的Python技巧。&lt;/p&gt;&#xA;&lt;h3 id=&#34;實用功能&#34;&gt;實用功能&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;列表推導式&lt;/li&gt;&#xA;&lt;li&gt;f-string&lt;/li&gt;&#xA;&lt;li&gt;裝飾器&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;這些在日常開發中非常有用。&lt;/p&gt;&#xA;</content:encoded>
+      <category>技術筆記</category>
+    </item>
+    <item>
+      <title>Go語言基礎</title>
+      <link>/ja/zh/posts/go-basics/</link>
+      <pubDate>Tue, 21 Jan 2025 12:00:00 +0900</pubDate>
+      <author>sol0608sol@gmail.com (So Momma)</author>
+      <dc:creator>So Momma</dc:creator>
+      <guid>/ja/zh/posts/go-basics/</guid>
+      <description>&lt;h2 id=&#34;go語言基礎&#34;&gt;Go語言基礎&lt;/h2&gt;&#xA;&lt;p&gt;我將總結我學到的Go語言知識。&lt;/p&gt;&#xA;&lt;h3 id=&#34;特點&#34;&gt;特點&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;簡單的語法&lt;/li&gt;&#xA;&lt;li&gt;快速編譯&lt;/li&gt;&#xA;&lt;li&gt;並發處理支援&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;我經常在後端開發中使用它。&lt;/p&gt;</description>
+      <content:encoded>&lt;h2 id=&#34;go語言基礎&#34;&gt;Go語言基礎&lt;/h2&gt;&#xA;&lt;p&gt;我將總結我學到的Go語言知識。&lt;/p&gt;&#xA;&lt;h3 id=&#34;特點&#34;&gt;特點&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;簡單的語法&lt;/li&gt;&#xA;&lt;li&gt;快速編譯&lt;/li&gt;&#xA;&lt;li&gt;並發處理支援&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;我經常在後端開發中使用它。&lt;/p&gt;&#xA;</content:encoded>
+      <category>技術筆記</category>
+    </item>
+    <item>
+      <title>Markdown語法指南</title>
+      <link>/ja/zh/posts/markdown-guide/</link>
+      <pubDate>Tue, 21 Jan 2025 11:00:00 +0900</pubDate>
+      <author>sol0608sol@gmail.com (So Momma)</author>
+      <dc:creator>So Momma</dc:creator>
+      <guid>/ja/zh/posts/markdown-guide/</guid>
+      <description>&lt;h2 id=&#34;markdown語法指南&#34;&gt;Markdown語法指南&lt;/h2&gt;&#xA;&lt;p&gt;這個部落格使用Markdown來撰寫文章。&lt;/p&gt;&#xA;&lt;h3 id=&#34;基本語法&#34;&gt;基本語法&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;粗體&lt;/strong&gt;: &lt;code&gt;**粗體**&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;斜體&lt;/em&gt;: &lt;code&gt;*斜體*&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;程式碼&lt;/code&gt;: 用反引號包圍&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;這是一個簡單且易讀的語法。&lt;/p&gt;</description>
+      <content:encoded>&lt;h2 id=&#34;markdown語法指南&#34;&gt;Markdown語法指南&lt;/h2&gt;&#xA;&lt;p&gt;這個部落格使用Markdown來撰寫文章。&lt;/p&gt;&#xA;&lt;h3 id=&#34;基本語法&#34;&gt;基本語法&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;粗體&lt;/strong&gt;: &lt;code&gt;**粗體**&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;斜體&lt;/em&gt;: &lt;code&gt;*斜體*&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;程式碼&lt;/code&gt;: 用反引號包圍&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;這是一個簡單且易讀的語法。&lt;/p&gt;&#xA;</content:encoded>
+      <category>執筆</category>
+      <category>部落格</category>
+    </item>
+    <item>
+      <title>Hugo部落格構建</title>
+      <link>/ja/zh/posts/hugo-setup/</link>
+      <pubDate>Tue, 21 Jan 2025 10:00:00 +0900</pubDate>
+      <author>sol0608sol@gmail.com (So Momma)</author>
+      <dc:creator>So Momma</dc:creator>
+      <guid>/ja/zh/posts/hugo-setup/</guid>
+      <description>&lt;h2 id=&#34;hugo部落格構建&#34;&gt;Hugo部落格構建&lt;/h2&gt;&#xA;&lt;p&gt;這個部落格使用Hugo和hugo-brewm主題構建。&lt;/p&gt;&#xA;&lt;h3 id=&#34;設定步驟&#34;&gt;設定步驟&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;安裝Hugo&lt;/li&gt;&#xA;&lt;li&gt;設定主題&lt;/li&gt;&#xA;&lt;li&gt;部署到Vercel&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;這是一個簡單且快速的靜態網站生成器。&lt;/p&gt;</description>
+      <content:encoded>&lt;h2 id=&#34;hugo部落格構建&#34;&gt;Hugo部落格構建&lt;/h2&gt;&#xA;&lt;p&gt;這個部落格使用Hugo和hugo-brewm主題構建。&lt;/p&gt;&#xA;&lt;h3 id=&#34;設定步驟&#34;&gt;設定步驟&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;安裝Hugo&lt;/li&gt;&#xA;&lt;li&gt;設定主題&lt;/li&gt;&#xA;&lt;li&gt;部署到Vercel&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;這是一個簡單且快速的靜態網站生成器。&lt;/p&gt;&#xA;</content:encoded>
+      <category>設定</category>
+      <category>首頁</category>
+      <category>技術筆記</category>
     </item>
   </channel>
 </rss>

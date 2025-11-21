@@ -2,24 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
   <channel>
     <title>Blog-Setup on ChiriTsumomma</title>
-    <link>//localhost:1313/ja/tags/blog-setup/</link>
+    <link>/ja/tags/blog-setup/</link>
     <description>最近の記事 で Blog-Setup オン ChiriTsumomma</description>
     <generator>Hugo 0.152.2</generator>
     <language>ja-JP</language>
     <managingEditor>sol0608sol@gmail.com (So Momma)</managingEditor>
     <webMaster>sol0608sol@gmail.com (So Momma)</webMaster>
-    <lastBuildDate>Sat, 22 Nov 2025 00:28:02 +0800</lastBuildDate>
-    <atom:link href="//localhost:1313/ja/tags/blog-setup/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Nov 2025 00:34:21 +0800</lastBuildDate>
+    <atom:link href="/ja/tags/blog-setup/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Starting My Blog</title>
-      <link>//localhost:1313/ja/en/posts/first-post/</link>
+      <link>/ja/en/posts/first-post/</link>
       <pubDate>Tue, 21 Jan 2025 23:30:00 +0900</pubDate>
       <author>sol0608sol@gmail.com (So Momma)</author>
       <dc:creator>So Momma</dc:creator>
-      <guid>//localhost:1313/ja/en/posts/first-post/</guid>
+      <guid>/ja/en/posts/first-post/</guid>
       <description>&lt;h2 id=&#34;im-an-engineer-starting-my-blog&#34;&gt;I&amp;rsquo;m an Engineer, Starting My Blog&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;ll be accumulating technical output here.&#xA;Built with Hugo + Vercel for a blazing-fast environment.&lt;/p&gt;&#xA;&lt;h3 id=&#34;tech-stack&#34;&gt;Tech Stack&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Static Site Generator&lt;/strong&gt;: &lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;external noopener noreferrer nofollow&#34;&gt;Hugo&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Theme&lt;/strong&gt;: &lt;a href=&#34;https://github.com/foxihd/hugo-brewm&#34; target=&#34;_blank&#34; rel=&#34;external noopener noreferrer nofollow&#34;&gt;hugo-brewm&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Deployment&lt;/strong&gt;: &lt;a href=&#34;https://vercel.com/&#34; target=&#34;_blank&#34; rel=&#34;external noopener noreferrer nofollow&#34;&gt;Vercel&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;I love Hugo&amp;rsquo;s simplicity and Vercel&amp;rsquo;s fast deployment.&lt;/p&gt;&#xA;&lt;h3 id=&#34;future-plans&#34;&gt;Future Plans&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;📝 &lt;strong&gt;Technical Notes&lt;/strong&gt;: Memos of things learned and points where I got stuck during development&lt;/li&gt;&#xA;&lt;li&gt;📚 &lt;strong&gt;Book Reviews&lt;/strong&gt;: Reading records of technical books and other books&lt;/li&gt;&#xA;&lt;li&gt;💭 &lt;strong&gt;Poems&lt;/strong&gt;: Daily insights and thoughts as an engineer&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello, ChiriTsumomma!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;I want to accumulate small learnings and connect them to great growth.&lt;/p&gt;</description>
       <content:encoded>&lt;h2 id=&#34;im-an-engineer-starting-my-blog&#34;&gt;I&amp;rsquo;m an Engineer, Starting My Blog&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;ll be accumulating technical output here.&#xA;Built with Hugo + Vercel for a blazing-fast environment.&lt;/p&gt;&#xA;&lt;h3 id=&#34;tech-stack&#34;&gt;Tech Stack&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Static Site Generator&lt;/strong&gt;: &lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;external noopener noreferrer nofollow&#34;&gt;Hugo&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Theme&lt;/strong&gt;: &lt;a href=&#34;https://github.com/foxihd/hugo-brewm&#34; target=&#34;_blank&#34; rel=&#34;external noopener noreferrer nofollow&#34;&gt;hugo-brewm&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Deployment&lt;/strong&gt;: &lt;a href=&#34;https://vercel.com/&#34; target=&#34;_blank&#34; rel=&#34;external noopener noreferrer nofollow&#34;&gt;Vercel&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;I love Hugo&amp;rsquo;s simplicity and Vercel&amp;rsquo;s fast deployment.&lt;/p&gt;&#xA;&lt;h3 id=&#34;future-plans&#34;&gt;Future Plans&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;📝 &lt;strong&gt;Technical Notes&lt;/strong&gt;: Memos of things learned and points where I got stuck during development&lt;/li&gt;&#xA;&lt;li&gt;📚 &lt;strong&gt;Book Reviews&lt;/strong&gt;: Reading records of technical books and other books&lt;/li&gt;&#xA;&lt;li&gt;💭 &lt;strong&gt;Poems&lt;/strong&gt;: Daily insights and thoughts as an engineer&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello, ChiriTsumomma!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;I want to accumulate small learnings and connect them to great growth.&lt;/p&gt;&#xA;</content:encoded>
       <category>Blog</category>
+    </item>
+    <item>
+      <title>Building a Hugo Blog</title>
+      <link>/ja/en/posts/hugo-setup/</link>
+      <pubDate>Tue, 21 Jan 2025 10:00:00 +0900</pubDate>
+      <author>sol0608sol@gmail.com (So Momma)</author>
+      <dc:creator>So Momma</dc:creator>
+      <guid>/ja/en/posts/hugo-setup/</guid>
+      <description>&lt;h2 id=&#34;building-a-hugo-blog&#34;&gt;Building a Hugo Blog&lt;/h2&gt;&#xA;&lt;p&gt;This blog is built using Hugo and the hugo-brewm theme.&lt;/p&gt;&#xA;&lt;h3 id=&#34;setup-steps&#34;&gt;Setup Steps&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Install Hugo&lt;/li&gt;&#xA;&lt;li&gt;Configure the theme&lt;/li&gt;&#xA;&lt;li&gt;Deploy to Vercel&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;It&amp;rsquo;s a simple and fast static site generator.&lt;/p&gt;</description>
+      <content:encoded>&lt;h2 id=&#34;building-a-hugo-blog&#34;&gt;Building a Hugo Blog&lt;/h2&gt;&#xA;&lt;p&gt;This blog is built using Hugo and the hugo-brewm theme.&lt;/p&gt;&#xA;&lt;h3 id=&#34;setup-steps&#34;&gt;Setup Steps&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Install Hugo&lt;/li&gt;&#xA;&lt;li&gt;Configure the theme&lt;/li&gt;&#xA;&lt;li&gt;Deploy to Vercel&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;It&amp;rsquo;s a simple and fast static site generator.&lt;/p&gt;&#xA;</content:encoded>
+      <category>Configuration</category>
+      <category>Homepage</category>
+      <category>Tech Notes</category>
     </item>
   </channel>
 </rss>

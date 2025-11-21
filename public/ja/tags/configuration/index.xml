@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+    <title>Configuration on ChiriTsumomma</title>
+    <link>/ja/tags/configuration/</link>
+    <description>最近の記事 で Configuration オン ChiriTsumomma</description>
+    <generator>Hugo 0.152.2</generator>
+    <language>ja-JP</language>
+    <managingEditor>sol0608sol@gmail.com (So Momma)</managingEditor>
+    <webMaster>sol0608sol@gmail.com (So Momma)</webMaster>
+    <lastBuildDate>Sat, 22 Nov 2025 00:34:21 +0800</lastBuildDate>
+    <atom:link href="/ja/tags/configuration/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a Hugo Blog</title>
+      <link>/ja/en/posts/hugo-setup/</link>
+      <pubDate>Tue, 21 Jan 2025 10:00:00 +0900</pubDate>
+      <author>sol0608sol@gmail.com (So Momma)</author>
+      <dc:creator>So Momma</dc:creator>
+      <guid>/ja/en/posts/hugo-setup/</guid>
+      <description>&lt;h2 id=&#34;building-a-hugo-blog&#34;&gt;Building a Hugo Blog&lt;/h2&gt;&#xA;&lt;p&gt;This blog is built using Hugo and the hugo-brewm theme.&lt;/p&gt;&#xA;&lt;h3 id=&#34;setup-steps&#34;&gt;Setup Steps&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Install Hugo&lt;/li&gt;&#xA;&lt;li&gt;Configure the theme&lt;/li&gt;&#xA;&lt;li&gt;Deploy to Vercel&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;It&amp;rsquo;s a simple and fast static site generator.&lt;/p&gt;</description>
+      <content:encoded>&lt;h2 id=&#34;building-a-hugo-blog&#34;&gt;Building a Hugo Blog&lt;/h2&gt;&#xA;&lt;p&gt;This blog is built using Hugo and the hugo-brewm theme.&lt;/p&gt;&#xA;&lt;h3 id=&#34;setup-steps&#34;&gt;Setup Steps&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Install Hugo&lt;/li&gt;&#xA;&lt;li&gt;Configure the theme&lt;/li&gt;&#xA;&lt;li&gt;Deploy to Vercel&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;It&amp;rsquo;s a simple and fast static site generator.&lt;/p&gt;&#xA;</content:encoded>
+      <category>Configuration</category>
+      <category>Homepage</category>
+      <category>Tech Notes</category>
+    </item>
+  </channel>
+</rss>

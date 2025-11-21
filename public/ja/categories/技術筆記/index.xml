@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+    <title>技術筆記 on ChiriTsumomma</title>
+    <link>/ja/categories/%E6%8A%80%E8%A1%93%E7%AD%86%E8%A8%98/</link>
+    <description>最近の記事 で 技術筆記 オン ChiriTsumomma</description>
+    <generator>Hugo 0.152.2</generator>
+    <language>ja-JP</language>
+    <managingEditor>sol0608sol@gmail.com (So Momma)</managingEditor>
+    <webMaster>sol0608sol@gmail.com (So Momma)</webMaster>
+    <lastBuildDate>Sat, 22 Nov 2025 00:34:21 +0800</lastBuildDate>
+    <atom:link href="/ja/categories/%E6%8A%80%E8%A1%93%E7%AD%86%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python實用技巧</title>
+      <link>/ja/zh/posts/python-tips/</link>
+      <pubDate>Tue, 21 Jan 2025 13:00:00 +0900</pubDate>
+      <author>sol0608sol@gmail.com (So Momma)</author>
+      <dc:creator>So Momma</dc:creator>
+      <guid>/ja/zh/posts/python-tips/</guid>
+      <description>&lt;h2 id=&#34;python實用技巧&#34;&gt;Python實用技巧&lt;/h2&gt;&#xA;&lt;p&gt;我將總結我在開發中常用的Python技巧。&lt;/p&gt;&#xA;&lt;h3 id=&#34;實用功能&#34;&gt;實用功能&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;列表推導式&lt;/li&gt;&#xA;&lt;li&gt;f-string&lt;/li&gt;&#xA;&lt;li&gt;裝飾器&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;這些在日常開發中非常有用。&lt;/p&gt;</description>
+      <content:encoded>&lt;h2 id=&#34;python實用技巧&#34;&gt;Python實用技巧&lt;/h2&gt;&#xA;&lt;p&gt;我將總結我在開發中常用的Python技巧。&lt;/p&gt;&#xA;&lt;h3 id=&#34;實用功能&#34;&gt;實用功能&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;列表推導式&lt;/li&gt;&#xA;&lt;li&gt;f-string&lt;/li&gt;&#xA;&lt;li&gt;裝飾器&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;這些在日常開發中非常有用。&lt;/p&gt;&#xA;</content:encoded>
+      <category>技術筆記</category>
+    </item>
+    <item>
+      <title>Go語言基礎</title>
+      <link>/ja/zh/posts/go-basics/</link>
+      <pubDate>Tue, 21 Jan 2025 12:00:00 +0900</pubDate>
+      <author>sol0608sol@gmail.com (So Momma)</author>
+      <dc:creator>So Momma</dc:creator>
+      <guid>/ja/zh/posts/go-basics/</guid>
+      <description>&lt;h2 id=&#34;go語言基礎&#34;&gt;Go語言基礎&lt;/h2&gt;&#xA;&lt;p&gt;我將總結我學到的Go語言知識。&lt;/p&gt;&#xA;&lt;h3 id=&#34;特點&#34;&gt;特點&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;簡單的語法&lt;/li&gt;&#xA;&lt;li&gt;快速編譯&lt;/li&gt;&#xA;&lt;li&gt;並發處理支援&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;我經常在後端開發中使用它。&lt;/p&gt;</description>
+      <content:encoded>&lt;h2 id=&#34;go語言基礎&#34;&gt;Go語言基礎&lt;/h2&gt;&#xA;&lt;p&gt;我將總結我學到的Go語言知識。&lt;/p&gt;&#xA;&lt;h3 id=&#34;特點&#34;&gt;特點&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;簡單的語法&lt;/li&gt;&#xA;&lt;li&gt;快速編譯&lt;/li&gt;&#xA;&lt;li&gt;並發處理支援&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;我經常在後端開發中使用它。&lt;/p&gt;&#xA;</content:encoded>
+      <category>技術筆記</category>
+    </item>
+    <item>
+      <title>Hugo部落格構建</title>
+      <link>/ja/zh/posts/hugo-setup/</link>
+      <pubDate>Tue, 21 Jan 2025 10:00:00 +0900</pubDate>
+      <author>sol0608sol@gmail.com (So Momma)</author>
+      <dc:creator>So Momma</dc:creator>
+      <guid>/ja/zh/posts/hugo-setup/</guid>
+      <description>&lt;h2 id=&#34;hugo部落格構建&#34;&gt;Hugo部落格構建&lt;/h2&gt;&#xA;&lt;p&gt;這個部落格使用Hugo和hugo-brewm主題構建。&lt;/p&gt;&#xA;&lt;h3 id=&#34;設定步驟&#34;&gt;設定步驟&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;安裝Hugo&lt;/li&gt;&#xA;&lt;li&gt;設定主題&lt;/li&gt;&#xA;&lt;li&gt;部署到Vercel&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;這是一個簡單且快速的靜態網站生成器。&lt;/p&gt;</description>
+      <content:encoded>&lt;h2 id=&#34;hugo部落格構建&#34;&gt;Hugo部落格構建&lt;/h2&gt;&#xA;&lt;p&gt;這個部落格使用Hugo和hugo-brewm主題構建。&lt;/p&gt;&#xA;&lt;h3 id=&#34;設定步驟&#34;&gt;設定步驟&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;安裝Hugo&lt;/li&gt;&#xA;&lt;li&gt;設定主題&lt;/li&gt;&#xA;&lt;li&gt;部署到Vercel&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;這是一個簡單且快速的靜態網站生成器。&lt;/p&gt;&#xA;</content:encoded>
+      <category>設定</category>
+      <category>首頁</category>
+      <category>技術筆記</category>
+    </item>
+  </channel>
+</rss>

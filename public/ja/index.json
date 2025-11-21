@@ -3,210 +3,404 @@
     "nodes": [{
                 "id": "33598298e27b0a1701b5b1dee99e4b91",
                 "title": "2025年1月21日の学習記録",
-                "permalink": "//localhost:1313/ja/ja/posts/1121/",
+                "permalink": "/ja/ja/posts/1121/",
+                "type": "post"
+            },{
+                "id": "63ed1d47056f27afac5ec82e2b044da8",
+                "title": "Learning Log - January 21, 2025",
+                "permalink": "/ja/en/posts/learning-log-2025-01-21/",
+                "type": "post"
+            },{
+                "id": "247faec772db53d870d26bbd78fab457",
+                "title": "學習記錄 - 2025年1月21日",
+                "permalink": "/ja/zh/posts/learning-log-2025-01-21/",
                 "type": "post"
             },{
                 "id": "5e9485c4333acb15a55ecf0fc2662087",
                 "title": "Starting My Blog",
-                "permalink": "//localhost:1313/ja/en/posts/first-post/",
+                "permalink": "/ja/en/posts/first-post/",
                 "type": "post"
             },{
                 "id": "863717532676a476fbdb025d35802b04",
                 "title": "ブログ始めました",
-                "permalink": "//localhost:1313/ja/ja/posts/first-post/",
+                "permalink": "/ja/ja/posts/first-post/",
                 "type": "post"
             },{
                 "id": "b51ba906d8d1d4045b7d73c99714fa13",
                 "title": "開始寫部落格",
-                "permalink": "//localhost:1313/ja/zh/posts/first-post/",
+                "permalink": "/ja/zh/posts/first-post/",
+                "type": "post"
+            },{
+                "id": "60bb62aee96a95dfd7681fe3e1b4f062",
+                "title": "Python Useful Tips",
+                "permalink": "/ja/en/posts/python-tips/",
                 "type": "post"
             },{
                 "id": "f82c2cf16a93660a62d561158bfb8106",
                 "title": "Python便利なTips",
-                "permalink": "//localhost:1313/ja/ja/posts/python-tips/",
+                "permalink": "/ja/ja/posts/python-tips/",
+                "type": "post"
+            },{
+                "id": "f5b6f0a65f791b3191cd0b1a302c298c",
+                "title": "Python實用技巧",
+                "permalink": "/ja/zh/posts/python-tips/",
+                "type": "post"
+            },{
+                "id": "30e92a7c9f282bcaf640fbc9112d3c00",
+                "title": "Go Language Basics",
+                "permalink": "/ja/en/posts/go-basics/",
                 "type": "post"
             },{
                 "id": "6ad2004c060e48d4a56fa6b36964b7b7",
                 "title": "Go言語の基礎",
-                "permalink": "//localhost:1313/ja/ja/posts/go-basics/",
+                "permalink": "/ja/ja/posts/go-basics/",
+                "type": "post"
+            },{
+                "id": "b199c4f19a7fbca0e06b2ea51f09e1ed",
+                "title": "Go語言基礎",
+                "permalink": "/ja/zh/posts/go-basics/",
+                "type": "post"
+            },{
+                "id": "1f6721c5944efce3ef3aa27a75009bca",
+                "title": "Markdown Syntax Guide",
+                "permalink": "/ja/en/posts/markdown-guide/",
                 "type": "post"
             },{
                 "id": "054956ccf8cda5d61ba3437820950fe2",
                 "title": "Markdown記法ガイド",
-                "permalink": "//localhost:1313/ja/ja/posts/markdown-guide/",
+                "permalink": "/ja/ja/posts/markdown-guide/",
+                "type": "post"
+            },{
+                "id": "dd4b133c4453db8090976b4caf8c7bcf",
+                "title": "Markdown語法指南",
+                "permalink": "/ja/zh/posts/markdown-guide/",
+                "type": "post"
+            },{
+                "id": "c633582bdc8b692fb20232c481ed0cfc",
+                "title": "Building a Hugo Blog",
+                "permalink": "/ja/en/posts/hugo-setup/",
                 "type": "post"
             },{
                 "id": "8420d15d31fd96e739f46c0abae32e25",
                 "title": "Hugoブログの構築",
-                "permalink": "//localhost:1313/ja/ja/posts/hugo-setup/",
+                "permalink": "/ja/ja/posts/hugo-setup/",
+                "type": "post"
+            },{
+                "id": "f94feebaeba55e3416805231a0eec5e3",
+                "title": "Hugo部落格構建",
+                "permalink": "/ja/zh/posts/hugo-setup/",
                 "type": "post"
             },
                         {
+                            "id": "categories-authoring",
+                            "title": "Authoring",
+                            "permalink": "/ja/categories/authoring/",
+                            "type": "categories"
+                        },
+                        {
                             "id": "categories-blog",
                             "title": "Blog",
-                            "permalink": "//localhost:1313/ja/categories/blog/",
+                            "permalink": "/ja/categories/blog/",
+                            "type": "categories"
+                        },
+                        {
+                            "id": "categories-configuration",
+                            "title": "Configuration",
+                            "permalink": "/ja/categories/configuration/",
+                            "type": "categories"
+                        },
+                        {
+                            "id": "categories-diary",
+                            "title": "Diary",
+                            "permalink": "/ja/categories/diary/",
+                            "type": "categories"
+                        },
+                        {
+                            "id": "categories-homepage",
+                            "title": "Homepage",
+                            "permalink": "/ja/categories/homepage/",
+                            "type": "categories"
+                        },
+                        {
+                            "id": "categories-learning-log",
+                            "title": "Learning Log",
+                            "permalink": "/ja/categories/learning-log/",
+                            "type": "categories"
+                        },
+                        {
+                            "id": "categories-tech-notes",
+                            "title": "Tech Notes",
+                            "permalink": "/ja/categories/tech-notes/",
                             "type": "categories"
                         },
                         {
                             "id": "categories-ブログ",
                             "title": "ブログ",
-                            "permalink": "//localhost:1313/ja/categories/%E3%83%96%E3%83%AD%E3%82%B0/",
+                            "permalink": "/ja/categories/%E3%83%96%E3%83%AD%E3%82%B0/",
                             "type": "categories"
                         },
                         {
                             "id": "categories-ホームページ",
                             "title": "ホームページ",
-                            "permalink": "//localhost:1313/ja/categories/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8/",
+                            "permalink": "/ja/categories/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8/",
                             "type": "categories"
                         },
                         {
                             "id": "categories-執筆",
                             "title": "執筆",
-                            "permalink": "//localhost:1313/ja/categories/%E5%9F%B7%E7%AD%86/",
+                            "permalink": "/ja/categories/%E5%9F%B7%E7%AD%86/",
                             "type": "categories"
                         },
                         {
                             "id": "categories-学習記録",
                             "title": "学習記録",
-                            "permalink": "//localhost:1313/ja/categories/%E5%AD%A6%E7%BF%92%E8%A8%98%E9%8C%B2/",
+                            "permalink": "/ja/categories/%E5%AD%A6%E7%BF%92%E8%A8%98%E9%8C%B2/",
+                            "type": "categories"
+                        },
+                        {
+                            "id": "categories-學習記錄",
+                            "title": "學習記錄",
+                            "permalink": "/ja/categories/%E5%AD%B8%E7%BF%92%E8%A8%98%E9%8C%84/",
                             "type": "categories"
                         },
                         {
                             "id": "categories-技術メモ",
                             "title": "技術メモ",
-                            "permalink": "//localhost:1313/ja/categories/%E6%8A%80%E8%A1%93%E3%83%A1%E3%83%A2/",
+                            "permalink": "/ja/categories/%E6%8A%80%E8%A1%93%E3%83%A1%E3%83%A2/",
+                            "type": "categories"
+                        },
+                        {
+                            "id": "categories-技術筆記",
+                            "title": "技術筆記",
+                            "permalink": "/ja/categories/%E6%8A%80%E8%A1%93%E7%AD%86%E8%A8%98/",
                             "type": "categories"
                         },
                         {
                             "id": "categories-日記",
                             "title": "日記",
-                            "permalink": "//localhost:1313/ja/categories/%E6%97%A5%E8%A8%98/",
+                            "permalink": "/ja/categories/%E6%97%A5%E8%A8%98/",
                             "type": "categories"
                         },
                         {
                             "id": "categories-設定",
                             "title": "設定",
-                            "permalink": "//localhost:1313/ja/categories/%E8%A8%AD%E5%AE%9A/",
+                            "permalink": "/ja/categories/%E8%A8%AD%E5%AE%9A/",
                             "type": "categories"
                         },
                         {
                             "id": "categories-部落格",
                             "title": "部落格",
-                            "permalink": "//localhost:1313/ja/categories/%E9%83%A8%E8%90%BD%E6%A0%BC/",
+                            "permalink": "/ja/categories/%E9%83%A8%E8%90%BD%E6%A0%BC/",
                             "type": "categories"
+                        },
+                        {
+                            "id": "categories-首頁",
+                            "title": "首頁",
+                            "permalink": "/ja/categories/%E9%A6%96%E9%A0%81/",
+                            "type": "categories"
+                        },
+                        {
+                            "id": "series-go-learning",
+                            "title": "Go Learning",
+                            "permalink": "/ja/series/go-learning/",
+                            "type": "series"
                         },
                         {
                             "id": "series-go学習記",
                             "title": "Go学習記",
-                            "permalink": "//localhost:1313/ja/series/go%E5%AD%A6%E7%BF%92%E8%A8%98/",
+                            "permalink": "/ja/series/go%E5%AD%A6%E7%BF%92%E8%A8%98/",
+                            "type": "series"
+                        },
+                        {
+                            "id": "series-go學習",
+                            "title": "Go學習",
+                            "permalink": "/ja/series/go%E5%AD%B8%E7%BF%92/",
                             "type": "series"
                         },
                         {
                             "id": "series-python-tips",
                             "title": "Python Tips",
-                            "permalink": "//localhost:1313/ja/series/python-tips/",
+                            "permalink": "/ja/series/python-tips/",
                             "type": "series"
+                        },
+                        {
+                            "id": "series-python技巧",
+                            "title": "Python技巧",
+                            "permalink": "/ja/series/python%E6%8A%80%E5%B7%A7/",
+                            "type": "series"
+                        },
+                        {
+                            "id": "tags-authoring",
+                            "title": "Authoring",
+                            "permalink": "/ja/tags/authoring/",
+                            "type": "tags"
+                        },
+                        {
+                            "id": "tags-backend",
+                            "title": "Backend",
+                            "permalink": "/ja/tags/backend/",
+                            "type": "tags"
                         },
                         {
                             "id": "tags-blog-setup",
                             "title": "Blog-Setup",
-                            "permalink": "//localhost:1313/ja/tags/blog-setup/",
+                            "permalink": "/ja/tags/blog-setup/",
+                            "type": "tags"
+                        },
+                        {
+                            "id": "tags-configuration",
+                            "title": "Configuration",
+                            "permalink": "/ja/tags/configuration/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-git",
                             "title": "Git",
-                            "permalink": "//localhost:1313/ja/tags/git/",
+                            "permalink": "/ja/tags/git/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-go",
                             "title": "Go",
-                            "permalink": "//localhost:1313/ja/tags/go/",
+                            "permalink": "/ja/tags/go/",
+                            "type": "tags"
+                        },
+                        {
+                            "id": "tags-guide",
+                            "title": "Guide",
+                            "permalink": "/ja/tags/guide/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-hugo",
                             "title": "Hugo",
-                            "permalink": "//localhost:1313/ja/tags/hugo/",
+                            "permalink": "/ja/tags/hugo/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-markdown",
                             "title": "Markdown",
-                            "permalink": "//localhost:1313/ja/tags/markdown/",
+                            "permalink": "/ja/tags/markdown/",
+                            "type": "tags"
+                        },
+                        {
+                            "id": "tags-programming",
+                            "title": "Programming",
+                            "permalink": "/ja/tags/programming/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-python",
                             "title": "Python",
-                            "permalink": "//localhost:1313/ja/tags/python/",
+                            "permalink": "/ja/tags/python/",
+                            "type": "tags"
+                        },
+                        {
+                            "id": "tags-schema",
+                            "title": "Schema",
+                            "permalink": "/ja/tags/schema/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-tips",
                             "title": "Tips",
-                            "permalink": "//localhost:1313/ja/tags/tips/",
+                            "permalink": "/ja/tags/tips/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-vercel",
                             "title": "Vercel",
-                            "permalink": "//localhost:1313/ja/tags/vercel/",
+                            "permalink": "/ja/tags/vercel/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-ガイド",
                             "title": "ガイド",
-                            "permalink": "//localhost:1313/ja/tags/%E3%82%AC%E3%82%A4%E3%83%89/",
+                            "permalink": "/ja/tags/%E3%82%AC%E3%82%A4%E3%83%89/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-スキーマ",
                             "title": "スキーマ",
-                            "permalink": "//localhost:1313/ja/tags/%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9E/",
+                            "permalink": "/ja/tags/%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9E/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-バックエンド",
                             "title": "バックエンド",
-                            "permalink": "//localhost:1313/ja/tags/%E3%83%90%E3%83%83%E3%82%AF%E3%82%A8%E3%83%B3%E3%83%89/",
+                            "permalink": "/ja/tags/%E3%83%90%E3%83%83%E3%82%AF%E3%82%A8%E3%83%B3%E3%83%89/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-ブログ構築",
                             "title": "ブログ構築",
-                            "permalink": "//localhost:1313/ja/tags/%E3%83%96%E3%83%AD%E3%82%B0%E6%A7%8B%E7%AF%89/",
+                            "permalink": "/ja/tags/%E3%83%96%E3%83%AD%E3%82%B0%E6%A7%8B%E7%AF%89/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-ブログ開設",
                             "title": "ブログ開設",
-                            "permalink": "//localhost:1313/ja/tags/%E3%83%96%E3%83%AD%E3%82%B0%E9%96%8B%E8%A8%AD/",
+                            "permalink": "/ja/tags/%E3%83%96%E3%83%AD%E3%82%B0%E9%96%8B%E8%A8%AD/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-プログラミング",
                             "title": "プログラミング",
-                            "permalink": "//localhost:1313/ja/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/",
+                            "permalink": "/ja/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-執筆",
                             "title": "執筆",
-                            "permalink": "//localhost:1313/ja/tags/%E5%9F%B7%E7%AD%86/",
+                            "permalink": "/ja/tags/%E5%9F%B7%E7%AD%86/",
+                            "type": "tags"
+                        },
+                        {
+                            "id": "tags-後端",
+                            "title": "後端",
+                            "permalink": "/ja/tags/%E5%BE%8C%E7%AB%AF/",
+                            "type": "tags"
+                        },
+                        {
+                            "id": "tags-技巧",
+                            "title": "技巧",
+                            "permalink": "/ja/tags/%E6%8A%80%E5%B7%A7/",
+                            "type": "tags"
+                        },
+                        {
+                            "id": "tags-指南",
+                            "title": "指南",
+                            "permalink": "/ja/tags/%E6%8C%87%E5%8D%97/",
+                            "type": "tags"
+                        },
+                        {
+                            "id": "tags-程式設計",
+                            "title": "程式設計",
+                            "permalink": "/ja/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-設定",
                             "title": "設定",
-                            "permalink": "//localhost:1313/ja/tags/%E8%A8%AD%E5%AE%9A/",
+                            "permalink": "/ja/tags/%E8%A8%AD%E5%AE%9A/",
+                            "type": "tags"
+                        },
+                        {
+                            "id": "tags-資料庫架構",
+                            "title": "資料庫架構",
+                            "permalink": "/ja/tags/%E8%B3%87%E6%96%99%E5%BA%AB%E6%9E%B6%E6%A7%8B/",
+                            "type": "tags"
+                        },
+                        {
+                            "id": "tags-部落格構建",
+                            "title": "部落格構建",
+                            "permalink": "/ja/tags/%E9%83%A8%E8%90%BD%E6%A0%BC%E6%A7%8B%E5%BB%BA/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-部落格開設",
                             "title": "部落格開設",
-                            "permalink": "//localhost:1313/ja/tags/%E9%83%A8%E8%90%BD%E6%A0%BC%E9%96%8B%E8%A8%AD/",
+                            "permalink": "/ja/tags/%E9%83%A8%E8%90%BD%E6%A0%BC%E9%96%8B%E8%A8%AD/",
                             "type": "tags"
                         },
     ],
@@ -231,6 +425,48 @@
                     {
                         "source": "33598298e27b0a1701b5b1dee99e4b91",
                         "target": "tags-スキーマ",
+                    },
+            
+                    {
+                        "source": "63ed1d47056f27afac5ec82e2b044da8",
+                        "target": "categories-diary",
+                    },
+                    {
+                        "source": "63ed1d47056f27afac5ec82e2b044da8",
+                        "target": "categories-learning-log",
+                    },
+                    {
+                        "source": "63ed1d47056f27afac5ec82e2b044da8",
+                        "target": "tags-git",
+                    },
+                    {
+                        "source": "63ed1d47056f27afac5ec82e2b044da8",
+                        "target": "tags-hugo",
+                    },
+                    {
+                        "source": "63ed1d47056f27afac5ec82e2b044da8",
+                        "target": "tags-schema",
+                    },
+            
+                    {
+                        "source": "247faec772db53d870d26bbd78fab457",
+                        "target": "categories-日記",
+                    },
+                    {
+                        "source": "247faec772db53d870d26bbd78fab457",
+                        "target": "categories-學習記錄",
+                    },
+                    {
+                        "source": "247faec772db53d870d26bbd78fab457",
+                        "target": "tags-git",
+                    },
+                    {
+                        "source": "247faec772db53d870d26bbd78fab457",
+                        "target": "tags-hugo",
+                    },
+                    {
+                        "source": "247faec772db53d870d26bbd78fab457",
+                        "target": "tags-資料庫架構",
                     },
             
                     {
@@ -285,6 +521,27 @@
                     },
             
                     {
+                        "source": "60bb62aee96a95dfd7681fe3e1b4f062",
+                        "target": "categories-tech-notes",
+                    },
+                    {
+                        "source": "60bb62aee96a95dfd7681fe3e1b4f062",
+                        "target": "series-python-tips",
+                    },
+                    {
+                        "source": "60bb62aee96a95dfd7681fe3e1b4f062",
+                        "target": "tags-python",
+                    },
+                    {
+                        "source": "60bb62aee96a95dfd7681fe3e1b4f062",
+                        "target": "tags-tips",
+                    },
+                    {
+                        "source": "60bb62aee96a95dfd7681fe3e1b4f062",
+                        "target": "tags-programming",
+                    },
+            
+                    {
                         "source": "f82c2cf16a93660a62d561158bfb8106",
                         "target": "categories-技術メモ",
                     },
@@ -303,6 +560,48 @@
                     {
                         "source": "f82c2cf16a93660a62d561158bfb8106",
                         "target": "tags-プログラミング",
+                    },
+            
+                    {
+                        "source": "f5b6f0a65f791b3191cd0b1a302c298c",
+                        "target": "categories-技術筆記",
+                    },
+                    {
+                        "source": "f5b6f0a65f791b3191cd0b1a302c298c",
+                        "target": "series-python技巧",
+                    },
+                    {
+                        "source": "f5b6f0a65f791b3191cd0b1a302c298c",
+                        "target": "tags-python",
+                    },
+                    {
+                        "source": "f5b6f0a65f791b3191cd0b1a302c298c",
+                        "target": "tags-技巧",
+                    },
+                    {
+                        "source": "f5b6f0a65f791b3191cd0b1a302c298c",
+                        "target": "tags-程式設計",
+                    },
+            
+                    {
+                        "source": "30e92a7c9f282bcaf640fbc9112d3c00",
+                        "target": "categories-tech-notes",
+                    },
+                    {
+                        "source": "30e92a7c9f282bcaf640fbc9112d3c00",
+                        "target": "series-go-learning",
+                    },
+                    {
+                        "source": "30e92a7c9f282bcaf640fbc9112d3c00",
+                        "target": "tags-go",
+                    },
+                    {
+                        "source": "30e92a7c9f282bcaf640fbc9112d3c00",
+                        "target": "tags-programming",
+                    },
+                    {
+                        "source": "30e92a7c9f282bcaf640fbc9112d3c00",
+                        "target": "tags-backend",
                     },
             
                     {
@@ -327,6 +626,48 @@
                     },
             
                     {
+                        "source": "b199c4f19a7fbca0e06b2ea51f09e1ed",
+                        "target": "categories-技術筆記",
+                    },
+                    {
+                        "source": "b199c4f19a7fbca0e06b2ea51f09e1ed",
+                        "target": "series-go學習",
+                    },
+                    {
+                        "source": "b199c4f19a7fbca0e06b2ea51f09e1ed",
+                        "target": "tags-go",
+                    },
+                    {
+                        "source": "b199c4f19a7fbca0e06b2ea51f09e1ed",
+                        "target": "tags-程式設計",
+                    },
+                    {
+                        "source": "b199c4f19a7fbca0e06b2ea51f09e1ed",
+                        "target": "tags-後端",
+                    },
+            
+                    {
+                        "source": "1f6721c5944efce3ef3aa27a75009bca",
+                        "target": "categories-authoring",
+                    },
+                    {
+                        "source": "1f6721c5944efce3ef3aa27a75009bca",
+                        "target": "categories-blog",
+                    },
+                    {
+                        "source": "1f6721c5944efce3ef3aa27a75009bca",
+                        "target": "tags-markdown",
+                    },
+                    {
+                        "source": "1f6721c5944efce3ef3aa27a75009bca",
+                        "target": "tags-authoring",
+                    },
+                    {
+                        "source": "1f6721c5944efce3ef3aa27a75009bca",
+                        "target": "tags-guide",
+                    },
+            
+                    {
                         "source": "054956ccf8cda5d61ba3437820950fe2",
                         "target": "categories-執筆",
                     },
@@ -341,6 +682,52 @@
                     {
                         "source": "054956ccf8cda5d61ba3437820950fe2",
                         "target": "tags-ガイド",
+                    },
+            
+                    {
+                        "source": "dd4b133c4453db8090976b4caf8c7bcf",
+                        "target": "categories-執筆",
+                    },
+                    {
+                        "source": "dd4b133c4453db8090976b4caf8c7bcf",
+                        "target": "categories-部落格",
+                    },
+                    {
+                        "source": "dd4b133c4453db8090976b4caf8c7bcf",
+                        "target": "tags-markdown",
+                    },
+                    {
+                        "source": "dd4b133c4453db8090976b4caf8c7bcf",
+                        "target": "tags-執筆",
+                    },
+                    {
+                        "source": "dd4b133c4453db8090976b4caf8c7bcf",
+                        "target": "tags-指南",
+                    },
+            
+                    {
+                        "source": "c633582bdc8b692fb20232c481ed0cfc",
+                        "target": "categories-configuration",
+                    },
+                    {
+                        "source": "c633582bdc8b692fb20232c481ed0cfc",
+                        "target": "categories-homepage",
+                    },
+                    {
+                        "source": "c633582bdc8b692fb20232c481ed0cfc",
+                        "target": "categories-tech-notes",
+                    },
+                    {
+                        "source": "c633582bdc8b692fb20232c481ed0cfc",
+                        "target": "tags-hugo",
+                    },
+                    {
+                        "source": "c633582bdc8b692fb20232c481ed0cfc",
+                        "target": "tags-configuration",
+                    },
+                    {
+                        "source": "c633582bdc8b692fb20232c481ed0cfc",
+                        "target": "tags-blog-setup",
                     },
             
                     {
@@ -362,6 +749,31 @@
                     {
                         "source": "8420d15d31fd96e739f46c0abae32e25",
                         "target": "tags-ブログ構築",
+                    },
+            
+                    {
+                        "source": "f94feebaeba55e3416805231a0eec5e3",
+                        "target": "categories-設定",
+                    },
+                    {
+                        "source": "f94feebaeba55e3416805231a0eec5e3",
+                        "target": "categories-首頁",
+                    },
+                    {
+                        "source": "f94feebaeba55e3416805231a0eec5e3",
+                        "target": "categories-技術筆記",
+                    },
+                    {
+                        "source": "f94feebaeba55e3416805231a0eec5e3",
+                        "target": "tags-hugo",
+                    },
+                    {
+                        "source": "f94feebaeba55e3416805231a0eec5e3",
+                        "target": "tags-設定",
+                    },
+                    {
+                        "source": "f94feebaeba55e3416805231a0eec5e3",
+                        "target": "tags-部落格構建",
                     },
     ],
 }

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja-JP" dir="ltr">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
     <!-- head.html --><!-- meta.html -->
 
 <meta charset="utf-8">
@@ -11,7 +11,7 @@
 <meta name="description" content="I’m an Engineer, Starting My Blog I’ll be accumulating technical output here. Built with Hugo &#43; Vercel for a blazing-fast environment.
 Tech Stack …" >
 <meta name="keywords" content="hugo,vercel,blog-setup">
-<link rel="canonical" href="//localhost:1313/ja/en/posts/first-post/">
+<link rel="canonical" href="/ja/en/posts/first-post/">
 
 
 
@@ -29,7 +29,7 @@ Tech Stack …" />
     <meta property="og:description" content="I’m an Engineer, Starting My Blog I’ll be accumulating technical output here. Built with Hugo &#43; Vercel for a blazing-fast environment.
 Tech Stack …" />
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="//localhost:1313/ja/en/posts/first-post/" />
+    <meta property="og:url" content="/ja/en/posts/first-post/" />
         <meta property="og:image" content="https://repository-images.githubusercontent.com/923527728/46a32a19-69ac-45b3-91a4-c4d299fb234b" />
     <meta property="og:site_name" content="ChiriTsumomma" />
     
@@ -64,11 +64,12 @@ Tech Stack …">
     </script>
     <!-- js.html -->
 
+<script src="/js/hugo-brewm.min.js"
+            integrity="sha384-/lNm2crwebBv13u0jb2m7lrn5uHl9XmQJrxSoL2QgUDmP4GE8rPsAhE/qob/B2pl" crossorigin="anonymous"
+            defer></script><!-- css.html -->
 
-    <script src="//localhost:1313/js/hugo-brewm.min.js" defer></script><!-- css.html -->
 
-
-    <link rel="stylesheet" href="//localhost:1313/css/hugo-brewm.min.css">
+        <link rel="stylesheet" href="/css/hugo-brewm.min.css" integrity="sha256-SeCrg2fnly4gRe4BvI1yca2P0yQqHbckbLv&#43;UBsrjbk=" crossorigin="anonymous">
 
 
 
@@ -94,7 +95,7 @@ Tech Stack …">
     </nav>
     
     <div id="logo">
-        <a href="//localhost:1313/ja/" aria-label="ChiriTsumomma" aria-description="ホームページ">
+        <a href="/ja/" aria-label="ChiriTsumomma" aria-description="ホームページ">
                 <!-- logotype.html --><svg id="logotype" xmlns="http://www.w3.org/2000/svg" version="1.1" width="364pt" aria-label="ChiriTsumomma">
             <text id="logotype__text" y="19.5pt" x="0">ChiriTsumomma</text>
         </svg>
@@ -119,14 +120,14 @@ Tech Stack …">
                     
     
         <li role="presentation" >
-    <a   class=on-deck href=//localhost:1313/>
+    <a   class=on-deck href=/>
         
             <span>
                 ホーム</span>
     </a>
         </li>
         <li role="presentation" >
-    <a   class=on-deck href=//localhost:1313/ja/posts/>
+    <a   class=on-deck href=/ja/posts/>
         
             <span>
                 記事一覧</span>
@@ -191,7 +192,7 @@ Tech Stack …">
     </a>
         </li>
         <li role="presentation" >
-    <a   class=on-deck href=//localhost:1313/ja/about/>
+    <a   class=on-deck href=/ja/about/>
         
             <span>
                 About</span>
@@ -210,7 +211,7 @@ Tech Stack …">
     <div id="search" class="on-hull">
         <div role="presentation" class="screening js-cgpn"></div>
     </div>
-    <script src="//localhost:1313/pagefind/pagefind-ui.js" type="text/javascript"></script>
+    <script src="/pagefind/pagefind-ui.js" type="text/javascript"></script>
     <script>
         let pageFindInitialized = false;
         const initPageFind = function(event) {
@@ -240,7 +241,7 @@ Tech Stack …">
     <form id="duckduckgo" class="form on-plank"
         name="[i18n] seach" action="//duckduckgo.com/"
         role="search" aria-label="検索">
-        <input type="hidden" value="localhost:1313" name="sites"></input>
+        <input type="hidden" value="" name="sites"></input>
         <input type="hidden" value="1" name="kh"></input>
         <input type="hidden" value="1" name="kn"></input>
         <input type="hidden" value="1" name="kac"></input>
@@ -269,13 +270,13 @@ Tech Stack …">
             <nav id="i18n-menu" aria-label="言語選択">
                 <ul class="on-plank">
                         <li>
-                            <a href="//localhost:1313/en/" aria-label="Change language to English">
+                            <a href="/en/" aria-label="Change language to English">
                                 <span class="emoji">🇺🇸&nbsp;</span>
                                 <span class="languangeName">English</span>
                             </a>
                         </li>
                         <li>
-                            <a href="//localhost:1313/zh/" aria-label="Change language to 繁體中文">
+                            <a href="/zh/" aria-label="Change language to 繁體中文">
                                 <span class="emoji">🇹🇼&nbsp;</span>
                                 <span class="languangeName">繁體中文</span>
                             </a>
@@ -314,7 +315,7 @@ Tech Stack …">
             <ul role="presentation" class="breadcrumb ">
                     <!-- breadcrumb.html -->
         <li>
-            <a href="//localhost:1313/ja/en/" aria-current="true">
+            <a href="/ja/en/" aria-current="true">
             </a>
         </li>
     <li>
@@ -343,7 +344,12 @@ Tech Stack …">
             <div id="doc-author" class="textsw"><span>So Momma</span>
             </div>
             <!-- timestamp.html-->
-        <time datetime="2025-01-21T23:30:00&#43;09:00">2025年1月21日</time>
+        <div id="timestamp">
+            <span>公開日 オン</span>
+            <time datetime="2025-01-21T23:30:00&#43;09:00">2025年1月21日</time>,
+            <span>更新日 オン</span>
+            <time datetime="2025-11-22T00:29:59&#43;08:00">2025年11月22日</time>.
+        </div>
         </header>
         <!-- audio.html -->
         <section id="content" class="content " aria-labelledby="title" data-bionRead-safe>
@@ -374,9 +380,9 @@ Built with Hugo + Vercel for a blazing-fast environment.</p>
         
         <!-- terms.html -->
             <ul class="delimiter" role="presentation">
-                    <li><a href="//localhost:1313/ja/tags/hugo/" >Hugo</a></li>
-                    <li><a href="//localhost:1313/ja/tags/vercel/" >Vercel</a></li>
-                    <li><a href="//localhost:1313/ja/tags/blog-setup/" >Blog-Setup</a></li>
+                    <li><a href="/ja/tags/hugo/" >Hugo</a></li>
+                    <li><a href="/ja/tags/vercel/" >Vercel</a></li>
+                    <li><a href="/ja/tags/blog-setup/" >Blog-Setup</a></li>
             </ul>
     </nav>
             </footer>
@@ -389,9 +395,11 @@ Built with Hugo + Vercel for a blazing-fast environment.</p>
                 <!-- related.html -->
     <nav id="related" aria-label="こちらもおすすめ"><strong class="section-title">こちらもおすすめ</strong>
                 <ol>
-                    <li><a href="//localhost:1313/ja/ja/posts/first-post/">ブログ始めました</a></li>
-                    <li><a href="//localhost:1313/ja/zh/posts/first-post/">開始寫部落格</a></li>
-                    <li><a href="//localhost:1313/ja/ja/posts/hugo-setup/">Hugoブログの構築</a></li>
+                    <li><a href="/ja/ja/posts/first-post/">ブログ始めました</a></li>
+                    <li><a href="/ja/zh/posts/first-post/">開始寫部落格</a></li>
+                    <li><a href="/ja/en/posts/hugo-setup/">Building a Hugo Blog</a></li>
+                    <li><a href="/ja/ja/posts/hugo-setup/">Hugoブログの構築</a></li>
+                    <li><a href="/ja/zh/posts/hugo-setup/">Hugo部落格構建</a></li>
                 </ol>
     </nav>
                 <!-- colophon.html -->
@@ -400,13 +408,27 @@ Built with Hugo + Vercel for a blazing-fast environment.</p>
         <div>
             <div id="qr" role="img" aria-label="QR code"></div>
             <div class="verbose">
-                <div class="has-aria-label-top" aria-label="Starting My Blog"><span>//localhost:1313/ja/en/posts/first-post/</span></div>
-                <div><span>このページのビルド日時: </span><time datetime="2025-11-22T00:28:02&#43;08:00">2025-11-22 00:28</time></div>
+                <div class="has-aria-label-top" aria-label="Starting My Blog"><span>/ja/en/posts/first-post/</span></div>
+                <div><span>このページのビルド日時: </span><time datetime="2025-11-22T00:34:21&#43;08:00">2025-11-22 00:34</time></div>
                 <div><span>このページへのアクセス日時: </span><time id="time-stamp"></time></div><div><span>Powered by </span><a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <a href="https://github.com/gohugoio/hugo/releases/tag/v0.152.2" aria-label="Hugo 0.152.2" target="_blank" rel="noopener">v0.152.2</a> & <a href="https://github.com/foxihd/hugo-brewm" target="_blank" rel="noopener">hugo-brewm</a>.</div>
             </div>
         </div>
     </div>
                 <!-- history.html -->
+        <div id="has-timeline" >
+            <strong class="section-title">編集履歴</strong>
+            <ol aria-label="編集履歴">
+                <li>
+                    <time datetime="2025-01-21T23:30:00&#43;09:00">2025年1月21日</time>
+                    <span>(公開日)</span>
+                </li>
+                <li>
+                    <time datetime="2025-11-22T00:29:59&#43;08:00">2025年11月22日</time>
+                    <span>(更新日)</span>
+                </li>
+            </ol>
+            <p>情報は時間とともに変更される可能性があります。編集は最新の状態に保たれます。</p>
+        </div>
             
             <!-- nav.html -->
 <details class="presentation" aria-expanded="true" id="has-share" open>
@@ -420,8 +442,8 @@ Built with Hugo + Vercel for a blazing-fast environment.</p>
         <!-- mastodon.html -->
     <form class="form" id="mastodon" action="//sharetomastodon.github.io/" target="_blank" rel="noopener noreferrer">
         <input id="mastodonTitle" type="hidden" name="title" value="Starting My Blog">
-        <input id="mastodonPermalink" type="hidden" name="url" value="//localhost:1313/ja/en/posts/first-post/">
-        <input id="mastodonText" type="hidden" name="text" value="Starting My Blog //localhost:1313/ja/en/posts/first-post/" disabled>
+        <input id="mastodonPermalink" type="hidden" name="url" value="/ja/en/posts/first-post/">
+        <input id="mastodonText" type="hidden" name="text" value="Starting My Blog /ja/en/posts/first-post/" disabled>
         <input id="mastodonInstance" type="url" class="ldots form__input" placeholder="Enter Mastodon instance (https://www.example.com)" aria-label="Mastodon instance URL">
         <button class="form__button" type="submit" aria-label="で共有 Mastodon">
             <i class="icon mastodon sri" aria-hidden="true"></i>
@@ -430,89 +452,89 @@ Built with Hugo + Vercel for a blazing-fast environment.</p>
     </form>
     </li>
     <li>
-        <a href="mailto:?subject=Starting%20My%20Blog&body=%2f%2flocalhost%3a1313%2fja%2fen%2fposts%2ffirst-post%2f" role="button" aria-label="で共有 メール">
+        <a href="mailto:?subject=Starting%20My%20Blog&body=%2fja%2fen%2fposts%2ffirst-post%2f" role="button" aria-label="で共有 メール">
             <i class="email sri" aria-hidden="true"></i>
             <span class="t srt" role="tooltip">で共有 メール</span>
         </a>
     </li>
     <li>
-        <a href="whatsapp://send?text=Starting%20My%20Blog%20%2f%2flocalhost%3a1313%2fja%2fen%2fposts%2ffirst-post%2f" role="button" aria-label="で共有 Whatsapp">
+        <a href="whatsapp://send?text=Starting%20My%20Blog%20%2fja%2fen%2fposts%2ffirst-post%2f" role="button" aria-label="で共有 Whatsapp">
             <i class="whatsapp sri" aria-hidden="true"></i>
             <span class="t srt" role="tooltip">で共有 Whatsapp</span>
         </a>
     </li>
     <li>
-        <a rel="noopener noreferrer" target="_blank" href="https://telegram.me/share/url?text=Starting%20My%20Blog&amp;url=//localhost:1313/ja/en/posts/first-post/" role="button"
+        <a rel="noopener noreferrer" target="_blank" href="https://telegram.me/share/url?text=Starting%20My%20Blog&amp;url=/ja/en/posts/first-post/" role="button"
             aria-label="で共有 Telegram 新しいタブで">
             <i class="telegram sri" aria-hidden="true"></i>
             <span class="t srt" role="tooltip">で共有 Telegram</span>
         </a>
     </li>
     <li>
-        <a rel="noopener noreferrer" target="_blank" href="https://bsky.app/intent/compose?text=Starting%20My%20Blog&amp;url=//localhost:1313/ja/en/posts/first-post/" role="button"
+        <a rel="noopener noreferrer" target="_blank" href="https://bsky.app/intent/compose?text=Starting%20My%20Blog&amp;url=/ja/en/posts/first-post/" role="button"
             aria-label="で共有 Bluesky 新しいタブで">
             <i class="bluesky sri" aria-hidden="true"></i>
             <span class="t srt" role="tooltip">で共有 Bluesky</span>
         </a>
     </li>
     <li>
-        <a rel="noopener noreferrer" target="_blank" href="https://facebook.com/sharer/sharer.php?u=//localhost:1313/ja/en/posts/first-post/" role="button"
+        <a rel="noopener noreferrer" target="_blank" href="https://facebook.com/sharer/sharer.php?u=/ja/en/posts/first-post/" role="button"
             aria-label="で共有 Facebook 新しいタブで">
             <i class="facebook sri" aria-hidden="true"></i>
             <span class="t srt" role="tooltip">で共有 Facebook</span>
         </a>
     </li>
     <li>
-        <a rel="noopener noreferrer" target="_blank" href="https://news.ycombinator.com/submitlink?u=//localhost:1313/ja/en/posts/first-post/&amp;t=Starting%20My%20Blog" role="button"
+        <a rel="noopener noreferrer" target="_blank" href="https://news.ycombinator.com/submitlink?u=/ja/en/posts/first-post/&amp;t=Starting%20My%20Blog" role="button"
             aria-label="で共有 Hackernews 新しいタブで">
             <i class="hackernews sri" aria-hidden="true"></i>
             <span class="t srt" role="tooltip">で共有 Hackernews</span>
         </a>
     </li>
     <li>
-        <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=//localhost:1313/ja/en/posts/first-post/&amp;title=Starting%20My%20Blog&amp;summary=Starting%20My%20Blog&amp;source=//localhost:1313/ja/en/posts/first-post/" role="button"
+        <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=/ja/en/posts/first-post/&amp;title=Starting%20My%20Blog&amp;summary=Starting%20My%20Blog&amp;source=/ja/en/posts/first-post/" role="button"
             aria-label="で共有 Linkedin 新しいタブで">
             <i class="linkedin sri" aria-hidden="true"></i>
             <span class="t srt" role="tooltip">で共有 Linkedin</span>
         </a>
     </li>
     <li>
-        <a rel="noopener noreferrer" target="_blank" href="https://pinterest.com/pin/create/button/?url=//localhost:1313/ja/en/posts/first-post/&amp;media=//localhost:1313/ja/en/posts/first-post/&amp;description=Starting%20My%20Blog" role="button"
+        <a rel="noopener noreferrer" target="_blank" href="https://pinterest.com/pin/create/button/?url=/ja/en/posts/first-post/&amp;media=/ja/en/posts/first-post/&amp;description=Starting%20My%20Blog" role="button"
             aria-label="で共有 Pinterest 新しいタブで">
             <i class="pinterest sri" aria-hidden="true"></i>
             <span class="t srt" role="tooltip">で共有 Pinterest</span>
         </a>
     </li>
     <li>
-        <a rel="noopener noreferrer" target="_blank" href="https://reddit.com/submit/?url=//localhost:1313/ja/en/posts/first-post/&amp;resubmit=true&amp;title=Starting%20My%20Blog" role="button"
+        <a rel="noopener noreferrer" target="_blank" href="https://reddit.com/submit/?url=/ja/en/posts/first-post/&amp;resubmit=true&amp;title=Starting%20My%20Blog" role="button"
             aria-label="で共有 Reddit 新しいタブで">
             <i class="reddit sri" aria-hidden="true"></i>
             <span class="t srt" role="tooltip">で共有 Reddit</span>
         </a>
     </li>
     <li>
-        <a rel="noopener noreferrer" target="_blank" href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=Starting%20My%20Blog&amp;caption=Starting%20My%20Blog&amp;content=//localhost:1313/ja/en/posts/first-post/&amp;canonicalUrl=//localhost:1313/ja/en/posts/first-post/" role="button"
+        <a rel="noopener noreferrer" target="_blank" href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=Starting%20My%20Blog&amp;caption=Starting%20My%20Blog&amp;content=/ja/en/posts/first-post/&amp;canonicalUrl=/ja/en/posts/first-post/" role="button"
             aria-label="で共有 Tumblr 新しいタブで">
             <i class="tumblr sri" aria-hidden="true"></i>
             <span class="t srt" role="tooltip">で共有 Tumblr</span>
         </a>
     </li>
     <li>
-        <a rel="noopener noreferrer" target="_blank" href="https://threads.net/intent/post?text=Starting%20My%20Blog&amp;url=//localhost:1313/ja/en/posts/first-post/" role="button"
+        <a rel="noopener noreferrer" target="_blank" href="https://threads.net/intent/post?text=Starting%20My%20Blog&amp;url=/ja/en/posts/first-post/" role="button"
             aria-label="で共有 Threads 新しいタブで">
             <i class="threads sri" aria-hidden="true"></i>
             <span class="t srt" role="tooltip">で共有 Threads</span>
         </a>
     </li>
     <li>
-        <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/intent/tweet/?text=Starting%20My%20Blog&amp;url=//localhost:1313/ja/en/posts/first-post/" role="button"
+        <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/intent/tweet/?text=Starting%20My%20Blog&amp;url=/ja/en/posts/first-post/" role="button"
             aria-label="で共有 Twitter 新しいタブで">
             <i class="twitter sri" aria-hidden="true"></i>
             <span class="t srt" role="tooltip">で共有 Twitter</span>
         </a>
     </li>
     <li>
-        <a rel="noopener noreferrer" target="_blank" href="https://www.xing.com/app/user?op=share;url=//localhost:1313/ja/en/posts/first-post/;title=Starting%20My%20Blog" role="button"
+        <a rel="noopener noreferrer" target="_blank" href="https://www.xing.com/app/user?op=share;url=/ja/en/posts/first-post/;title=Starting%20My%20Blog" role="button"
             aria-label="で共有 Xing 新しいタブで">
             <i class="xing sri" aria-hidden="true"></i>
             <span class="t srt" role="tooltip">で共有 Xing</span>
