@@ -3,20 +3,20 @@
   <channel>
     <title>ブログ on ChiriTsumomma</title>
     <link>//localhost:1313/ja/categories/%E3%83%96%E3%83%AD%E3%82%B0/</link>
-    <description>[i18n] recent [i18n] in ブログ [i18n] on ChiriTsumomma</description>
+    <description>最近の記事 で ブログ オン ChiriTsumomma</description>
     <generator>Hugo 0.152.2</generator>
-    <language>ja</language>
+    <language>ja-JP</language>
     <managingEditor>sol0608sol@gmail.com (So Momma)</managingEditor>
     <webMaster>sol0608sol@gmail.com (So Momma)</webMaster>
-    <lastBuildDate>Sat, 22 Nov 2025 00:16:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 22 Nov 2025 00:28:02 +0800</lastBuildDate>
     <atom:link href="//localhost:1313/ja/categories/%E3%83%96%E3%83%AD%E3%82%B0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ブログ始めました</title>
-      <link>//localhost:1313/ja/posts/first-post/</link>
+      <link>//localhost:1313/ja/ja/posts/first-post/</link>
       <pubDate>Tue, 21 Jan 2025 23:30:00 +0900</pubDate>
       <author>sol0608sol@gmail.com (So Momma)</author>
       <dc:creator>So Momma</dc:creator>
-      <guid>//localhost:1313/ja/posts/first-post/</guid>
+      <guid>//localhost:1313/ja/ja/posts/first-post/</guid>
       <description>&lt;h2 id=&#34;エンジニアですブログ始めました&#34;&gt;エンジニアです、ブログ始めました&lt;/h2&gt;&#xA;&lt;p&gt;これから技術的なアウトプットをここに積み上げていきます。&#xA;Hugo + Vercel の爆速環境で構築しました。&lt;/p&gt;&#xA;&lt;h3 id=&#34;技術スタック&#34;&gt;技術スタック&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Static Site Generator&lt;/strong&gt;: &lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;external noopener noreferrer nofollow&#34;&gt;Hugo&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Theme&lt;/strong&gt;: &lt;a href=&#34;https://github.com/foxihd/hugo-brewm&#34; target=&#34;_blank&#34; rel=&#34;external noopener noreferrer nofollow&#34;&gt;hugo-brewm&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Deployment&lt;/strong&gt;: &lt;a href=&#34;https://vercel.com/&#34; target=&#34;_blank&#34; rel=&#34;external noopener noreferrer nofollow&#34;&gt;Vercel&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;HugoのシンプルさとVercelの高速デプロイが気に入っています。&lt;/p&gt;&#xA;&lt;h3 id=&#34;今後の予定&#34;&gt;今後の予定&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;📝 &lt;strong&gt;技術メモ&lt;/strong&gt;: 開発で学んだこと、詰まったポイントの備忘録&lt;/li&gt;&#xA;&lt;li&gt;📚 &lt;strong&gt;読書感想&lt;/strong&gt;: 技術書やその他の本の読書記録&lt;/li&gt;&#xA;&lt;li&gt;💭 &lt;strong&gt;ポエム&lt;/strong&gt;: エンジニアとしての日々の気づきや思考&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello, ChiriTsumomma!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;小さな学びを積み重ねて、大きな成長につなげていきたいと思います。&lt;/p&gt;</description>
       <content:encoded>&lt;h2 id=&#34;エンジニアですブログ始めました&#34;&gt;エンジニアです、ブログ始めました&lt;/h2&gt;&#xA;&lt;p&gt;これから技術的なアウトプットをここに積み上げていきます。&#xA;Hugo + Vercel の爆速環境で構築しました。&lt;/p&gt;&#xA;&lt;h3 id=&#34;技術スタック&#34;&gt;技術スタック&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Static Site Generator&lt;/strong&gt;: &lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;external noopener noreferrer nofollow&#34;&gt;Hugo&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Theme&lt;/strong&gt;: &lt;a href=&#34;https://github.com/foxihd/hugo-brewm&#34; target=&#34;_blank&#34; rel=&#34;external noopener noreferrer nofollow&#34;&gt;hugo-brewm&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Deployment&lt;/strong&gt;: &lt;a href=&#34;https://vercel.com/&#34; target=&#34;_blank&#34; rel=&#34;external noopener noreferrer nofollow&#34;&gt;Vercel&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;HugoのシンプルさとVercelの高速デプロイが気に入っています。&lt;/p&gt;&#xA;&lt;h3 id=&#34;今後の予定&#34;&gt;今後の予定&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;📝 &lt;strong&gt;技術メモ&lt;/strong&gt;: 開発で学んだこと、詰まったポイントの備忘録&lt;/li&gt;&#xA;&lt;li&gt;📚 &lt;strong&gt;読書感想&lt;/strong&gt;: 技術書やその他の本の読書記録&lt;/li&gt;&#xA;&lt;li&gt;💭 &lt;strong&gt;ポエム&lt;/strong&gt;: エンジニアとしての日々の気づきや思考&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello, ChiriTsumomma!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;小さな学びを積み重ねて、大きな成長につなげていきたいと思います。&lt;/p&gt;&#xA;</content:encoded>
       <category>ブログ</category>

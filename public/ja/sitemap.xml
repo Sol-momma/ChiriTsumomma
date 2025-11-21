@@ -2,218 +2,280 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/ja/posts/1121/</loc>
-    <lastmod>2025-11-22T00:12:35+08:00</lastmod>
+    <loc>//localhost:1313/ja/ja/posts/1121/</loc>
+    <lastmod>2025-01-21T23:58:06+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     </url>
   <url>
     <loc>//localhost:1313/ja/categories/</loc>
-    <lastmod>2025-11-22T00:15:56+08:00</lastmod>
+    <lastmod>2025-01-21T23:58:06+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    </url>
+    <xhtml:link rel="alternate" hreflang="en-US" href="//localhost:1313/en/categories/" /><xhtml:link rel="alternate" hreflang="zh-TW" href="//localhost:1313/zh/categories/" />
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="//localhost:1313/ja/categories/" />
+  </url>
   <url>
     <loc>//localhost:1313/ja/</loc>
     <lastmod>2025-11-22T00:15:56+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    </url>
+    <xhtml:link rel="alternate" hreflang="en-US" href="//localhost:1313/en/" /><xhtml:link rel="alternate" hreflang="zh-TW" href="//localhost:1313/zh/" />
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="//localhost:1313/ja/" />
+  </url>
   <url>
     <loc>//localhost:1313/ja/tags/git/</loc>
-    <lastmod>2025-11-22T00:12:35+08:00</lastmod>
+    <lastmod>2025-01-21T23:58:06+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     </url>
   <url>
     <loc>//localhost:1313/ja/tags/hugo/</loc>
-    <lastmod>2025-11-22T00:15:56+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    </url>
-  <url>
-    <loc>//localhost:1313/ja/posts/</loc>
-    <lastmod>2025-11-22T00:15:56+08:00</lastmod>
+    <lastmod>2025-01-21T23:58:06+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     </url>
   <url>
     <loc>//localhost:1313/ja/tags/</loc>
-    <lastmod>2025-11-22T00:15:56+08:00</lastmod>
+    <lastmod>2025-01-21T23:58:06+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    </url>
+    <xhtml:link rel="alternate" hreflang="en-US" href="//localhost:1313/en/tags/" /><xhtml:link rel="alternate" hreflang="zh-TW" href="//localhost:1313/zh/tags/" />
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="//localhost:1313/ja/tags/" />
+  </url>
   <url>
     <loc>//localhost:1313/ja/tags/%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9E/</loc>
-    <lastmod>2025-11-22T00:12:35+08:00</lastmod>
+    <lastmod>2025-01-21T23:58:06+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     </url>
   <url>
     <loc>//localhost:1313/ja/categories/%E5%AD%A6%E7%BF%92%E8%A8%98%E9%8C%B2/</loc>
-    <lastmod>2025-11-22T00:12:35+08:00</lastmod>
+    <lastmod>2025-01-21T23:58:06+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     </url>
   <url>
     <loc>//localhost:1313/ja/categories/%E6%97%A5%E8%A8%98/</loc>
-    <lastmod>2025-11-22T00:12:35+08:00</lastmod>
+    <lastmod>2025-01-21T23:58:06+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    </url>
+  <url>
+    <loc>//localhost:1313/ja/en/</loc>
+    <lastmod>2025-01-21T23:30:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    </url>
+  <url>
+    <loc>//localhost:1313/ja/zh/</loc>
+    <lastmod>2025-01-21T23:30:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    </url>
+  <url>
+    <loc>//localhost:1313/ja/categories/blog/</loc>
+    <lastmod>2025-01-21T23:30:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    </url>
+  <url>
+    <loc>//localhost:1313/ja/tags/blog-setup/</loc>
+    <lastmod>2025-01-21T23:30:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    </url>
+  <url>
+    <loc>//localhost:1313/ja/en/posts/first-post/</loc>
+    <lastmod>2025-01-21T23:30:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     </url>
   <url>
     <loc>//localhost:1313/ja/tags/vercel/</loc>
-    <lastmod>2025-11-22T00:12:35+08:00</lastmod>
+    <lastmod>2025-01-21T23:30:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     </url>
   <url>
     <loc>//localhost:1313/ja/categories/%E3%83%96%E3%83%AD%E3%82%B0/</loc>
-    <lastmod>2025-11-22T00:12:35+08:00</lastmod>
+    <lastmod>2025-01-21T23:30:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     </url>
   <url>
     <loc>//localhost:1313/ja/tags/%E3%83%96%E3%83%AD%E3%82%B0%E9%96%8B%E8%A8%AD/</loc>
-    <lastmod>2025-11-22T00:12:35+08:00</lastmod>
+    <lastmod>2025-01-21T23:30:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     </url>
   <url>
-    <loc>//localhost:1313/ja/posts/first-post/</loc>
-    <lastmod>2025-11-22T00:12:35+08:00</lastmod>
+    <loc>//localhost:1313/ja/ja/posts/first-post/</loc>
+    <lastmod>2025-01-21T23:30:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    </url>
+  <url>
+    <loc>//localhost:1313/ja/zh/posts/first-post/</loc>
+    <lastmod>2025-01-21T23:30:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    </url>
+  <url>
+    <loc>//localhost:1313/ja/categories/%E9%83%A8%E8%90%BD%E6%A0%BC/</loc>
+    <lastmod>2025-01-21T23:30:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    </url>
+  <url>
+    <loc>//localhost:1313/ja/tags/%E9%83%A8%E8%90%BD%E6%A0%BC%E9%96%8B%E8%A8%AD/</loc>
+    <lastmod>2025-01-21T23:30:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     </url>
   <url>
     <loc>//localhost:1313/ja/tags/python/</loc>
-    <lastmod>2025-11-22T00:15:56+08:00</lastmod>
+    <lastmod>2025-01-21T13:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     </url>
   <url>
     <loc>//localhost:1313/ja/series/python-tips/</loc>
-    <lastmod>2025-11-22T00:15:56+08:00</lastmod>
+    <lastmod>2025-01-21T13:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     </url>
   <url>
-    <loc>//localhost:1313/ja/posts/python-tips/</loc>
-    <lastmod>2025-11-22T00:15:56+08:00</lastmod>
+    <loc>//localhost:1313/ja/ja/posts/python-tips/</loc>
+    <lastmod>2025-01-21T13:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     </url>
   <url>
     <loc>//localhost:1313/ja/series/</loc>
-    <lastmod>2025-11-22T00:15:56+08:00</lastmod>
+    <lastmod>2025-01-21T13:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    </url>
+    <xhtml:link rel="alternate" hreflang="en-US" href="//localhost:1313/en/series/" /><xhtml:link rel="alternate" hreflang="zh-TW" href="//localhost:1313/zh/series/" />
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="//localhost:1313/ja/series/" />
+  </url>
   <url>
     <loc>//localhost:1313/ja/tags/tips/</loc>
-    <lastmod>2025-11-22T00:15:56+08:00</lastmod>
+    <lastmod>2025-01-21T13:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     </url>
   <url>
     <loc>//localhost:1313/ja/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/</loc>
-    <lastmod>2025-11-22T00:15:56+08:00</lastmod>
+    <lastmod>2025-01-21T13:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     </url>
   <url>
     <loc>//localhost:1313/ja/categories/%E6%8A%80%E8%A1%93%E3%83%A1%E3%83%A2/</loc>
-    <lastmod>2025-11-22T00:15:56+08:00</lastmod>
+    <lastmod>2025-01-21T13:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     </url>
   <url>
     <loc>//localhost:1313/ja/tags/go/</loc>
-    <lastmod>2025-11-22T00:15:56+08:00</lastmod>
+    <lastmod>2025-01-21T12:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     </url>
   <url>
     <loc>//localhost:1313/ja/series/go%E5%AD%A6%E7%BF%92%E8%A8%98/</loc>
-    <lastmod>2025-11-22T00:15:56+08:00</lastmod>
+    <lastmod>2025-01-21T12:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     </url>
   <url>
-    <loc>//localhost:1313/ja/posts/go-basics/</loc>
-    <lastmod>2025-11-22T00:15:56+08:00</lastmod>
+    <loc>//localhost:1313/ja/ja/posts/go-basics/</loc>
+    <lastmod>2025-01-21T12:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     </url>
   <url>
     <loc>//localhost:1313/ja/tags/%E3%83%90%E3%83%83%E3%82%AF%E3%82%A8%E3%83%B3%E3%83%89/</loc>
-    <lastmod>2025-11-22T00:15:56+08:00</lastmod>
+    <lastmod>2025-01-21T12:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     </url>
   <url>
     <loc>//localhost:1313/ja/tags/markdown/</loc>
-    <lastmod>2025-11-22T00:15:56+08:00</lastmod>
+    <lastmod>2025-01-21T11:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     </url>
   <url>
-    <loc>//localhost:1313/ja/posts/markdown-guide/</loc>
-    <lastmod>2025-11-22T00:15:56+08:00</lastmod>
+    <loc>//localhost:1313/ja/ja/posts/markdown-guide/</loc>
+    <lastmod>2025-01-21T11:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     </url>
   <url>
     <loc>//localhost:1313/ja/tags/%E3%82%AC%E3%82%A4%E3%83%89/</loc>
-    <lastmod>2025-11-22T00:15:56+08:00</lastmod>
+    <lastmod>2025-01-21T11:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     </url>
   <url>
     <loc>//localhost:1313/ja/categories/%E5%9F%B7%E7%AD%86/</loc>
-    <lastmod>2025-11-22T00:15:56+08:00</lastmod>
+    <lastmod>2025-01-21T11:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     </url>
   <url>
     <loc>//localhost:1313/ja/tags/%E5%9F%B7%E7%AD%86/</loc>
-    <lastmod>2025-11-22T00:15:56+08:00</lastmod>
+    <lastmod>2025-01-21T11:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     </url>
   <url>
-    <loc>//localhost:1313/ja/posts/hugo-setup/</loc>
-    <lastmod>2025-11-22T00:15:56+08:00</lastmod>
+    <loc>//localhost:1313/ja/ja/posts/hugo-setup/</loc>
+    <lastmod>2025-01-21T10:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     </url>
   <url>
     <loc>//localhost:1313/ja/categories/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8/</loc>
-    <lastmod>2025-11-22T00:15:56+08:00</lastmod>
+    <lastmod>2025-01-21T10:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     </url>
   <url>
     <loc>//localhost:1313/ja/tags/%E3%83%96%E3%83%AD%E3%82%B0%E6%A7%8B%E7%AF%89/</loc>
-    <lastmod>2025-11-22T00:15:56+08:00</lastmod>
+    <lastmod>2025-01-21T10:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     </url>
   <url>
     <loc>//localhost:1313/ja/categories/%E8%A8%AD%E5%AE%9A/</loc>
-    <lastmod>2025-11-22T00:15:56+08:00</lastmod>
+    <lastmod>2025-01-21T10:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     </url>
   <url>
     <loc>//localhost:1313/ja/tags/%E8%A8%AD%E5%AE%9A/</loc>
-    <lastmod>2025-11-22T00:15:56+08:00</lastmod>
+    <lastmod>2025-01-21T10:00:00+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     </url>
   <url>
-    <loc>//localhost:1313/ja/about/</loc>
-    <lastmod>2025-11-22T00:12:35+08:00</lastmod>
+    <loc>//localhost:1313/ja/en/about/</loc>
+    <lastmod>2025-01-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    </url>
+  <url>
+    <loc>//localhost:1313/ja/ja/about/</loc>
+    <lastmod>2025-01-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    </url>
+  <url>
+    <loc>//localhost:1313/ja/zh/about/</loc>
+    <lastmod>2025-01-21T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     </url>
@@ -228,11 +290,15 @@
     
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    </url>
+    <xhtml:link rel="alternate" hreflang="en-US" href="//localhost:1313/en/author/" /><xhtml:link rel="alternate" hreflang="zh-TW" href="//localhost:1313/zh/author/" />
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="//localhost:1313/ja/author/" />
+  </url>
   <url>
     <loc>//localhost:1313/ja/stage/</loc>
     
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    </url>
+    <xhtml:link rel="alternate" hreflang="en-US" href="//localhost:1313/en/stage/" /><xhtml:link rel="alternate" hreflang="zh-TW" href="//localhost:1313/zh/stage/" />
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="//localhost:1313/ja/stage/" />
+  </url>
 </urlset>

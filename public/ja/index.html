@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja" dir="ltr">
+<html lang="ja-JP" dir="ltr">
 <head>
 	<meta name="generator" content="Hugo 0.152.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <!-- head.html --><!-- meta.html -->
@@ -10,9 +10,9 @@
 <title>ChiriTsumomma</title>
 <meta name="author" content="So Momma">
 <meta name="description" content="技術のちりつもブログ。毎日少しずつ成長を積み重ねるエンジニアの学習記録と技術メモ。" >
-<meta name="keywords" content="[i18n] home">
+<meta name="keywords" content="ホームページ">
 <link rel="canonical" href="//localhost:1313/ja/">
-
+<link rel="alternate" hreflang="en" href="//localhost:1313/en/" title="English"><link rel="alternate" hreflang="zh" href="//localhost:1313/zh/" title="繁體中文">
 
 
     
@@ -35,7 +35,7 @@
         <meta itemprop="name" content="ChiriTsumomma">
         <meta itemprop="description" content="技術のちりつもブログ。毎日少しずつ成長を積み重ねるエンジニアの学習記録と技術メモ。">
         <meta itemprop="image" content="https://repository-images.githubusercontent.com/923527728/46a32a19-69ac-45b3-91a4-c4d299fb234b">
-        <meta itemprop="keywords" content="[i18n] home">
+        <meta itemprop="keywords" content="ホームページ">
     
     <!-- jsonLD --><script type="application/ld+json">
         {
@@ -86,16 +86,16 @@
 <header class="pagewidth">
     <div id="background-header" class="background" aria-hidden="true"></div>
     
-    <nav aria-label="[i18n] bypass">
-        <a id="to-content" href="#list-posts" aria-label="[i18n] toContent">
-            <span>[i18n] toContent</span>
+    <nav aria-label="バイパス">
+        <a id="to-content" href="#list-posts" aria-label="メインコンテンツへスキップ">
+            <span>メインコンテンツへスキップ</span>
             <kbd class="key" aria-hidden="true" data-key="c"></kbd>
             <span class="screening" aria-hidden="true"></span>
         </a>
     </nav>
     
     <div id="logo">
-        <a href="//localhost:1313/ja/" aria-label="ChiriTsumomma" aria-description="[i18n] home">
+        <a href="//localhost:1313/ja/" aria-label="ChiriTsumomma" aria-description="ホームページ">
                 <!-- logotype.html --><svg id="logotype" xmlns="http://www.w3.org/2000/svg" version="1.1" width="364pt" aria-label="ChiriTsumomma">
             <text id="logotype__text" y="19.5pt" x="0">ChiriTsumomma</text>
         </svg>
@@ -105,17 +105,17 @@
     
     <details class="presentation" id="top-nav">
         <summary class="on-deck">
-            <span class="t">[i18n] nav</span>
+            <span class="t">ナビゲーション</span>
             <span class="menu-icon" role="presentation"></span>
         </summary>
-        <nav tabindex="-1" aria-label="[i18n] top-nav">
+        <nav tabindex="-1" aria-label="トップ">
             <!-- menu.html -->
     <details id="has-main-menu" class="presentation" open>
-        <summary  class="hide"  aria-label="[i18n] main">
-            <span>[i18n] main</span>
+        <summary  class="hide"  aria-label="メインメニュー">
+            <span>メインメニュー</span>
         </summary>
             
-            <nav id="main-menu" aria-label="[i18n] main">
+            <nav id="main-menu" aria-label="メインメニュー">
                 <ul class="l1  " role="presentation" tabindex="-1" >
                     
     
@@ -204,7 +204,7 @@
             <!-- search.html -->
 <details id="has-search" class="presentation js-details" name="on-deck">
     <summary class="on-deck srm" accesskey="q" aria-labelledby="search-label" aria-keyshortcuts="q">
-        <span id="search-label" class="t srt">[i18n] search</span>
+        <span id="search-label" class="t srt">検索</span>
     </summary>
     
         <!-- pagefind.html -->
@@ -220,7 +220,7 @@
                     element: "#search",
                     showImages: false,
                     translations: {
-                        placeholder: "[i18n] search"
+                        placeholder: "検索"
                     }
                 });
                 
@@ -240,14 +240,14 @@
     <!-- duckduckgo.html -->
     <form id="duckduckgo" class="form on-plank"
         name="[i18n] seach" action="//duckduckgo.com/"
-        role="search" aria-label="[i18n] search">
+        role="search" aria-label="検索">
         <input type="hidden" value="localhost:1313" name="sites"></input>
         <input type="hidden" value="1" name="kh"></input>
         <input type="hidden" value="1" name="kn"></input>
         <input type="hidden" value="1" name="kac"></input>
-        <input class="ldots form__input" type="search" placeholder="[i18n] search" name="q" role="searchbox"></input>
-        <button class="form__button" type="submit" aria-label="[i18n] search">
-            <img src="https://duckduckgo.com/assets/logo_header.v109.svg" alt="[i18n] search" role="presentation" aria-hidden="true">
+        <input class="ldots form__input" type="search" placeholder="検索" name="q" role="searchbox"></input>
+        <button class="form__button" type="submit" aria-label="検索">
+            <img src="https://duckduckgo.com/assets/logo_header.v109.svg" alt="検索" role="presentation" aria-hidden="true">
         </button>
     </form>
     <div role="presentation" class="screening js-cgpn"></div>
@@ -257,6 +257,34 @@
 
             <!-- menu.html -->
             <!-- i18n.html -->
+        <details id="has-i18n" class="presentation js-details srm" name="on-deck">
+                <summary class="anchor on-deck"
+                    aria-label="言語選択"
+                    aria-description="現在の言語は 日本語">
+                    <span class="emoji">🇯🇵&nbsp;</span>
+                    <span class="iso639">JA </span>
+                    <span class="languangeName">日本語</span>
+                </summary>
+
+            <!-- on hull -->
+            <nav id="i18n-menu" aria-label="言語選択">
+                <ul class="on-plank">
+                        <li>
+                            <a href="//localhost:1313/en/" aria-label="Change language to English">
+                                <span class="emoji">🇺🇸&nbsp;</span>
+                                <span class="languangeName">English</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="//localhost:1313/zh/" aria-label="Change language to 繁體中文">
+                                <span class="emoji">🇹🇼&nbsp;</span>
+                                <span class="languangeName">繁體中文</span>
+                            </a>
+                        </li>
+                </ul>
+                <div class="screening js-cgpn" role="presentation" aria-hidden="true"></div>
+            </nav>
+        </details>
 
         </nav>
         <div id="top-nav-screen" class="screening js-cpn" role="presentation" aria-hidden="true"></div>
@@ -266,7 +294,7 @@
     
         <!-- carousel.html -->
         <aside class="has-crsl">
-                <nav class="crsl__nav" aria-label="[i18n] slide">
+                <nav class="crsl__nav" aria-label="スライド">
                     <ul class="rounded invert" role="presentation">
                             <li>
                                 <a href="#slide-1" role="button" aria-controls="slide-1">
@@ -275,12 +303,42 @@
                             </li>
                             <li>
                                 <a href="#slide-2" role="button" aria-controls="slide-2">
-                                    <span>技術メモと学習記録</span>
+                                    <span>Welcome to ChiriTsumomma</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#slide-3" role="button" aria-controls="slide-3">
+                                    <span>歡迎來到 ChiriTsumomma</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#slide-4" role="button" aria-controls="slide-4">
+                                    <span>Technical Notes and Learning Logs</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#slide-5" role="button" aria-controls="slide-5">
+                                    <span>技術メモと学習記録</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#slide-6" role="button" aria-controls="slide-6">
+                                    <span>技術筆記和學習記錄</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#slide-7" role="button" aria-controls="slide-7">
+                                    <span>Project Showcase</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#slide-8" role="button" aria-controls="slide-8">
                                     <span>プロジェクト紹介</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#slide-9" role="button" aria-controls="slide-9">
+                                    <span>專案展示</span>
                                 </a>
                             </li>
                     </ul>
@@ -306,11 +364,63 @@ Hugo + Vercel の高速環境で構築された、シンプルで美しいブロ
                     <section id="slide-2" class="slide"
                         aria-labelledby="slide-2__heading">
                         <div class="slide__cover">
+                            <img src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/28.svg"
+                                alt="" loading="lazy">
+                        </div>
+                        <div class="slide__content ">
+                                <h1 id="slide-2__heading" class="section-title">Welcome to ChiriTsumomma</h1>
+                            <div>
+                                    <p>This blog is a place to accumulate small technical learnings.</p>
+<p>I share daily learning logs and technical notes as an engineer growing step by step.
+Built with Hugo + Vercel for a fast, simple, and beautiful blog.</p>
+
+                            </div>
+                        </div>
+                    </section>
+                    <section id="slide-3" class="slide"
+                        aria-labelledby="slide-3__heading">
+                        <div class="slide__cover">
+                            <img src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/28.svg"
+                                alt="" loading="lazy">
+                        </div>
+                        <div class="slide__content ">
+                                <h1 id="slide-3__heading" class="section-title">歡迎來到 ChiriTsumomma</h1>
+                            <div>
+                                    <p>這個部落格是一個積累技術點滴的地方。</p>
+<p>我分享每天一點點成長的工程師的學習記錄和技術筆記。
+使用 Hugo + Vercel 構建的快速、簡潔、美觀的部落格。</p>
+
+                            </div>
+                        </div>
+                    </section>
+                    <section id="slide-4" class="slide"
+                        aria-labelledby="slide-4__heading">
+                        <div class="slide__cover">
                             <img src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/22.svg"
                                 alt="" loading="lazy">
                         </div>
                         <div class="slide__content ">
-                                <h1 id="slide-2__heading" class="section-title">技術メモと学習記録</h1>
+                                <h1 id="slide-4__heading" class="section-title">Technical Notes and Learning Logs</h1>
+                            <div>
+                                    <h2 id="content-i-share">Content I Share</h2>
+<ul>
+<li>📝 <strong>Technical Notes</strong>: Memos of things learned and points where I got stuck during development</li>
+<li>📚 <strong>Book Reviews</strong>: Reading records of technical books and other books</li>
+<li>💭 <strong>Poems</strong>: Daily insights and thoughts as an engineer</li>
+</ul>
+<p>I want to accumulate small learnings and connect them to great growth.</p>
+
+                            </div>
+                        </div>
+                    </section>
+                    <section id="slide-5" class="slide"
+                        aria-labelledby="slide-5__heading">
+                        <div class="slide__cover">
+                            <img src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/22.svg"
+                                alt="" loading="lazy">
+                        </div>
+                        <div class="slide__content ">
+                                <h1 id="slide-5__heading" class="section-title">技術メモと学習記録</h1>
                             <div>
                                     <h2 id="発信する内容">発信する内容</h2>
 <ul>
@@ -323,10 +433,92 @@ Hugo + Vercel の高速環境で構築された、シンプルで美しいブロ
                             </div>
                         </div>
                     </section>
-                    <section id="slide-3" class="slide"
-                        aria-labelledby="slide-3__heading">
+                    <section id="slide-6" class="slide"
+                        aria-labelledby="slide-6__heading">
+                        <div class="slide__cover">
+                            <img src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/22.svg"
+                                alt="" loading="lazy">
+                        </div>
                         <div class="slide__content ">
-                                <h1 id="slide-3__heading" class="section-title">プロジェクト紹介</h1>
+                                <h1 id="slide-6__heading" class="section-title">技術筆記和學習記錄</h1>
+                            <div>
+                                    <h2 id="我分享的內容">我分享的內容</h2>
+<ul>
+<li>📝 <strong>技術筆記</strong>: 開發中學到的東西、遇到問題的備忘錄</li>
+<li>📚 <strong>讀書感想</strong>: 技術書籍和其他書籍的閱讀記錄</li>
+<li>💭 <strong>隨筆</strong>: 作為工程師的日常見解和思考</li>
+</ul>
+<p>我想積累小的學習，並將它們連接到巨大的成長。</p>
+
+                            </div>
+                        </div>
+                    </section>
+                    <section id="slide-7" class="slide"
+                        aria-labelledby="slide-7__heading">
+                        <div class="slide__content ">
+                                <h1 id="slide-7__heading" class="section-title">Project Showcase</h1>
+                            <div>
+                                    <p>This is a project showcase using the <code>{{&lt; pin &gt;}}</code> shortcode.</p>
+<h2 id="tech-stack">Tech Stack</h2>
+<p><div class="column pin">
+
+
+        <div role="figure">
+            <img src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/1.svg" alt="Hugo" loading="lazy">
+                <figcaption>
+                    <a href="https://gohugo.io/"> Hugo</a>
+                </figcaption>
+            </div>
+
+
+        <div role="figure">
+            <img src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/2.svg" alt="Vercel" loading="lazy">
+                <figcaption>
+                    <a href="https://vercel.com/"> Vercel</a>
+                </figcaption>
+            </div>
+
+
+        <div role="figure">
+            <img src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/3.svg" alt="Go" loading="lazy">
+                <figcaption>
+                    <a href="https://go.dev/"> Go</a>
+                </figcaption>
+            </div>
+
+
+        <div role="figure">
+            <img src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/4.svg" alt="Python" loading="lazy">
+                <figcaption>
+                    <a href="https://www.python.org/"> Python</a>
+                </figcaption>
+            </div>
+
+
+        <div role="figure">
+            <img src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/5.svg" alt="JavaScript" loading="lazy">
+                <figcaption>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"> JavaScript</a>
+                </figcaption>
+            </div>
+
+
+        <div role="figure">
+            <img src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/6.svg" alt="Docker" loading="lazy">
+                <figcaption>
+                    <a href="https://www.docker.com/"> Docker</a>
+                </figcaption>
+            </div>
+
+</div></p>
+
+                            </div>
+                        </div>
+                    </section>
+                    <section id="slide-8" class="slide"
+                        aria-labelledby="slide-8__heading">
+                        <div class="slide__content ">
+                                <h1 id="slide-8__heading" class="section-title">プロジェクト紹介</h1>
                             <div>
                                     <p><code>{{&lt; pin &gt;}}</code> ショートコードを使ったプロジェクト紹介です。</p>
 <h2 id="技術スタック">技術スタック</h2>
@@ -385,6 +577,68 @@ Hugo + Vercel の高速環境で構築された、シンプルで美しいブロ
                             </div>
                         </div>
                     </section>
+                    <section id="slide-9" class="slide"
+                        aria-labelledby="slide-9__heading">
+                        <div class="slide__content ">
+                                <h1 id="slide-9__heading" class="section-title">專案展示</h1>
+                            <div>
+                                    <p>這是使用 <code>{{&lt; pin &gt;}}</code> 短代碼的專案展示。</p>
+<h2 id="技術棧">技術棧</h2>
+<p><div class="column pin">
+
+
+        <div role="figure">
+            <img src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/1.svg" alt="Hugo" loading="lazy">
+                <figcaption>
+                    <a href="https://gohugo.io/"> Hugo</a>
+                </figcaption>
+            </div>
+
+
+        <div role="figure">
+            <img src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/2.svg" alt="Vercel" loading="lazy">
+                <figcaption>
+                    <a href="https://vercel.com/"> Vercel</a>
+                </figcaption>
+            </div>
+
+
+        <div role="figure">
+            <img src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/3.svg" alt="Go" loading="lazy">
+                <figcaption>
+                    <a href="https://go.dev/"> Go</a>
+                </figcaption>
+            </div>
+
+
+        <div role="figure">
+            <img src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/4.svg" alt="Python" loading="lazy">
+                <figcaption>
+                    <a href="https://www.python.org/"> Python</a>
+                </figcaption>
+            </div>
+
+
+        <div role="figure">
+            <img src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/5.svg" alt="JavaScript" loading="lazy">
+                <figcaption>
+                    <a href="https://developer.mozilla.org/zh-TW/docs/Web/JavaScript"> JavaScript</a>
+                </figcaption>
+            </div>
+
+
+        <div role="figure">
+            <img src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/6.svg" alt="Docker" loading="lazy">
+                <figcaption>
+                    <a href="https://www.docker.com/"> Docker</a>
+                </figcaption>
+            </div>
+
+</div></p>
+
+                            </div>
+                        </div>
+                    </section>
             </div>
         </aside>
         <hr class="hide"/>
@@ -397,94 +651,112 @@ Hugo + Vercel の高速環境で構築された、シンプルで美しいブロ
                     <div class="crsl">
                             <!-- listing.html -->
         <section id="list-categories" class="has-crsl" aria-label="categories">
-            <a href="//localhost:1313/ja/categories"  class="section-title">[i18n] categories</a>
+            <a href="//localhost:1313/ja/categories"  class="section-title">カテゴリ</a>
             <!-- taxonomies.html -->
         <ul class="crsl" role="presentation">
             
                     <li class="srs" style="--img: url(https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/12.svg);">
                         <a href="//localhost:1313/ja/categories/%E6%8A%80%E8%A1%93%E3%83%A1%E3%83%A2/"
-                            aria-label="[i18n] categories: 技術メモ"
-                            aria-description="2 [i18n] posts"
+                            aria-label="カテゴリ: 技術メモ"
+                            aria-description="2 記事"
                             data-post-counter="2"
                             >
                             <span>技術メモ</span>
                         </a>
                     </li>
-                    <li class="srs" style="--img: url(https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/8.svg);">
+                    <li class="srs" style="--img: url(https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/19.svg);">
+                        <a href="//localhost:1313/ja/categories/blog/"
+                            aria-label="カテゴリ: Blog"
+                            aria-description="1 記事"
+                            data-post-counter="1"
+                            >
+                            <span>Blog</span>
+                        </a>
+                    </li>
+                    <li class="srs" style="--img: url(https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/5.svg);">
                         <a href="//localhost:1313/ja/categories/%E3%83%96%E3%83%AD%E3%82%B0/"
-                            aria-label="[i18n] categories: ブログ"
-                            aria-description="1 [i18n] posts"
+                            aria-label="カテゴリ: ブログ"
+                            aria-description="1 記事"
                             data-post-counter="1"
                             >
                             <span>ブログ</span>
                         </a>
                     </li>
-                    <li class="srs" style="--img: url(https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/9.svg);">
+                    <li class="srs" style="--img: url(https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/20.svg);">
                         <a href="//localhost:1313/ja/categories/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8/"
-                            aria-label="[i18n] categories: ホームページ"
-                            aria-description="1 [i18n] posts"
+                            aria-label="カテゴリ: ホームページ"
+                            aria-description="1 記事"
                             data-post-counter="1"
                             >
                             <span>ホームページ</span>
                         </a>
                     </li>
-                    <li class="srs" style="--img: url(https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/6.svg);">
+                    <li class="srs" style="--img: url(https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/9.svg);">
                         <a href="//localhost:1313/ja/categories/%E5%9F%B7%E7%AD%86/"
-                            aria-label="[i18n] categories: 執筆"
-                            aria-description="1 [i18n] posts"
+                            aria-label="カテゴリ: 執筆"
+                            aria-description="1 記事"
                             data-post-counter="1"
                             >
                             <span>執筆</span>
                         </a>
                     </li>
-                    <li class="srs" style="--img: url(https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/15.svg);">
+                    <li class="srs" style="--img: url(https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/2.svg);">
                         <a href="//localhost:1313/ja/categories/%E5%AD%A6%E7%BF%92%E8%A8%98%E9%8C%B2/"
-                            aria-label="[i18n] categories: 学習記録"
-                            aria-description="1 [i18n] posts"
+                            aria-label="カテゴリ: 学習記録"
+                            aria-description="1 記事"
                             data-post-counter="1"
                             >
                             <span>学習記録</span>
                         </a>
                     </li>
-                    <li class="srs" style="--img: url(https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/10.svg);">
+                    <li class="srs" style="--img: url(https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/15.svg);">
                         <a href="//localhost:1313/ja/categories/%E6%97%A5%E8%A8%98/"
-                            aria-label="[i18n] categories: 日記"
-                            aria-description="1 [i18n] posts"
+                            aria-label="カテゴリ: 日記"
+                            aria-description="1 記事"
                             data-post-counter="1"
                             >
                             <span>日記</span>
                         </a>
                     </li>
-                    <li class="srs" style="--img: url(https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/3.svg);">
+                    <li class="srs" style="--img: url(https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/7.svg);">
                         <a href="//localhost:1313/ja/categories/%E8%A8%AD%E5%AE%9A/"
-                            aria-label="[i18n] categories: 設定"
-                            aria-description="1 [i18n] posts"
+                            aria-label="カテゴリ: 設定"
+                            aria-description="1 記事"
                             data-post-counter="1"
                             >
                             <span>設定</span>
+                        </a>
+                    </li>
+                    <li class="srs" style="--img: url(https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/4.svg);">
+                        <a href="//localhost:1313/ja/categories/%E9%83%A8%E8%90%BD%E6%A0%BC/"
+                            aria-label="カテゴリ: 部落格"
+                            aria-description="1 記事"
+                            data-post-counter="1"
+                            >
+                            <span>部落格</span>
                         </a>
                     </li>
         </ul>
         </section>
                             <!-- listing.html -->
         <section id="list-series" class="has-crsl" aria-label="series">
-            <a href="//localhost:1313/ja/series"  class="section-title">[i18n] series</a>
+            <a href="//localhost:1313/ja/series"  class="section-title">シリーズ</a>
             <!-- taxonomies.html -->
         <ul class="crsl" role="presentation">
             
-                    <li class="srs" style="--img: url(https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/7.svg);">
+                    <li class="srs" style="--img: url(https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/9.svg);">
                         <a href="//localhost:1313/ja/series/go%E5%AD%A6%E7%BF%92%E8%A8%98/"
-                            aria-label="[i18n] series: Go学習記"
-                            aria-description="1 [i18n] posts"
+                            aria-label="シリーズ: Go学習記"
+                            aria-description="1 記事"
                             data-post-counter="1"
                             >
                             <span>Go学習記</span>
                         </a>
                     </li>
-                    <li class="srs" style="--img: url(https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/17.svg);">
+                    <li class="srs" style="--img: url(https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/2.svg);">
                         <a href="//localhost:1313/ja/series/python-tips/"
-                            aria-label="[i18n] series: Python Tips"
-                            aria-description="1 [i18n] posts"
+                            aria-label="シリーズ: Python Tips"
+                            aria-description="1 記事"
                             data-post-counter="1"
                             >
                             <span>Python Tips</span>
@@ -499,34 +771,52 @@ Hugo + Vercel の高速環境で構築された、シンプルで美しいブロ
         
                 <aside id="list-tags">
                     <header class="section-title">
-                        <strong>[i18n] discover</strong>
+                        <strong>トピックを発見</strong>
                     </header>
-                    <nav aria-label="[i18n] discover">
+                    <nav aria-label="トピックを発見">
                         <!-- taxonomies.html -->
         <ul class="rounded has-hash" role="presentation">
             
                     <li >
                         <a href="//localhost:1313/ja/tags/hugo/"
-                            aria-label="[i18n] tags: Hugo"
-                            aria-description="3 [i18n] posts"
-                            data-post-counter="3"
+                            aria-label="タグ: Hugo"
+                            aria-description="5 記事"
+                            data-post-counter="5"
                             >
                             <span>Hugo</span>
                         </a>
                     </li>
                     <li >
+                        <a href="//localhost:1313/ja/tags/vercel/"
+                            aria-label="タグ: Vercel"
+                            aria-description="3 記事"
+                            data-post-counter="3"
+                            >
+                            <span>Vercel</span>
+                        </a>
+                    </li>
+                    <li >
                         <a href="//localhost:1313/ja/tags/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/"
-                            aria-label="[i18n] tags: プログラミング"
-                            aria-description="2 [i18n] posts"
+                            aria-label="タグ: プログラミング"
+                            aria-description="2 記事"
                             data-post-counter="2"
                             >
                             <span>プログラミング</span>
                         </a>
                     </li>
                     <li >
+                        <a href="//localhost:1313/ja/tags/blog-setup/"
+                            aria-label="タグ: Blog-Setup"
+                            aria-description="1 記事"
+                            data-post-counter="1"
+                            >
+                            <span>Blog-Setup</span>
+                        </a>
+                    </li>
+                    <li >
                         <a href="//localhost:1313/ja/tags/git/"
-                            aria-label="[i18n] tags: Git"
-                            aria-description="1 [i18n] posts"
+                            aria-label="タグ: Git"
+                            aria-description="1 記事"
                             data-post-counter="1"
                             >
                             <span>Git</span>
@@ -534,8 +824,8 @@ Hugo + Vercel の高速環境で構築された、シンプルで美しいブロ
                     </li>
                     <li >
                         <a href="//localhost:1313/ja/tags/go/"
-                            aria-label="[i18n] tags: Go"
-                            aria-description="1 [i18n] posts"
+                            aria-label="タグ: Go"
+                            aria-description="1 記事"
                             data-post-counter="1"
                             >
                             <span>Go</span>
@@ -543,8 +833,8 @@ Hugo + Vercel の高速環境で構築された、シンプルで美しいブロ
                     </li>
                     <li >
                         <a href="//localhost:1313/ja/tags/markdown/"
-                            aria-label="[i18n] tags: Markdown"
-                            aria-description="1 [i18n] posts"
+                            aria-label="タグ: Markdown"
+                            aria-description="1 記事"
                             data-post-counter="1"
                             >
                             <span>Markdown</span>
@@ -552,8 +842,8 @@ Hugo + Vercel の高速環境で構築された、シンプルで美しいブロ
                     </li>
                     <li >
                         <a href="//localhost:1313/ja/tags/python/"
-                            aria-label="[i18n] tags: Python"
-                            aria-description="1 [i18n] posts"
+                            aria-label="タグ: Python"
+                            aria-description="1 記事"
                             data-post-counter="1"
                             >
                             <span>Python</span>
@@ -561,26 +851,17 @@ Hugo + Vercel の高速環境で構築された、シンプルで美しいブロ
                     </li>
                     <li >
                         <a href="//localhost:1313/ja/tags/tips/"
-                            aria-label="[i18n] tags: Tips"
-                            aria-description="1 [i18n] posts"
+                            aria-label="タグ: Tips"
+                            aria-description="1 記事"
                             data-post-counter="1"
                             >
                             <span>Tips</span>
                         </a>
                     </li>
                     <li >
-                        <a href="//localhost:1313/ja/tags/vercel/"
-                            aria-label="[i18n] tags: Vercel"
-                            aria-description="1 [i18n] posts"
-                            data-post-counter="1"
-                            >
-                            <span>Vercel</span>
-                        </a>
-                    </li>
-                    <li >
                         <a href="//localhost:1313/ja/tags/%E3%82%AC%E3%82%A4%E3%83%89/"
-                            aria-label="[i18n] tags: ガイド"
-                            aria-description="1 [i18n] posts"
+                            aria-label="タグ: ガイド"
+                            aria-description="1 記事"
                             data-post-counter="1"
                             >
                             <span>ガイド</span>
@@ -588,8 +869,8 @@ Hugo + Vercel の高速環境で構築された、シンプルで美しいブロ
                     </li>
                     <li >
                         <a href="//localhost:1313/ja/tags/%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9E/"
-                            aria-label="[i18n] tags: スキーマ"
-                            aria-description="1 [i18n] posts"
+                            aria-label="タグ: スキーマ"
+                            aria-description="1 記事"
                             data-post-counter="1"
                             >
                             <span>スキーマ</span>
@@ -597,8 +878,8 @@ Hugo + Vercel の高速環境で構築された、シンプルで美しいブロ
                     </li>
                     <li >
                         <a href="//localhost:1313/ja/tags/%E3%83%90%E3%83%83%E3%82%AF%E3%82%A8%E3%83%B3%E3%83%89/"
-                            aria-label="[i18n] tags: バックエンド"
-                            aria-description="1 [i18n] posts"
+                            aria-label="タグ: バックエンド"
+                            aria-description="1 記事"
                             data-post-counter="1"
                             >
                             <span>バックエンド</span>
@@ -606,8 +887,8 @@ Hugo + Vercel の高速環境で構築された、シンプルで美しいブロ
                     </li>
                     <li >
                         <a href="//localhost:1313/ja/tags/%E3%83%96%E3%83%AD%E3%82%B0%E6%A7%8B%E7%AF%89/"
-                            aria-label="[i18n] tags: ブログ構築"
-                            aria-description="1 [i18n] posts"
+                            aria-label="タグ: ブログ構築"
+                            aria-description="1 記事"
                             data-post-counter="1"
                             >
                             <span>ブログ構築</span>
@@ -615,8 +896,8 @@ Hugo + Vercel の高速環境で構築された、シンプルで美しいブロ
                     </li>
                     <li >
                         <a href="//localhost:1313/ja/tags/%E3%83%96%E3%83%AD%E3%82%B0%E9%96%8B%E8%A8%AD/"
-                            aria-label="[i18n] tags: ブログ開設"
-                            aria-description="1 [i18n] posts"
+                            aria-label="タグ: ブログ開設"
+                            aria-description="1 記事"
                             data-post-counter="1"
                             >
                             <span>ブログ開設</span>
@@ -624,8 +905,8 @@ Hugo + Vercel の高速環境で構築された、シンプルで美しいブロ
                     </li>
                     <li >
                         <a href="//localhost:1313/ja/tags/%E5%9F%B7%E7%AD%86/"
-                            aria-label="[i18n] tags: 執筆"
-                            aria-description="1 [i18n] posts"
+                            aria-label="タグ: 執筆"
+                            aria-description="1 記事"
                             data-post-counter="1"
                             >
                             <span>執筆</span>
@@ -633,8 +914,8 @@ Hugo + Vercel の高速環境で構築された、シンプルで美しいブロ
                     </li>
                     <li >
                         <a href="//localhost:1313/ja/tags/%E8%A8%AD%E5%AE%9A/"
-                            aria-label="[i18n] tags: 設定"
-                            aria-description="1 [i18n] posts"
+                            aria-label="タグ: 設定"
+                            aria-description="1 記事"
                             data-post-counter="1"
                             >
                             <span>設定</span>
@@ -642,28 +923,28 @@ Hugo + Vercel の高速環境で構築された、シンプルで美しいブロ
                     </li>
         </ul>
                     </nav>
-                    <a class="tr" href="//localhost:1313/ja/tags/">[i18n] seeMore</a>
+                    <a class="tr" href="//localhost:1313/ja/tags/">トピックをもっと探す</a>
                     <hr class="hide"/>
                 </aside>
         
             <section id="list-posts" class="pagewidth" >
                 <header  class="section-title">
                     <strong id="list-post-heading">
-                                [i18n] recent
+                                最近の記事
                     </strong>
                     <hr class="hide"/>
                 </header>
                     <div role="feed" aria-busy="false" aria-labelledby="list-post-heading">
                         <article class="feed-item"
         aria-posinset="1"
-        aria-setsize="6"
+        aria-setsize="8"
         aria-labelledby="title-1"
         aria-describedby="desc-1">
         <hgroup>
             <div>
                 <time datetime="2025-01-21T23:58:06&#43;09:00">2025年1月21日</time>
                 <span><span>So Momma</span>
-                        <span>[i18n] in</span>
+                        <span>で</span>
                         <!-- terms.html -->
             
                 <a href="//localhost:1313/ja/categories/%E6%97%A5%E8%A8%98/" tabindex="-1">日記</a> & 
@@ -671,14 +952,14 @@ Hugo + Vercel の高速環境で構築された、シンプルで美しいブロ
                 </span>
                 
             </div>
-            <a href="//localhost:1313/ja/posts/1121/" class="sr0" tabindex="-1" aria-describedby="desc-1">
+            <a href="//localhost:1313/ja/ja/posts/1121/" class="sr0" tabindex="-1" aria-describedby="desc-1">
                 <h1 id="title-1">2025年1月21日の学習記録</h1>
             </a>
         </hgroup>
-        <a class="sri" href="//localhost:1313/ja/posts/1121/" aria-label="2025年1月21日の学習記録" aria-describedby="desc-1"></a>
+        <a class="sri" href="//localhost:1313/ja/ja/posts/1121/" aria-label="2025年1月21日の学習記録" aria-describedby="desc-1"></a>
         
         <section class="has-cover">
-                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/14.svg" alt="" style="object-position: 60% 22%" loading="lazy">
+                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/13.svg" alt="" style="object-position: 37% 35%" loading="lazy">
             <div class="par" id="desc-1">今日学んだこと Gitコマンド git diff origin/develop &gt; diff.txt developブランチとの差分をファイルに出力する方法を学びました。レビューや変更内容の確認に便利です。
 スキーマについて データベースのスキーマ設計について理解を深めました。テーブル構造の設計は、アプリケーションの基盤となる重要な部分ですね。
 今日の成果 ✅ スキーマについて理解した ✅ 新しくブログを始められた ✅ Hugoの技術選定ができた ✅ Windows風のAltTabアプリケーションを導入できた 小さな積み重ねが大切です。明日も頑張ります！
@@ -686,7 +967,7 @@ Hugo + Vercel の高速環境で構築された、シンプルで美しいブロ
             </div>
         </section>
         <footer>
-            <span class="readingTime">1 [i18n] readingtime
+            <span class="readingTime">1 分で読める
             </span>
             
                     <!-- terms.html -->
@@ -699,36 +980,78 @@ Hugo + Vercel の高速環境で構築された、シンプルで美しいブロ
     </article><hr class="ldots" role="presentation" aria-hidden="true">
                         <article class="feed-item"
         aria-posinset="2"
-        aria-setsize="6"
+        aria-setsize="8"
         aria-labelledby="title-2"
         aria-describedby="desc-2">
         <hgroup>
             <div>
                 <time datetime="2025-01-21T23:30:00&#43;09:00">2025年1月21日</time>
                 <span><span>So Momma</span>
-                        <span>[i18n] in</span>
+                        <span>で</span>
+                        <!-- terms.html -->
+            
+                <a href="//localhost:1313/ja/categories/blog/" tabindex="-1">Blog</a>
+                </span>
+                
+            </div>
+            <a href="//localhost:1313/ja/en/posts/first-post/" class="sr0" tabindex="-1" aria-describedby="desc-2">
+                <h1 id="title-2">Starting My Blog</h1>
+            </a>
+        </hgroup>
+        <a class="sri" href="//localhost:1313/ja/en/posts/first-post/" aria-label="Starting My Blog" aria-describedby="desc-2"></a>
+        
+        <section class="has-cover">
+                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/2.svg" alt="" style="object-position: 59% 57%" loading="lazy">
+            <div class="par" id="desc-2">I&rsquo;m an Engineer, Starting My Blog I&rsquo;ll be accumulating technical output here. Built with Hugo + Vercel for a blazing-fast environment.
+Tech Stack Static Site Generator: Hugo Theme: hugo-brewm Deployment: Vercel I love Hugo&rsquo;s simplicity and Vercel&rsquo;s fast deployment.
+Future Plans 📝 Technical Notes: Memos of things learned and points where I got stuck during development 📚 Book Reviews: Reading records of technical books and other books 💭 Poems: Daily insights and thoughts as an engineer print(&#34;Hello, ChiriTsumomma!&#34;) I want to accumulate small learnings and connect them to great growth.
+
+            </div>
+        </section>
+        <footer>
+            <span class="readingTime">1 分で読める
+            </span>
+            
+                    <!-- terms.html -->
+            <ul class="rounded invert" role="presentation">
+                    <li><a href="//localhost:1313/ja/tags/hugo/" tabindex="-1">Hugo</a></li>
+                    <li><a href="//localhost:1313/ja/tags/vercel/" tabindex="-1">Vercel</a></li>
+                    <li><a href="//localhost:1313/ja/tags/blog-setup/" tabindex="-1">Blog-Setup</a></li>
+            </ul>
+        </footer>
+    </article><hr class="ldots" role="presentation" aria-hidden="true">
+                        <article class="feed-item"
+        aria-posinset="3"
+        aria-setsize="8"
+        aria-labelledby="title-3"
+        aria-describedby="desc-3">
+        <hgroup>
+            <div>
+                <time datetime="2025-01-21T23:30:00&#43;09:00">2025年1月21日</time>
+                <span><span>So Momma</span>
+                        <span>で</span>
                         <!-- terms.html -->
             
                 <a href="//localhost:1313/ja/categories/%E3%83%96%E3%83%AD%E3%82%B0/" tabindex="-1">ブログ</a>
                 </span>
                 
             </div>
-            <a href="//localhost:1313/ja/posts/first-post/" class="sr0" tabindex="-1" aria-describedby="desc-2">
-                <h1 id="title-2">ブログ始めました</h1>
+            <a href="//localhost:1313/ja/ja/posts/first-post/" class="sr0" tabindex="-1" aria-describedby="desc-3">
+                <h1 id="title-3">ブログ始めました</h1>
             </a>
         </hgroup>
-        <a class="sri" href="//localhost:1313/ja/posts/first-post/" aria-label="ブログ始めました" aria-describedby="desc-2"></a>
+        <a class="sri" href="//localhost:1313/ja/ja/posts/first-post/" aria-label="ブログ始めました" aria-describedby="desc-3"></a>
         
         <section class="has-cover">
-                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/11.svg" alt="" style="object-position: 64% 3%" loading="lazy">
-            <div class="par" id="desc-2">エンジニアです、ブログ始めました これから技術的なアウトプットをここに積み上げていきます。 Hugo + Vercel の爆速環境で構築しました。
+                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/20.svg" alt="" style="object-position: 66% 54%" loading="lazy">
+            <div class="par" id="desc-3">エンジニアです、ブログ始めました これから技術的なアウトプットをここに積み上げていきます。 Hugo + Vercel の爆速環境で構築しました。
 技術スタック Static Site Generator: Hugo Theme: hugo-brewm Deployment: Vercel HugoのシンプルさとVercelの高速デプロイが気に入っています。
 今後の予定 📝 技術メモ: 開発で学んだこと、詰まったポイントの備忘録 📚 読書感想: 技術書やその他の本の読書記録 💭 ポエム: エンジニアとしての日々の気づきや思考 print(&#34;Hello, ChiriTsumomma!&#34;) 小さな学びを積み重ねて、大きな成長につなげていきたいと思います。
 
             </div>
         </section>
         <footer>
-            <span class="readingTime">1 [i18n] readingtime
+            <span class="readingTime">1 分で読める
             </span>
             
                     <!-- terms.html -->
@@ -740,36 +1063,78 @@ Hugo + Vercel の高速環境で構築された、シンプルで美しいブロ
         </footer>
     </article><hr class="ldots" role="presentation" aria-hidden="true">
                         <article class="feed-item"
-        aria-posinset="3"
-        aria-setsize="6"
-        aria-labelledby="title-3"
-        aria-describedby="desc-3">
+        aria-posinset="4"
+        aria-setsize="8"
+        aria-labelledby="title-4"
+        aria-describedby="desc-4">
+        <hgroup>
+            <div>
+                <time datetime="2025-01-21T23:30:00&#43;09:00">2025年1月21日</time>
+                <span><span>So Momma</span>
+                        <span>で</span>
+                        <!-- terms.html -->
+            
+                <a href="//localhost:1313/ja/categories/%E9%83%A8%E8%90%BD%E6%A0%BC/" tabindex="-1">部落格</a>
+                </span>
+                
+            </div>
+            <a href="//localhost:1313/ja/zh/posts/first-post/" class="sr0" tabindex="-1" aria-describedby="desc-4">
+                <h1 id="title-4">開始寫部落格</h1>
+            </a>
+        </hgroup>
+        <a class="sri" href="//localhost:1313/ja/zh/posts/first-post/" aria-label="開始寫部落格" aria-describedby="desc-4"></a>
+        
+        <section class="has-cover">
+                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/7.svg" alt="" style="object-position: 25% 7%" loading="lazy">
+            <div class="par" id="desc-4">我是工程師，開始寫部落格 我將在這裡積累技術輸出。 使用 Hugo + Vercel 構建的極速環境。
+技術棧 靜態網站生成器: Hugo 主題: hugo-brewm 部署: Vercel 我喜歡 Hugo 的簡潔和 Vercel 的快速部署。
+未來計劃 📝 技術筆記: 開發中學到的東西、遇到問題的備忘錄 📚 讀書感想: 技術書籍和其他書籍的閱讀記錄 💭 隨筆: 作為工程師的日常見解和思考 print(&#34;Hello, ChiriTsumomma!&#34;) 我想積累小的學習，並將它們連接到巨大的成長。
+
+            </div>
+        </section>
+        <footer>
+            <span class="readingTime">1 分で読める
+            </span>
+            
+                    <!-- terms.html -->
+            <ul class="rounded invert" role="presentation">
+                    <li><a href="//localhost:1313/ja/tags/hugo/" tabindex="-1">Hugo</a></li>
+                    <li><a href="//localhost:1313/ja/tags/vercel/" tabindex="-1">Vercel</a></li>
+                    <li><a href="//localhost:1313/ja/tags/%E9%83%A8%E8%90%BD%E6%A0%BC%E9%96%8B%E8%A8%AD/" tabindex="-1">部落格開設</a></li>
+            </ul>
+        </footer>
+    </article><hr class="ldots" role="presentation" aria-hidden="true">
+                        <article class="feed-item"
+        aria-posinset="5"
+        aria-setsize="8"
+        aria-labelledby="title-5"
+        aria-describedby="desc-5">
         <hgroup>
             <div>
                 <time datetime="2025-01-21T13:00:00&#43;09:00">2025年1月21日</time>
                 <span><span>So Momma</span>
-                        <span>[i18n] in</span>
+                        <span>で</span>
                         <!-- terms.html -->
             
                 <a href="//localhost:1313/ja/categories/%E6%8A%80%E8%A1%93%E3%83%A1%E3%83%A2/" tabindex="-1">技術メモ</a>
                 </span>
                 
             </div>
-            <a href="//localhost:1313/ja/posts/python-tips/" class="sr0" tabindex="-1" aria-describedby="desc-3">
-                <h1 id="title-3">Python便利なTips</h1>
+            <a href="//localhost:1313/ja/ja/posts/python-tips/" class="sr0" tabindex="-1" aria-describedby="desc-5">
+                <h1 id="title-5">Python便利なTips</h1>
             </a>
         </hgroup>
-        <a class="sri" href="//localhost:1313/ja/posts/python-tips/" aria-label="Python便利なTips" aria-describedby="desc-3"></a>
+        <a class="sri" href="//localhost:1313/ja/ja/posts/python-tips/" aria-label="Python便利なTips" aria-describedby="desc-5"></a>
         
         <section class="has-cover">
-                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/20.svg" alt="" style="object-position: 18% 33%" loading="lazy">
-            <div class="par" id="desc-3">Python便利なTips 開発でよく使うPythonのTipsをまとめます。
+                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/4.svg" alt="" style="object-position: 31% 65%" loading="lazy">
+            <div class="par" id="desc-5">Python便利なTips 開発でよく使うPythonのTipsをまとめます。
 便利な機能 リスト内包表記 f-string デコレータ 日々の開発で重宝しています。
 
             </div>
         </section>
         <footer>
-            <span class="readingTime">1 [i18n] readingtime
+            <span class="readingTime">1 分で読める
             </span>
             
                     <!-- terms.html -->
@@ -781,36 +1146,36 @@ Hugo + Vercel の高速環境で構築された、シンプルで美しいブロ
         </footer>
     </article><hr class="ldots" role="presentation" aria-hidden="true">
                         <article class="feed-item"
-        aria-posinset="4"
-        aria-setsize="6"
-        aria-labelledby="title-4"
-        aria-describedby="desc-4">
+        aria-posinset="6"
+        aria-setsize="8"
+        aria-labelledby="title-6"
+        aria-describedby="desc-6">
         <hgroup>
             <div>
                 <time datetime="2025-01-21T12:00:00&#43;09:00">2025年1月21日</time>
                 <span><span>So Momma</span>
-                        <span>[i18n] in</span>
+                        <span>で</span>
                         <!-- terms.html -->
             
                 <a href="//localhost:1313/ja/categories/%E6%8A%80%E8%A1%93%E3%83%A1%E3%83%A2/" tabindex="-1">技術メモ</a>
                 </span>
                 
             </div>
-            <a href="//localhost:1313/ja/posts/go-basics/" class="sr0" tabindex="-1" aria-describedby="desc-4">
-                <h1 id="title-4">Go言語の基礎</h1>
+            <a href="//localhost:1313/ja/ja/posts/go-basics/" class="sr0" tabindex="-1" aria-describedby="desc-6">
+                <h1 id="title-6">Go言語の基礎</h1>
             </a>
         </hgroup>
-        <a class="sri" href="//localhost:1313/ja/posts/go-basics/" aria-label="Go言語の基礎" aria-describedby="desc-4"></a>
+        <a class="sri" href="//localhost:1313/ja/ja/posts/go-basics/" aria-label="Go言語の基礎" aria-describedby="desc-6"></a>
         
         <section class="has-cover">
-                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/4.svg" alt="" style="object-position: 36% 63%" loading="lazy">
-            <div class="par" id="desc-4">Go言語の基礎 Go言語について学んだことをまとめます。
+                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/6.svg" alt="" style="object-position: 19% 21%" loading="lazy">
+            <div class="par" id="desc-6">Go言語の基礎 Go言語について学んだことをまとめます。
 特徴 シンプルな構文 高速なコンパイル 並行処理のサポート バックエンド開発でよく使用しています。
 
             </div>
         </section>
         <footer>
-            <span class="readingTime">1 [i18n] readingtime
+            <span class="readingTime">1 分で読める
             </span>
             
                     <!-- terms.html -->
@@ -822,36 +1187,36 @@ Hugo + Vercel の高速環境で構築された、シンプルで美しいブロ
         </footer>
     </article><hr class="ldots" role="presentation" aria-hidden="true">
                         <article class="feed-item"
-        aria-posinset="5"
-        aria-setsize="6"
-        aria-labelledby="title-5"
-        aria-describedby="desc-5">
+        aria-posinset="7"
+        aria-setsize="8"
+        aria-labelledby="title-7"
+        aria-describedby="desc-7">
         <hgroup>
             <div>
                 <time datetime="2025-01-21T11:00:00&#43;09:00">2025年1月21日</time>
                 <span><span>So Momma</span>
-                        <span>[i18n] in</span>
+                        <span>で</span>
                         <!-- terms.html -->
             
                 <a href="//localhost:1313/ja/categories/%E5%9F%B7%E7%AD%86/" tabindex="-1">執筆</a>
                 </span>
                 
             </div>
-            <a href="//localhost:1313/ja/posts/markdown-guide/" class="sr0" tabindex="-1" aria-describedby="desc-5">
-                <h1 id="title-5">Markdown記法ガイド</h1>
+            <a href="//localhost:1313/ja/ja/posts/markdown-guide/" class="sr0" tabindex="-1" aria-describedby="desc-7">
+                <h1 id="title-7">Markdown記法ガイド</h1>
             </a>
         </hgroup>
-        <a class="sri" href="//localhost:1313/ja/posts/markdown-guide/" aria-label="Markdown記法ガイド" aria-describedby="desc-5"></a>
+        <a class="sri" href="//localhost:1313/ja/ja/posts/markdown-guide/" aria-label="Markdown記法ガイド" aria-describedby="desc-7"></a>
         
         <section class="has-cover">
-                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/5.svg" alt="" style="object-position: 3% 11%" loading="lazy">
-            <div class="par" id="desc-5">Markdown記法ガイド このブログではMarkdownを使用して記事を書いています。
+                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/14.svg" alt="" style="object-position: 71% 38%" loading="lazy">
+            <div class="par" id="desc-7">Markdown記法ガイド このブログではMarkdownを使用して記事を書いています。
 基本的な記法 太字: **太字** イタリック: *イタリック* コード: バッククォートで囲む シンプルで読みやすい記法です。
 
             </div>
         </section>
         <footer>
-            <span class="readingTime">1 [i18n] readingtime
+            <span class="readingTime">1 分で読める
             </span>
             
                     <!-- terms.html -->
@@ -863,15 +1228,15 @@ Hugo + Vercel の高速環境で構築された、シンプルで美しいブロ
         </footer>
     </article><hr class="ldots" role="presentation" aria-hidden="true">
                         <article class="feed-item"
-        aria-posinset="6"
-        aria-setsize="6"
-        aria-labelledby="title-6"
-        aria-describedby="desc-6">
+        aria-posinset="8"
+        aria-setsize="8"
+        aria-labelledby="title-8"
+        aria-describedby="desc-8">
         <hgroup>
             <div>
                 <time datetime="2025-01-21T10:00:00&#43;09:00">2025年1月21日</time>
                 <span><span>So Momma</span>
-                        <span>[i18n] in</span>
+                        <span>で</span>
                         <!-- terms.html -->
             
                 <a href="//localhost:1313/ja/categories/%E8%A8%AD%E5%AE%9A/" tabindex="-1">設定</a> & 
@@ -879,21 +1244,21 @@ Hugo + Vercel の高速環境で構築された、シンプルで美しいブロ
                 </span>
                 
             </div>
-            <a href="//localhost:1313/ja/posts/hugo-setup/" class="sr0" tabindex="-1" aria-describedby="desc-6">
-                <h1 id="title-6">Hugoブログの構築</h1>
+            <a href="//localhost:1313/ja/ja/posts/hugo-setup/" class="sr0" tabindex="-1" aria-describedby="desc-8">
+                <h1 id="title-8">Hugoブログの構築</h1>
             </a>
         </hgroup>
-        <a class="sri" href="//localhost:1313/ja/posts/hugo-setup/" aria-label="Hugoブログの構築" aria-describedby="desc-6"></a>
+        <a class="sri" href="//localhost:1313/ja/ja/posts/hugo-setup/" aria-label="Hugoブログの構築" aria-describedby="desc-8"></a>
         
         <section class="has-cover">
-                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/8.svg" alt="" style="object-position: 18% 20%" loading="lazy">
-            <div class="par" id="desc-6">Hugoブログの構築 このブログはHugoとhugo-brewmテーマを使用して構築しました。
+                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/17.svg" alt="" style="object-position: 76% 9%" loading="lazy">
+            <div class="par" id="desc-8">Hugoブログの構築 このブログはHugoとhugo-brewmテーマを使用して構築しました。
 セットアップ手順 Hugoのインストール テーマの設定 Vercelへのデプロイ シンプルで高速な静的サイトジェネレーターです。
 
             </div>
         </section>
         <footer>
-            <span class="readingTime">1 [i18n] readingtime
+            <span class="readingTime">1 分で読める
             </span>
             
                     <!-- terms.html -->
@@ -924,41 +1289,41 @@ Hugo + Vercel の高速環境で構築された、シンプルで美しいブロ
     <div id="background-footer" class="background hide" role="presentation" aria-hidden="true"></div>
     <div id="focusMode"></div>
     <!-- a11y.html --><details id="has-a11y" class="presentation js-details hide" name="on-deck" aria-haspopup="true" aria-labelledby="has-a11y-summary"
-    data-i18n-accessibility="[i18n] accessibility"
-    data-i18n-optimizeSR="[i18n] optimizeSR"
-    data-i18n-optimizeSRdesc="[i18n] optimizeSRDesc"
-    data-i18n-colorSettings="[i18n] colorSettings"
-    data-i18n-darkMode="[i18n] darkMode"
-    data-i18n-light="[i18n] light"
-    data-i18n-dark="[i18n] dark"
-    data-i18n-contrast="[i18n] contrast"
-    data-i18n-lessContrast="[i18n] lessContrast"
-    data-i18n-moreContrast="[i18n] moreContrast"
-    data-i18n-defaultContrast="[i18n] defaultContrast"
-    data-i18n-colorPalette="[i18n] colorPalette"
-    data-i18n-defaultColor="[i18n] defaultColor"
-    data-i18n-deuteranopia="[i18n] deuteranopia"
-    data-i18n-protanopia="[i18n] protanopia"
-    data-i18n-tritanopia="[i18n] tritanopia"
-    data-i18n-monochrome="[i18n] monochrome"
-    data-i18n-fontSize="[i18n] fontSize"
-    data-i18n-baselineStretch="[i18n] baselineStretch"
-    data-i18n-OpenDyslexic="[i18n] OpenDyslexic"
-    data-i18n-menuControls="[i18n] menuControls"
-    data-i18n-save="[i18n] save"
-    data-i18n-reset="[i18n] reset"
-    data-i18n-close="[i18n] close"
-    data-i18n-bionRead="[i18n] bionRead"
-    data-i18n-focusMode="[i18n] focusMode"
-    data-i18n-noLocalStorage="[i18n] noLocalStorage">
+    data-i18n-accessibility="アクセシビリティ"
+    data-i18n-optimizeSR="スクリーンリーダー最適化"
+    data-i18n-optimizeSRdesc="ポインターデバイスでナビゲートするスクリーンリーダーユーザー向けに表示とリソースを最適化します。"
+    data-i18n-colorSettings="色設定"
+    data-i18n-darkMode="ダークモード"
+    data-i18n-light="ライト"
+    data-i18n-dark="ダーク"
+    data-i18n-contrast="コントラスト"
+    data-i18n-lessContrast="低"
+    data-i18n-moreContrast="高"
+    data-i18n-defaultContrast="デフォルト"
+    data-i18n-colorPalette="カラーパレット"
+    data-i18n-defaultColor="デフォルト"
+    data-i18n-deuteranopia="緑色盲"
+    data-i18n-protanopia="赤色盲"
+    data-i18n-tritanopia="青色盲"
+    data-i18n-monochrome="モノクロ"
+    data-i18n-fontSize="フォントサイズ"
+    data-i18n-baselineStretch="ベースラインストレッチ"
+    data-i18n-OpenDyslexic="OpenDyslexicフォントを使用"
+    data-i18n-menuControls="アクセシビリティメニューコントロール"
+    data-i18n-save="保存"
+    data-i18n-reset="リセット"
+    data-i18n-close="閉じる"
+    data-i18n-bionRead="BionReadモード"
+    data-i18n-focusMode="フォーカスモード"
+    data-i18n-noLocalStorage="お使いのブラウザではLocalStorageが利用できません。設定は保存されません。">
 </details>
 
 
     <div id="useBionRead" class="sri"></div>
     <!-- [top] bypass block -->
-    <nav aria-label="[i18n] bypass">
-        <a id="to-top" class="srm" href="#top" title="[i18n] toTop" accesskey="c" aria-keyshortcuts="c" aria-label="[i18n] toTop">
-            <span class="t srt">[i18n] toTop</span>
+    <nav aria-label="バイパス">
+        <a id="to-top" class="srm" href="#top" title="コンテンツのトップへ" accesskey="c" aria-keyshortcuts="c" aria-label="コンテンツのトップへ">
+            <span class="t srt">コンテンツのトップへ</span>
             <kbd class="key" aria-hidden="true" data-key="c"></kbd>
         </a>
     </nav>

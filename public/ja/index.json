@@ -1,36 +1,52 @@
 
 {
     "nodes": [{
-                "id": "82d2adb589aa595663a8ddd955a2894a",
+                "id": "33598298e27b0a1701b5b1dee99e4b91",
                 "title": "2025年1月21日の学習記録",
-                "permalink": "//localhost:1313/ja/posts/1121/",
+                "permalink": "//localhost:1313/ja/ja/posts/1121/",
                 "type": "post"
             },{
-                "id": "38114d4d9d0cd1ef39d3c152fa4e9488",
+                "id": "5e9485c4333acb15a55ecf0fc2662087",
+                "title": "Starting My Blog",
+                "permalink": "//localhost:1313/ja/en/posts/first-post/",
+                "type": "post"
+            },{
+                "id": "863717532676a476fbdb025d35802b04",
                 "title": "ブログ始めました",
-                "permalink": "//localhost:1313/ja/posts/first-post/",
+                "permalink": "//localhost:1313/ja/ja/posts/first-post/",
                 "type": "post"
             },{
-                "id": "93b1a8dca12c5c38fc31119d41280de8",
+                "id": "b51ba906d8d1d4045b7d73c99714fa13",
+                "title": "開始寫部落格",
+                "permalink": "//localhost:1313/ja/zh/posts/first-post/",
+                "type": "post"
+            },{
+                "id": "f82c2cf16a93660a62d561158bfb8106",
                 "title": "Python便利なTips",
-                "permalink": "//localhost:1313/ja/posts/python-tips/",
+                "permalink": "//localhost:1313/ja/ja/posts/python-tips/",
                 "type": "post"
             },{
-                "id": "43f5e0d6de038843f5f1f92f1b3df3ea",
+                "id": "6ad2004c060e48d4a56fa6b36964b7b7",
                 "title": "Go言語の基礎",
-                "permalink": "//localhost:1313/ja/posts/go-basics/",
+                "permalink": "//localhost:1313/ja/ja/posts/go-basics/",
                 "type": "post"
             },{
-                "id": "ff1c32179b8b3148490bfa8447665c6f",
+                "id": "054956ccf8cda5d61ba3437820950fe2",
                 "title": "Markdown記法ガイド",
-                "permalink": "//localhost:1313/ja/posts/markdown-guide/",
+                "permalink": "//localhost:1313/ja/ja/posts/markdown-guide/",
                 "type": "post"
             },{
-                "id": "8847d1a764c0c8a838f143dca4e525de",
+                "id": "8420d15d31fd96e739f46c0abae32e25",
                 "title": "Hugoブログの構築",
-                "permalink": "//localhost:1313/ja/posts/hugo-setup/",
+                "permalink": "//localhost:1313/ja/ja/posts/hugo-setup/",
                 "type": "post"
             },
+                        {
+                            "id": "categories-blog",
+                            "title": "Blog",
+                            "permalink": "//localhost:1313/ja/categories/blog/",
+                            "type": "categories"
+                        },
                         {
                             "id": "categories-ブログ",
                             "title": "ブログ",
@@ -74,6 +90,12 @@
                             "type": "categories"
                         },
                         {
+                            "id": "categories-部落格",
+                            "title": "部落格",
+                            "permalink": "//localhost:1313/ja/categories/%E9%83%A8%E8%90%BD%E6%A0%BC/",
+                            "type": "categories"
+                        },
+                        {
                             "id": "series-go学習記",
                             "title": "Go学習記",
                             "permalink": "//localhost:1313/ja/series/go%E5%AD%A6%E7%BF%92%E8%A8%98/",
@@ -84,6 +106,12 @@
                             "title": "Python Tips",
                             "permalink": "//localhost:1313/ja/series/python-tips/",
                             "type": "series"
+                        },
+                        {
+                            "id": "tags-blog-setup",
+                            "title": "Blog-Setup",
+                            "permalink": "//localhost:1313/ja/tags/blog-setup/",
+                            "type": "tags"
                         },
                         {
                             "id": "tags-git",
@@ -175,124 +203,164 @@
                             "permalink": "//localhost:1313/ja/tags/%E8%A8%AD%E5%AE%9A/",
                             "type": "tags"
                         },
+                        {
+                            "id": "tags-部落格開設",
+                            "title": "部落格開設",
+                            "permalink": "//localhost:1313/ja/tags/%E9%83%A8%E8%90%BD%E6%A0%BC%E9%96%8B%E8%A8%AD/",
+                            "type": "tags"
+                        },
     ],
     "links": [
             
                     {
-                        "source": "82d2adb589aa595663a8ddd955a2894a",
+                        "source": "33598298e27b0a1701b5b1dee99e4b91",
                         "target": "categories-日記",
                     },
                     {
-                        "source": "82d2adb589aa595663a8ddd955a2894a",
+                        "source": "33598298e27b0a1701b5b1dee99e4b91",
                         "target": "categories-学習記録",
                     },
                     {
-                        "source": "82d2adb589aa595663a8ddd955a2894a",
+                        "source": "33598298e27b0a1701b5b1dee99e4b91",
                         "target": "tags-git",
                     },
                     {
-                        "source": "82d2adb589aa595663a8ddd955a2894a",
+                        "source": "33598298e27b0a1701b5b1dee99e4b91",
                         "target": "tags-hugo",
                     },
                     {
-                        "source": "82d2adb589aa595663a8ddd955a2894a",
+                        "source": "33598298e27b0a1701b5b1dee99e4b91",
                         "target": "tags-スキーマ",
                     },
             
                     {
-                        "source": "38114d4d9d0cd1ef39d3c152fa4e9488",
-                        "target": "categories-ブログ",
+                        "source": "5e9485c4333acb15a55ecf0fc2662087",
+                        "target": "categories-blog",
                     },
                     {
-                        "source": "38114d4d9d0cd1ef39d3c152fa4e9488",
+                        "source": "5e9485c4333acb15a55ecf0fc2662087",
                         "target": "tags-hugo",
                     },
                     {
-                        "source": "38114d4d9d0cd1ef39d3c152fa4e9488",
+                        "source": "5e9485c4333acb15a55ecf0fc2662087",
                         "target": "tags-vercel",
                     },
                     {
-                        "source": "38114d4d9d0cd1ef39d3c152fa4e9488",
+                        "source": "5e9485c4333acb15a55ecf0fc2662087",
+                        "target": "tags-blog-setup",
+                    },
+            
+                    {
+                        "source": "863717532676a476fbdb025d35802b04",
+                        "target": "categories-ブログ",
+                    },
+                    {
+                        "source": "863717532676a476fbdb025d35802b04",
+                        "target": "tags-hugo",
+                    },
+                    {
+                        "source": "863717532676a476fbdb025d35802b04",
+                        "target": "tags-vercel",
+                    },
+                    {
+                        "source": "863717532676a476fbdb025d35802b04",
                         "target": "tags-ブログ開設",
                     },
             
                     {
-                        "source": "93b1a8dca12c5c38fc31119d41280de8",
+                        "source": "b51ba906d8d1d4045b7d73c99714fa13",
+                        "target": "categories-部落格",
+                    },
+                    {
+                        "source": "b51ba906d8d1d4045b7d73c99714fa13",
+                        "target": "tags-hugo",
+                    },
+                    {
+                        "source": "b51ba906d8d1d4045b7d73c99714fa13",
+                        "target": "tags-vercel",
+                    },
+                    {
+                        "source": "b51ba906d8d1d4045b7d73c99714fa13",
+                        "target": "tags-部落格開設",
+                    },
+            
+                    {
+                        "source": "f82c2cf16a93660a62d561158bfb8106",
                         "target": "categories-技術メモ",
                     },
                     {
-                        "source": "93b1a8dca12c5c38fc31119d41280de8",
+                        "source": "f82c2cf16a93660a62d561158bfb8106",
                         "target": "series-python-tips",
                     },
                     {
-                        "source": "93b1a8dca12c5c38fc31119d41280de8",
+                        "source": "f82c2cf16a93660a62d561158bfb8106",
                         "target": "tags-python",
                     },
                     {
-                        "source": "93b1a8dca12c5c38fc31119d41280de8",
+                        "source": "f82c2cf16a93660a62d561158bfb8106",
                         "target": "tags-tips",
                     },
                     {
-                        "source": "93b1a8dca12c5c38fc31119d41280de8",
+                        "source": "f82c2cf16a93660a62d561158bfb8106",
                         "target": "tags-プログラミング",
                     },
             
                     {
-                        "source": "43f5e0d6de038843f5f1f92f1b3df3ea",
+                        "source": "6ad2004c060e48d4a56fa6b36964b7b7",
                         "target": "categories-技術メモ",
                     },
                     {
-                        "source": "43f5e0d6de038843f5f1f92f1b3df3ea",
+                        "source": "6ad2004c060e48d4a56fa6b36964b7b7",
                         "target": "series-go学習記",
                     },
                     {
-                        "source": "43f5e0d6de038843f5f1f92f1b3df3ea",
+                        "source": "6ad2004c060e48d4a56fa6b36964b7b7",
                         "target": "tags-go",
                     },
                     {
-                        "source": "43f5e0d6de038843f5f1f92f1b3df3ea",
+                        "source": "6ad2004c060e48d4a56fa6b36964b7b7",
                         "target": "tags-プログラミング",
                     },
                     {
-                        "source": "43f5e0d6de038843f5f1f92f1b3df3ea",
+                        "source": "6ad2004c060e48d4a56fa6b36964b7b7",
                         "target": "tags-バックエンド",
                     },
             
                     {
-                        "source": "ff1c32179b8b3148490bfa8447665c6f",
+                        "source": "054956ccf8cda5d61ba3437820950fe2",
                         "target": "categories-執筆",
                     },
                     {
-                        "source": "ff1c32179b8b3148490bfa8447665c6f",
+                        "source": "054956ccf8cda5d61ba3437820950fe2",
                         "target": "tags-markdown",
                     },
                     {
-                        "source": "ff1c32179b8b3148490bfa8447665c6f",
+                        "source": "054956ccf8cda5d61ba3437820950fe2",
                         "target": "tags-執筆",
                     },
                     {
-                        "source": "ff1c32179b8b3148490bfa8447665c6f",
+                        "source": "054956ccf8cda5d61ba3437820950fe2",
                         "target": "tags-ガイド",
                     },
             
                     {
-                        "source": "8847d1a764c0c8a838f143dca4e525de",
+                        "source": "8420d15d31fd96e739f46c0abae32e25",
                         "target": "categories-設定",
                     },
                     {
-                        "source": "8847d1a764c0c8a838f143dca4e525de",
+                        "source": "8420d15d31fd96e739f46c0abae32e25",
                         "target": "categories-ホームページ",
                     },
                     {
-                        "source": "8847d1a764c0c8a838f143dca4e525de",
+                        "source": "8420d15d31fd96e739f46c0abae32e25",
                         "target": "tags-hugo",
                     },
                     {
-                        "source": "8847d1a764c0c8a838f143dca4e525de",
+                        "source": "8420d15d31fd96e739f46c0abae32e25",
                         "target": "tags-設定",
                     },
                     {
-                        "source": "8847d1a764c0c8a838f143dca4e525de",
+                        "source": "8420d15d31fd96e739f46c0abae32e25",
                         "target": "tags-ブログ構築",
                     },
     ],

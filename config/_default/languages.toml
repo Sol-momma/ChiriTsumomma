@@ -1,0 +1,39 @@
+[ja]
+    title = 'ChiriTsumomma'
+    contentDir = 'content/ja'
+    disabled = false
+    languageCode = 'ja-JP'
+    languageDirection = 'ltr'
+    languageName = '日本語'
+    weight = 1
+    [ja.params]
+        title = "ChiriTsumomma"
+        description = "技術のちりつもブログ。毎日少しずつ成長を積み重ねるエンジニアの学習記録と技術メモ。"
+        copyright = "Copyleft 2025 &copy; Sol-momma"
+
+[en]
+    title = 'ChiriTsumomma'
+    contentDir = 'content/en'
+    disabled = false
+    languageCode = 'en-US'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    weight = 2
+    [en.params]
+        title = "ChiriTsumomma"
+        description = "A technical blog accumulating small learnings. Daily learning logs and technical notes from an engineer growing step by step."
+        copyright = "Copyleft 2025 &copy; Sol-momma"
+
+[zh]
+    title = 'ChiriTsumomma'
+    contentDir = 'content/zh'
+    disabled = false
+    languageCode = 'zh-TW'
+    languageDirection = 'ltr'
+    languageName = '繁體中文'
+    weight = 3
+    [zh.params]
+        title = "ChiriTsumomma"
+        description = "技術積累部落格。每天一點點成長的工程師的學習記錄和技術筆記。"
+        copyright = "Copyleft 2025 &copy; Sol-momma"
+

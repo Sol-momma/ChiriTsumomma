@@ -1,0 +1,249 @@
+# Traditional Chinese translation for ChiriTsumomma
+# Based on hugo-brewm theme i18n
+[404PageNotFound]
+    other = "找不到頁面"
+[404Alert]
+    other = "此頁面有意重定向"
+[404ReturnHome]
+    other = "返回首頁"
+[accessibility]
+    other = "無障礙功能"
+[accessTime]
+    other = "此頁面存取時間"
+[allPosts]
+    other = "所有文章"
+[appearance]
+    other = "外觀"
+[articles]
+    one = "文章"
+    other = "文章"
+[author]
+    one = "作者"
+    other = "作者"
+[back]
+    other = "返回"
+[baselineStretch]
+    other = "基線拉伸"
+[bionRead]
+    other = "BionRead模式"
+[breadcrumb]
+    other = "麵包屑導航"
+[buildTime]
+    other = "此頁面建置時間"
+[bypass]
+    other = "繞過"
+[categories]
+    one = "分類"
+    other = "分類"
+[close]
+    other = "關閉"
+[coffeeStat]
+    other = "咖啡統計"
+[coffeeCount]
+    other = "用❤️和"
+[coffeeCountPost]
+    other = "製作。"
+[colophon]
+    other = "版權頁"
+[colorPalette]
+    other = "調色板"
+[colorSettings]
+    other = "顏色設定"
+[comments]
+    other = "討論"
+[contrast]
+    other = "對比度"
+[contrib]
+    other = "貢獻"
+[contribAskReader]
+    other = "喜歡這篇文章嗎？"
+[contribAskReaderResponse]
+    other = "太棒了！"
+[contribAskReaderToContribute]
+    one = "您可以透過以下方式支持我們："
+    other = "您可以透過以下方式支持我們："
+[contribCoffeeStat]
+    other = "您知道嗎？"
+[contribCoffeeStatPost]
+    one = "幫助我寫了這篇文章。"
+    other = "幫助我們寫了這篇文章。"
+[copy]
+    other = "複製網址"
+[copying]
+    other = "複製中..."
+[ctaComments]
+    other = "加入討論"
+[cup]
+    one = "杯咖啡"
+    other = "杯咖啡"
+[currentLang]
+    other = "目前語言為"
+[dark]
+    other = "深色"
+[darkMode]
+    other = "深色模式"
+[defaultColor]
+    other = "預設"
+[defaultContrast]
+    other = "預設"
+[deuteranopia]
+    other = "綠色盲"
+[discover]
+    other = "發現主題"
+[editedBy]
+    other = "編輯者"
+[email]
+    other = "電子郵件"
+[featuredImg]
+    other = "特色圖片"
+[fediverseBluesky]
+    other = "使用Bluesky回覆"
+[fediverseErr]
+    other = "載入評論時發生錯誤"
+[fediverseIsLoading]
+    other = "正在載入Fediverse評論"
+[fediverseReplies]
+    one = "回覆"
+    other = "回覆"
+[fediverseReblogs]
+    one = "轉推"
+    other = "轉推"
+[fediverseFavourites]
+    one = "收藏"
+    other = "收藏"
+[focusMode]
+    other = "專注模式"
+[followRSS]
+    other = "使用RSS追蹤"
+[fontSize]
+    other = "字體大小"
+[home]
+    other = "首頁"
+[in]
+    other = "於"
+[inNewTab]
+    other = "在新分頁中"
+[keepInTouch]
+    other = "保持聯繫！"
+[lessContrast]
+    other = "低"
+[light]
+    other = "淺色"
+[main]
+    other = "主選單"
+[marginpar]
+    other = "附加註記"
+[menuControls]
+    other = "無障礙選單控制"
+[modified]
+    other = "修改時間"
+[monochrome]
+    other = "單色"
+[more]
+    other = "更多選單"
+[moreContrast]
+    other = "高"
+[nav]
+    other = "導航"
+[networkGraph]
+    other = "內容網路圖"
+[next]
+    other = "下一頁"
+[noArticle]
+    other = "沒有文章可顯示。"
+[noArticlePost]
+    other = "看起來我們的作者咖啡喝完了... 別擔心，我們很快就會再泡一杯！"
+[noComment]
+    other = "沒有評論可顯示。"
+[noGiscus]
+    other = "Giscus需要啟用Javascript和LocalStorage。"
+[noScript]
+    other = "哎呀... Javascript已停用！"
+[noLocalStorage]
+    other = "您的瀏覽器不支援LocalStorage。設定將不會被儲存。"
+[note]
+    other = "註記"
+[on]
+    other = "開啟"
+[OpenDyslexic]
+    other = "使用OpenDyslexic字體"
+[optimizeSR]
+    other = "螢幕閱讀器最佳化"
+[optimizeSRDesc]
+    other = "為使用指標裝置導航的螢幕閱讀器使用者最佳化顯示和資源。"
+[pages]
+    one = "頁面"
+    other = "頁面"
+[pagination]
+    other = "分頁"
+[posts]
+    one = "文章"
+    other = "文章"
+[postsBy]
+    other = "發布者"
+[postsOn]
+    other = "發布於"
+[poweredBy]
+    other = "Powered by"
+[prev]
+    other = "上一頁"
+[print]
+    other = "列印"
+[protanopia]
+    other = "紅色盲"
+[published]
+    other = "發布時間"
+[readingTime]
+    other = "分鐘閱讀"
+[recent]
+    other = "最近文章"
+[redactionHistory]
+    other = "編輯歷史"
+[redactionNotes]
+    other = "某些資訊可能會隨時間改變，我們會保持編輯內容的最新狀態。"
+[related]
+    other = "您可能也會喜歡"
+[reset]
+    other = "重設"
+[reviewedBy]
+    other = "審閱者"
+[save]
+    other = "儲存"
+[search]
+    other = "搜尋"
+[seeAll]
+    other = "查看全部"
+[seeMore]
+    other = "探索更多主題"
+[section]
+    other = "區段"
+[selectLang]
+    other = "語言選擇"
+[series]
+    other = "系列"
+[share]
+    other = "分享"
+[shareOn]
+    other = "分享至"
+[slide]
+    one = "投影片"
+    other = "投影片"
+[stage]
+    one = "階段"
+    other = "階段"
+[switchLangTo]
+    other = "切換語言至"
+[TableOfContents]
+    other = "目錄"
+[tags]
+    one = "標籤"
+    other = "標籤"
+[toContent]
+    other = "跳至主要內容"
+[toTop]
+    other = "至內容頂部"
+[top-nav]
+    other = "頂部"
+[tritanopia]
+    other = "藍色盲"
+

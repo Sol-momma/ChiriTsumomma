@@ -1,0 +1,64 @@
+[[main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[main]]
+    name = "Posts"
+    url = "/ja/en/posts/"
+    weight = 2
+
+[[main]]
+    name = "Series"
+    identifier = "series"
+    pageRef = "/ja/en/series"
+    weight = 3
+
+    [[main]]
+        name = "Go Learning"
+        identifier = "go-series"
+        pageRef = "/ja/en/series/go-learning"
+        parent = "series"
+        weight = 1
+
+    [[main]]
+        name = "Python Tips"
+        identifier = "python-series"
+        pageRef = "/ja/en/series/python-tips"
+        parent = "series"
+        weight = 2
+
+[[main]]
+    name = "Works"
+    identifier = "works"
+    pageRef = "/"
+    weight = 4
+
+    [[main]]
+        name = "Projects"
+        identifier = "project"
+        pageRef = "/ja/en/posts/"
+        parent = "works"
+        weight = 1
+
+    [[main]]
+        name = "Tech Notes"
+        identifier = "tech-notes"
+        pageRef = "/ja/en/posts/"
+        parent = "works"
+        weight = 2
+
+[[main]]
+    name = "Fork!"
+    identifier = "fork"
+    weight = 5
+    url = "https://github.com/somomma/ChiriTsumomma"
+    pre = "github"
+    [[main.params]]
+        target = "_blank"
+
+[[main]]
+    name = "About"
+    url = "/ja/en/about/"
+    weight = 6
+

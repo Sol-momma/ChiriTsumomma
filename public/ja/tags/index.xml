@@ -3,12 +3,12 @@
   <channel>
     <title>Tags on ChiriTsumomma</title>
     <link>//localhost:1313/ja/tags/</link>
-    <description>[i18n] recent [i18n] in Tags [i18n] on ChiriTsumomma</description>
+    <description>最近の記事 で Tags オン ChiriTsumomma</description>
     <generator>Hugo 0.152.2</generator>
-    <language>ja</language>
+    <language>ja-JP</language>
     <managingEditor>sol0608sol@gmail.com (So Momma)</managingEditor>
     <webMaster>sol0608sol@gmail.com (So Momma)</webMaster>
-    <lastBuildDate>Sat, 22 Nov 2025 00:16:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 22 Nov 2025 00:28:02 +0800</lastBuildDate>
     <atom:link href="//localhost:1313/ja/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git</title>
@@ -41,6 +41,16 @@
       <content:encoded></content:encoded>
     </item>
     <item>
+      <title>Blog-Setup</title>
+      <link>//localhost:1313/ja/tags/blog-setup/</link>
+      <pubDate>Tue, 21 Jan 2025 23:30:00 +0900</pubDate>
+      <author>sol0608sol@gmail.com (So Momma)</author>
+      <dc:creator>So Momma</dc:creator>
+      <guid>//localhost:1313/ja/tags/blog-setup/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
       <title>Vercel</title>
       <link>//localhost:1313/ja/tags/vercel/</link>
       <pubDate>Tue, 21 Jan 2025 23:30:00 +0900</pubDate>
@@ -57,6 +67,16 @@
       <author>sol0608sol@gmail.com (So Momma)</author>
       <dc:creator>So Momma</dc:creator>
       <guid>//localhost:1313/ja/tags/%E3%83%96%E3%83%AD%E3%82%B0%E9%96%8B%E8%A8%AD/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>部落格開設</title>
+      <link>//localhost:1313/ja/tags/%E9%83%A8%E8%90%BD%E6%A0%BC%E9%96%8B%E8%A8%AD/</link>
+      <pubDate>Tue, 21 Jan 2025 23:30:00 +0900</pubDate>
+      <author>sol0608sol@gmail.com (So Momma)</author>
+      <dc:creator>So Momma</dc:creator>
+      <guid>//localhost:1313/ja/tags/%E9%83%A8%E8%90%BD%E6%A0%BC%E9%96%8B%E8%A8%AD/</guid>
       <description></description>
       <content:encoded></content:encoded>
     </item>
@@ -148,7 +168,6 @@
       <dc:creator>So Momma</dc:creator>
       <guid>//localhost:1313/ja/tags/%E3%83%96%E3%83%AD%E3%82%B0%E6%A7%8B%E7%AF%89/</guid>
       <description></description>
-      <content:encoded></content:encoded>
     </item>
     <item>
       <title>設定</title>
@@ -158,7 +177,6 @@
       <dc:creator>So Momma</dc:creator>
       <guid>//localhost:1313/ja/tags/%E8%A8%AD%E5%AE%9A/</guid>
       <description></description>
-      <content:encoded></content:encoded>
     </item>
   </channel>
 </rss>

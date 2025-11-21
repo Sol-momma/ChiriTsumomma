@@ -1,0 +1,64 @@
+[[main]]
+    name = "首頁"
+    url = "/"
+    weight = 1
+
+[[main]]
+    name = "文章列表"
+    url = "/ja/zh/posts/"
+    weight = 2
+
+[[main]]
+    name = "系列"
+    identifier = "series"
+    pageRef = "/ja/zh/series"
+    weight = 3
+
+    [[main]]
+        name = "Go學習"
+        identifier = "go-series"
+        pageRef = "/ja/zh/series/go學習"
+        parent = "series"
+        weight = 1
+
+    [[main]]
+        name = "Python 技巧"
+        identifier = "python-series"
+        pageRef = "/ja/zh/series/python-tips"
+        parent = "series"
+        weight = 2
+
+[[main]]
+    name = "作品"
+    identifier = "works"
+    pageRef = "/"
+    weight = 4
+
+    [[main]]
+        name = "專案"
+        identifier = "project"
+        pageRef = "/ja/zh/posts/"
+        parent = "works"
+        weight = 1
+
+    [[main]]
+        name = "技術筆記"
+        identifier = "tech-notes"
+        pageRef = "/ja/zh/posts/"
+        parent = "works"
+        weight = 2
+
+[[main]]
+    name = "Fork!"
+    identifier = "fork"
+    weight = 5
+    url = "https://github.com/somomma/ChiriTsumomma"
+    pre = "github"
+    [[main.params]]
+        target = "_blank"
+
+[[main]]
+    name = "關於"
+    url = "/ja/zh/about/"
+    weight = 6
+

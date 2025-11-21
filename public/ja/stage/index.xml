@@ -3,12 +3,12 @@
   <channel>
     <title>Stage on ChiriTsumomma</title>
     <link>//localhost:1313/ja/stage/</link>
-    <description>[i18n] recent [i18n] in Stage [i18n] on ChiriTsumomma</description>
+    <description>最近の記事 で Stage オン ChiriTsumomma</description>
     <generator>Hugo 0.152.2</generator>
-    <language>ja</language>
+    <language>ja-JP</language>
     <managingEditor>sol0608sol@gmail.com (So Momma)</managingEditor>
     <webMaster>sol0608sol@gmail.com (So Momma)</webMaster>
-    <lastBuildDate>Sat, 22 Nov 2025 00:16:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 22 Nov 2025 00:28:02 +0800</lastBuildDate>
     <atom:link href="//localhost:1313/ja/stage/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja" dir="ltr">
+<html lang="ja-JP" dir="ltr">
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <!-- head.html --><!-- meta.html -->
 
@@ -10,7 +10,7 @@
 <meta name="author" content="So Momma">
 <meta name="description" content="taxonomy | ChiriTsumomma" >
 <link rel="canonical" href="//localhost:1313/ja/categories/">
-
+<link rel="alternate" hreflang="en" href="//localhost:1313/en/categories/" title="English"><link rel="alternate" hreflang="zh" href="//localhost:1313/zh/categories/" title="繁體中文">
 
 
     
@@ -79,16 +79,16 @@
 <header class="pagewidth">
     <div id="background-header" class="background" aria-hidden="true"></div>
     
-    <nav aria-label="[i18n] bypass">
-        <a id="to-content" href="#list-posts" aria-label="[i18n] toContent">
-            <span>[i18n] toContent</span>
+    <nav aria-label="バイパス">
+        <a id="to-content" href="#list-posts" aria-label="メインコンテンツへスキップ">
+            <span>メインコンテンツへスキップ</span>
             <kbd class="key" aria-hidden="true" data-key="c"></kbd>
             <span class="screening" aria-hidden="true"></span>
         </a>
     </nav>
     
     <div id="logo">
-        <a href="//localhost:1313/ja/" aria-label="ChiriTsumomma" aria-description="[i18n] home">
+        <a href="//localhost:1313/ja/" aria-label="ChiriTsumomma" aria-description="ホームページ">
                 <!-- logotype.html --><svg id="logotype" xmlns="http://www.w3.org/2000/svg" version="1.1" width="364pt" aria-label="ChiriTsumomma">
             <text id="logotype__text" y="19.5pt" x="0">ChiriTsumomma</text>
         </svg>
@@ -98,17 +98,17 @@
     
     <details class="presentation" id="top-nav">
         <summary class="on-deck">
-            <span class="t">[i18n] nav</span>
+            <span class="t">ナビゲーション</span>
             <span class="menu-icon" role="presentation"></span>
         </summary>
-        <nav tabindex="-1" aria-label="[i18n] top-nav">
+        <nav tabindex="-1" aria-label="トップ">
             <!-- menu.html -->
     <details id="has-main-menu" class="presentation" open>
-        <summary  class="hide"  aria-label="[i18n] main">
-            <span>[i18n] main</span>
+        <summary  class="hide"  aria-label="メインメニュー">
+            <span>メインメニュー</span>
         </summary>
             
-            <nav id="main-menu" aria-label="[i18n] main">
+            <nav id="main-menu" aria-label="メインメニュー">
                 <ul class="l1  " role="presentation" tabindex="-1" >
                     
     
@@ -197,7 +197,7 @@
             <!-- search.html -->
 <details id="has-search" class="presentation js-details" name="on-deck">
     <summary class="on-deck srm" accesskey="q" aria-labelledby="search-label" aria-keyshortcuts="q">
-        <span id="search-label" class="t srt">[i18n] search</span>
+        <span id="search-label" class="t srt">検索</span>
     </summary>
     
         <!-- pagefind.html -->
@@ -213,7 +213,7 @@
                     element: "#search",
                     showImages: false,
                     translations: {
-                        placeholder: "[i18n] search"
+                        placeholder: "検索"
                     }
                 });
                 
@@ -233,14 +233,14 @@
     <!-- duckduckgo.html -->
     <form id="duckduckgo" class="form on-plank"
         name="[i18n] seach" action="//duckduckgo.com/"
-        role="search" aria-label="[i18n] search">
+        role="search" aria-label="検索">
         <input type="hidden" value="localhost:1313" name="sites"></input>
         <input type="hidden" value="1" name="kh"></input>
         <input type="hidden" value="1" name="kn"></input>
         <input type="hidden" value="1" name="kac"></input>
-        <input class="ldots form__input" type="search" placeholder="[i18n] search" name="q" role="searchbox"></input>
-        <button class="form__button" type="submit" aria-label="[i18n] search">
-            <img src="https://duckduckgo.com/assets/logo_header.v109.svg" alt="[i18n] search" role="presentation" aria-hidden="true">
+        <input class="ldots form__input" type="search" placeholder="検索" name="q" role="searchbox"></input>
+        <button class="form__button" type="submit" aria-label="検索">
+            <img src="https://duckduckgo.com/assets/logo_header.v109.svg" alt="検索" role="presentation" aria-hidden="true">
         </button>
     </form>
     <div role="presentation" class="screening js-cgpn"></div>
@@ -250,6 +250,34 @@
 
             <!-- menu.html -->
             <!-- i18n.html -->
+        <details id="has-i18n" class="presentation js-details srm" name="on-deck">
+                <summary class="anchor on-deck"
+                    aria-label="言語選択"
+                    aria-description="現在の言語は 日本語">
+                    <span class="emoji">🇯🇵&nbsp;</span>
+                    <span class="iso639">JA </span>
+                    <span class="languangeName">日本語</span>
+                </summary>
+
+            <!-- on hull -->
+            <nav id="i18n-menu" aria-label="言語選択">
+                <ul class="on-plank">
+                        <li>
+                            <a href="//localhost:1313/en/" aria-label="Change language to English">
+                                <span class="emoji">🇺🇸&nbsp;</span>
+                                <span class="languangeName">English</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="//localhost:1313/zh/" aria-label="Change language to 繁體中文">
+                                <span class="emoji">🇹🇼&nbsp;</span>
+                                <span class="languangeName">繁體中文</span>
+                            </a>
+                        </li>
+                </ul>
+                <div class="screening js-cgpn" role="presentation" aria-hidden="true"></div>
+            </nav>
+        </details>
 
         </nav>
         <div id="top-nav-screen" class="screening js-cpn" role="presentation" aria-hidden="true"></div>
@@ -266,11 +294,36 @@
             <!-- nav.html -->
 <details class="presentation" aria-expanded="true" id="has-breadcrumb" open>
     <summary id="breadcrumb" tabindex="-1">
-        <span>[i18n] breadcrumb</span>
+        <span>パンくずリスト</span>
     </summary>
         <nav aria-labelledby="breadcrumb">
             <ul role="presentation" class="breadcrumb ">
                     <!-- breadcrumb.html -->
+        <li id="is-translated">
+            
+    <!-- l10n.html -->
+    <details id="has-l10n" class="presentation">
+        <summary aria-label="言語選択" aria-description="現在の言語は 日本語">
+            <span>JA</span>
+        </summary>
+        <nav aria-label="言語選択">
+            <ul class="on-plank" role="presentation">
+                <li>
+                    <a href="//localhost:1313/en/categories/" aria-label="言語を切り替え English" aria-description="Categories">
+                        <span class="emoji">🇺🇸&nbsp;</span>
+                        <span>Categories</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="//localhost:1313/zh/categories/" aria-label="言語を切り替え 繁體中文" aria-description="Categories">
+                        <span class="emoji">🇹🇼&nbsp;</span>
+                        <span>Categories</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </details>
+        </li>
     <li>
         <a href="" aria-current="page" tabindex="-1">Categories
         </a>
@@ -286,93 +339,117 @@
         
         
             <section class="pagewidth">
-                    <h1 id="categories">[i18n] categories</h1>
+                    <h1 id="categories">カテゴリ</h1>
                     <!-- taxonomies.html -->
         <ul class="taxonomy" role="presentation">
             
                     <li >
                         <a href="//localhost:1313/ja/categories/%E6%8A%80%E8%A1%93%E3%83%A1%E3%83%A2/"class="section-title" 
-                            aria-label="[i18n] categories: 技術メモ"
-                            aria-description="2 [i18n] posts"
+                            aria-label="カテゴリ: 技術メモ"
+                            aria-description="2 記事"
                             data-post-counter="2"
                             >
                             <span>技術メモ</span>
                         </a>
                             <ul role="presentation">
-                                    <li><a href="//localhost:1313/ja/posts/python-tips/">Python便利なTips</a></li>
-                                    <li><a href="//localhost:1313/ja/posts/go-basics/">Go言語の基礎</a></li>
+                                    <li><a href="//localhost:1313/ja/ja/posts/python-tips/">Python便利なTips</a></li>
+                                    <li><a href="//localhost:1313/ja/ja/posts/go-basics/">Go言語の基礎</a></li>
+                            </ul>
+                    </li>
+                    <li >
+                        <a href="//localhost:1313/ja/categories/blog/"class="section-title" 
+                            aria-label="カテゴリ: Blog"
+                            aria-description="1 記事"
+                            data-post-counter="1"
+                            >
+                            <span>Blog</span>
+                        </a>
+                            <ul role="presentation">
+                                    <li><a href="//localhost:1313/ja/en/posts/first-post/">Starting My Blog</a></li>
                             </ul>
                     </li>
                     <li >
                         <a href="//localhost:1313/ja/categories/%E3%83%96%E3%83%AD%E3%82%B0/"class="section-title" 
-                            aria-label="[i18n] categories: ブログ"
-                            aria-description="1 [i18n] posts"
+                            aria-label="カテゴリ: ブログ"
+                            aria-description="1 記事"
                             data-post-counter="1"
                             >
                             <span>ブログ</span>
                         </a>
                             <ul role="presentation">
-                                    <li><a href="//localhost:1313/ja/posts/first-post/">ブログ始めました</a></li>
+                                    <li><a href="//localhost:1313/ja/ja/posts/first-post/">ブログ始めました</a></li>
                             </ul>
                     </li>
                     <li >
                         <a href="//localhost:1313/ja/categories/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8/"class="section-title" 
-                            aria-label="[i18n] categories: ホームページ"
-                            aria-description="1 [i18n] posts"
+                            aria-label="カテゴリ: ホームページ"
+                            aria-description="1 記事"
                             data-post-counter="1"
                             >
                             <span>ホームページ</span>
                         </a>
                             <ul role="presentation">
-                                    <li><a href="//localhost:1313/ja/posts/hugo-setup/">Hugoブログの構築</a></li>
+                                    <li><a href="//localhost:1313/ja/ja/posts/hugo-setup/">Hugoブログの構築</a></li>
                             </ul>
                     </li>
                     <li >
                         <a href="//localhost:1313/ja/categories/%E5%9F%B7%E7%AD%86/"class="section-title" 
-                            aria-label="[i18n] categories: 執筆"
-                            aria-description="1 [i18n] posts"
+                            aria-label="カテゴリ: 執筆"
+                            aria-description="1 記事"
                             data-post-counter="1"
                             >
                             <span>執筆</span>
                         </a>
                             <ul role="presentation">
-                                    <li><a href="//localhost:1313/ja/posts/markdown-guide/">Markdown記法ガイド</a></li>
+                                    <li><a href="//localhost:1313/ja/ja/posts/markdown-guide/">Markdown記法ガイド</a></li>
                             </ul>
                     </li>
                     <li >
                         <a href="//localhost:1313/ja/categories/%E5%AD%A6%E7%BF%92%E8%A8%98%E9%8C%B2/"class="section-title" 
-                            aria-label="[i18n] categories: 学習記録"
-                            aria-description="1 [i18n] posts"
+                            aria-label="カテゴリ: 学習記録"
+                            aria-description="1 記事"
                             data-post-counter="1"
                             >
                             <span>学習記録</span>
                         </a>
                             <ul role="presentation">
-                                    <li><a href="//localhost:1313/ja/posts/1121/">2025年1月21日の学習記録</a></li>
+                                    <li><a href="//localhost:1313/ja/ja/posts/1121/">2025年1月21日の学習記録</a></li>
                             </ul>
                     </li>
                     <li >
                         <a href="//localhost:1313/ja/categories/%E6%97%A5%E8%A8%98/"class="section-title" 
-                            aria-label="[i18n] categories: 日記"
-                            aria-description="1 [i18n] posts"
+                            aria-label="カテゴリ: 日記"
+                            aria-description="1 記事"
                             data-post-counter="1"
                             >
                             <span>日記</span>
                         </a>
                             <ul role="presentation">
-                                    <li><a href="//localhost:1313/ja/posts/1121/">2025年1月21日の学習記録</a></li>
+                                    <li><a href="//localhost:1313/ja/ja/posts/1121/">2025年1月21日の学習記録</a></li>
                             </ul>
                     </li>
                     <li >
                         <a href="//localhost:1313/ja/categories/%E8%A8%AD%E5%AE%9A/"class="section-title" 
-                            aria-label="[i18n] categories: 設定"
-                            aria-description="1 [i18n] posts"
+                            aria-label="カテゴリ: 設定"
+                            aria-description="1 記事"
                             data-post-counter="1"
                             >
                             <span>設定</span>
                         </a>
                             <ul role="presentation">
-                                    <li><a href="//localhost:1313/ja/posts/hugo-setup/">Hugoブログの構築</a></li>
+                                    <li><a href="//localhost:1313/ja/ja/posts/hugo-setup/">Hugoブログの構築</a></li>
+                            </ul>
+                    </li>
+                    <li >
+                        <a href="//localhost:1313/ja/categories/%E9%83%A8%E8%90%BD%E6%A0%BC/"class="section-title" 
+                            aria-label="カテゴリ: 部落格"
+                            aria-description="1 記事"
+                            data-post-counter="1"
+                            >
+                            <span>部落格</span>
+                        </a>
+                            <ul role="presentation">
+                                    <li><a href="//localhost:1313/ja/zh/posts/first-post/">開始寫部落格</a></li>
                             </ul>
                     </li>
         </ul>
@@ -394,41 +471,41 @@
     <div id="background-footer" class="background hide" role="presentation" aria-hidden="true"></div>
     <div id="focusMode"></div>
     <!-- a11y.html --><details id="has-a11y" class="presentation js-details hide" name="on-deck" aria-haspopup="true" aria-labelledby="has-a11y-summary"
-    data-i18n-accessibility="[i18n] accessibility"
-    data-i18n-optimizeSR="[i18n] optimizeSR"
-    data-i18n-optimizeSRdesc="[i18n] optimizeSRDesc"
-    data-i18n-colorSettings="[i18n] colorSettings"
-    data-i18n-darkMode="[i18n] darkMode"
-    data-i18n-light="[i18n] light"
-    data-i18n-dark="[i18n] dark"
-    data-i18n-contrast="[i18n] contrast"
-    data-i18n-lessContrast="[i18n] lessContrast"
-    data-i18n-moreContrast="[i18n] moreContrast"
-    data-i18n-defaultContrast="[i18n] defaultContrast"
-    data-i18n-colorPalette="[i18n] colorPalette"
-    data-i18n-defaultColor="[i18n] defaultColor"
-    data-i18n-deuteranopia="[i18n] deuteranopia"
-    data-i18n-protanopia="[i18n] protanopia"
-    data-i18n-tritanopia="[i18n] tritanopia"
-    data-i18n-monochrome="[i18n] monochrome"
-    data-i18n-fontSize="[i18n] fontSize"
-    data-i18n-baselineStretch="[i18n] baselineStretch"
-    data-i18n-OpenDyslexic="[i18n] OpenDyslexic"
-    data-i18n-menuControls="[i18n] menuControls"
-    data-i18n-save="[i18n] save"
-    data-i18n-reset="[i18n] reset"
-    data-i18n-close="[i18n] close"
-    data-i18n-bionRead="[i18n] bionRead"
-    data-i18n-focusMode="[i18n] focusMode"
-    data-i18n-noLocalStorage="[i18n] noLocalStorage">
+    data-i18n-accessibility="アクセシビリティ"
+    data-i18n-optimizeSR="スクリーンリーダー最適化"
+    data-i18n-optimizeSRdesc="ポインターデバイスでナビゲートするスクリーンリーダーユーザー向けに表示とリソースを最適化します。"
+    data-i18n-colorSettings="色設定"
+    data-i18n-darkMode="ダークモード"
+    data-i18n-light="ライト"
+    data-i18n-dark="ダーク"
+    data-i18n-contrast="コントラスト"
+    data-i18n-lessContrast="低"
+    data-i18n-moreContrast="高"
+    data-i18n-defaultContrast="デフォルト"
+    data-i18n-colorPalette="カラーパレット"
+    data-i18n-defaultColor="デフォルト"
+    data-i18n-deuteranopia="緑色盲"
+    data-i18n-protanopia="赤色盲"
+    data-i18n-tritanopia="青色盲"
+    data-i18n-monochrome="モノクロ"
+    data-i18n-fontSize="フォントサイズ"
+    data-i18n-baselineStretch="ベースラインストレッチ"
+    data-i18n-OpenDyslexic="OpenDyslexicフォントを使用"
+    data-i18n-menuControls="アクセシビリティメニューコントロール"
+    data-i18n-save="保存"
+    data-i18n-reset="リセット"
+    data-i18n-close="閉じる"
+    data-i18n-bionRead="BionReadモード"
+    data-i18n-focusMode="フォーカスモード"
+    data-i18n-noLocalStorage="お使いのブラウザではLocalStorageが利用できません。設定は保存されません。">
 </details>
 
 
     <div id="useBionRead" class="sri"></div>
     <!-- [top] bypass block -->
-    <nav aria-label="[i18n] bypass">
-        <a id="to-top" class="srm" href="#top" title="[i18n] toTop" accesskey="c" aria-keyshortcuts="c" aria-label="[i18n] toTop">
-            <span class="t srt">[i18n] toTop</span>
+    <nav aria-label="バイパス">
+        <a id="to-top" class="srm" href="#top" title="コンテンツのトップへ" accesskey="c" aria-keyshortcuts="c" aria-label="コンテンツのトップへ">
+            <span class="t srt">コンテンツのトップへ</span>
             <kbd class="key" aria-hidden="true" data-key="c"></kbd>
         </a>
     </nav>
