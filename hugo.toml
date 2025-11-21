@@ -159,7 +159,7 @@ enableRobotsTXT = true
     [params.logo]
         ## Light mode logo mark
         # logoMark = 'https://example.com/logoMark.svg'
-        ## Dark mode logo mark
+        ## Dark mode logo marksource
         # logoMarkDark = 'https://example.com/logoMarkDark.svg'
         ## Enable logo type
         logoType = true
@@ -244,3 +244,19 @@ enableRobotsTXT = true
         # schema = true
         ## JsonLD (cannot validate permalink)
         # jsonLD = true
+[module]
+   # [[module.mounts]]
+   # source = "themes/hugo-brewm/exampleSite/content"
+   # target = "content"
+  [[module.mounts]]
+    source = "content"
+    target = "content"
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+  [[module.mounts]]
+    source = "layouts"
+    target = "layouts"
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"

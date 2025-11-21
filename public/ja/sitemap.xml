@@ -1,1 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>//localhost:1313/ja/author/</loc></url><url><loc>//localhost:1313/ja/categories/</loc></url><url><loc>//localhost:1313/ja/</loc></url><url><loc>//localhost:1313/ja/series/</loc></url><url><loc>//localhost:1313/ja/stage/</loc></url><url><loc>//localhost:1313/ja/tags/</loc></url></urlset>
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>//localhost:1313/ja/</loc>
+    <lastmod>2025-11-21T23:30:00+09:00</lastmod>
+    </url>
+  <url>
+    <loc>//localhost:1313/ja/posts/</loc>
+    <lastmod>2025-11-21T23:30:00+09:00</lastmod>
+    </url>
+  <url>
+    <loc>//localhost:1313/ja/posts/first-post/</loc>
+    <lastmod>2025-11-21T23:30:00+09:00</lastmod>
+    </url>
+  <url>
+    <loc>//localhost:1313/ja/author/</loc>
+    
+    </url>
+  <url>
+    <loc>//localhost:1313/ja/categories/</loc>
+    
+    </url>
+  <url>
+    <loc>//localhost:1313/ja/series/</loc>
+    
+    </url>
+  <url>
+    <loc>//localhost:1313/ja/stage/</loc>
+    
+    </url>
+  <url>
+    <loc>//localhost:1313/ja/tags/</loc>
+    
+    </url>
+</urlset>
