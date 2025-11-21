@@ -28,6 +28,33 @@
     <meta property="og:url" content="//localhost:1313/ja/posts/" />
         <meta property="og:image" content="https://repository-images.githubusercontent.com/923527728/46a32a19-69ac-45b3-91a4-c4d299fb234b" />
     <meta property="og:site_name" content="ChiriTsumomma" />
+    
+    <!-- schema -->
+        <meta itemprop="name" content="Posts | ChiriTsumomma">
+        <meta itemprop="description" content="section | ChiriTsumomma">
+        <meta itemprop="image" content="https://repository-images.githubusercontent.com/923527728/46a32a19-69ac-45b3-91a4-c4d299fb234b">
+    
+    <!-- jsonLD --><script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": ""
+            },
+            "headline": "Posts | ChiriTsumomma",
+            "description": "section | ChiriTsumomma",
+            "image": "https:\/\/repository-images.githubusercontent.com\/923527728\/46a32a19-69ac-45b3-91a4-c4d299fb234b",
+            "author": {
+                "@type": "Person",
+                "name": "So Momma"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "ChiriTsumomma",
+            }
+        }
+    </script>
     <link rel="alternate" type="application/rss+xml" href="//localhost:1313/ja/posts/index.xml" title="Posts | ChiriTsumomma (RSS)" />
     <!-- js.html -->
 
@@ -213,6 +240,63 @@
                 </div>
         </div>
         
+                <aside id="list-tags">
+                    <header class="section-title">
+                        <strong>[i18n] tags</strong>
+                    </header>
+                    <nav aria-label="[i18n] tags">
+                        <!-- taxonomies.html -->
+        <ul class="rounded has-hash" role="presentation">
+            
+                    <li >
+                        <a href="//localhost:1313/ja/tags/hugo/"
+                            aria-label="[i18n] tags: Hugo"
+                            aria-description="2 [i18n] posts"
+                            data-post-counter="2"
+                            >
+                            <span>Hugo</span>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="//localhost:1313/ja/tags/git/"
+                            aria-label="[i18n] tags: Git"
+                            aria-description="1 [i18n] posts"
+                            data-post-counter="1"
+                            >
+                            <span>Git</span>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="//localhost:1313/ja/tags/vercel/"
+                            aria-label="[i18n] tags: Vercel"
+                            aria-description="1 [i18n] posts"
+                            data-post-counter="1"
+                            >
+                            <span>Vercel</span>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="//localhost:1313/ja/tags/%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9E/"
+                            aria-label="[i18n] tags: スキーマ"
+                            aria-description="1 [i18n] posts"
+                            data-post-counter="1"
+                            >
+                            <span>スキーマ</span>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="//localhost:1313/ja/tags/%E3%83%96%E3%83%AD%E3%82%B0%E9%96%8B%E8%A8%AD/"
+                            aria-label="[i18n] tags: ブログ開設"
+                            aria-description="1 [i18n] posts"
+                            data-post-counter="1"
+                            >
+                            <span>ブログ開設</span>
+                        </a>
+                    </li>
+        </ul>
+                    </nav>
+                    <hr class="hide"/>
+                </aside>
         
             <section id="list-posts" class="pagewidth"  aria-labelledby="list-post-heading">
                 <header  class="section-title">
@@ -230,26 +314,38 @@
             <div>
                 <time datetime="2025-01-21T23:58:06&#43;09:00">2025年1月21日</time>
                 <span><span>So Momma</span>
+                        <span>[i18n] in</span>
+                        <!-- terms.html -->
+            
+                <a href="//localhost:1313/ja/categories/%E6%97%A5%E8%A8%98/" tabindex="-1">日記</a> & 
+                <a href="//localhost:1313/ja/categories/%E5%AD%A6%E7%BF%92%E8%A8%98%E9%8C%B2/" tabindex="-1">学習記録</a>
                 </span>
                 
             </div>
             <a href="//localhost:1313/ja/posts/1121/" class="sr0" tabindex="-1" aria-describedby="desc-1">
-                <h1 id="title-1">1121</h1>
+                <h1 id="title-1">2025年1月21日の学習記録</h1>
             </a>
         </hgroup>
-        <a class="sri" href="//localhost:1313/ja/posts/1121/" aria-label="1121" aria-describedby="desc-1"></a>
+        <a class="sri" href="//localhost:1313/ja/posts/1121/" aria-label="2025年1月21日の学習記録" aria-describedby="desc-1"></a>
         
         <section class="has-cover">
-                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/8.svg" alt="" style="object-position: 54% 75%" loading="lazy">
-            <div class="par" id="desc-1">git diff origin/develop &gt; diff.txt 今日の成果：
-スキーマについて理解した 新しくブログを始めれてえらい hugoの技術選定ができてえらい windows風のAltTabアプリケーションを入れられてえらい 
+                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/1.svg" alt="" style="object-position: 45% 9%" loading="lazy">
+            <div class="par" id="desc-1">今日学んだこと Gitコマンド git diff origin/develop &gt; diff.txt developブランチとの差分をファイルに出力する方法を学びました。レビューや変更内容の確認に便利です。
+スキーマについて データベースのスキーマ設計について理解を深めました。テーブル構造の設計は、アプリケーションの基盤となる重要な部分ですね。
+今日の成果 ✅ スキーマについて理解した ✅ 新しくブログを始められた ✅ Hugoの技術選定ができた ✅ Windows風のAltTabアプリケーションを導入できた 小さな積み重ねが大切です。明日も頑張ります！
+
             </div>
         </section>
         <footer>
             <span class="readingTime">1 [i18n] readingtime
             </span>
             
-                <div class="baselineskip" role="presentation"></div>
+                    <!-- terms.html -->
+            <ul class="rounded invert" role="presentation">
+                    <li><a href="//localhost:1313/ja/tags/git/" tabindex="-1">Git</a></li>
+                    <li><a href="//localhost:1313/ja/tags/hugo/" tabindex="-1">Hugo</a></li>
+                    <li><a href="//localhost:1313/ja/tags/%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9E/" tabindex="-1">スキーマ</a></li>
+            </ul>
         </footer>
     </article><hr class="ldots" role="presentation" aria-hidden="true">
                         <article class="feed-item"
@@ -261,6 +357,10 @@
             <div>
                 <time datetime="2025-01-21T23:30:00&#43;09:00">2025年1月21日</time>
                 <span><span>So Momma</span>
+                        <span>[i18n] in</span>
+                        <!-- terms.html -->
+            
+                <a href="//localhost:1313/ja/categories/%E3%83%96%E3%83%AD%E3%82%B0/" tabindex="-1">ブログ</a>
                 </span>
                 
             </div>
@@ -271,16 +371,23 @@
         <a class="sri" href="//localhost:1313/ja/posts/first-post/" aria-label="ブログ始めました" aria-describedby="desc-2"></a>
         
         <section class="has-cover">
-                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/11.svg" alt="" style="object-position: 76% 72%" loading="lazy">
-            <div class="par" id="desc-2">エンジニアです、ブログ始めました。 これから技術的なアウトプットをここに積み上げていきます。 Hugo + Vercel の爆速環境で構築しました。
-今後の予定 技術メモ 読書感想 ポエム print(&#34;Hello, ChiriTsumomma!&#34;) 
+                <img class="flowlines" src="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/9.svg" alt="" style="object-position: 32% 32%" loading="lazy">
+            <div class="par" id="desc-2">エンジニアです、ブログ始めました これから技術的なアウトプットをここに積み上げていきます。 Hugo + Vercel の爆速環境で構築しました。
+技術スタック Static Site Generator: Hugo Theme: hugo-brewm Deployment: Vercel HugoのシンプルさとVercelの高速デプロイが気に入っています。
+今後の予定 📝 技術メモ: 開発で学んだこと、詰まったポイントの備忘録 📚 読書感想: 技術書やその他の本の読書記録 💭 ポエム: エンジニアとしての日々の気づきや思考 print(&#34;Hello, ChiriTsumomma!&#34;) 小さな学びを積み重ねて、大きな成長につなげていきたいと思います。
+
             </div>
         </section>
         <footer>
             <span class="readingTime">1 [i18n] readingtime
             </span>
             
-                <div class="baselineskip" role="presentation"></div>
+                    <!-- terms.html -->
+            <ul class="rounded invert" role="presentation">
+                    <li><a href="//localhost:1313/ja/tags/hugo/" tabindex="-1">Hugo</a></li>
+                    <li><a href="//localhost:1313/ja/tags/vercel/" tabindex="-1">Vercel</a></li>
+                    <li><a href="//localhost:1313/ja/tags/%E3%83%96%E3%83%AD%E3%82%B0%E9%96%8B%E8%A8%AD/" tabindex="-1">ブログ開設</a></li>
+            </ul>
         </footer>
     </article>
                     </div>

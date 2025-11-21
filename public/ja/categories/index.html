@@ -28,6 +28,33 @@
     <meta property="og:url" content="//localhost:1313/ja/categories/" />
         <meta property="og:image" content="https://repository-images.githubusercontent.com/923527728/46a32a19-69ac-45b3-91a4-c4d299fb234b" />
     <meta property="og:site_name" content="ChiriTsumomma" />
+    
+    <!-- schema -->
+        <meta itemprop="name" content="Categories | ChiriTsumomma">
+        <meta itemprop="description" content="taxonomy | ChiriTsumomma">
+        <meta itemprop="image" content="https://repository-images.githubusercontent.com/923527728/46a32a19-69ac-45b3-91a4-c4d299fb234b">
+    
+    <!-- jsonLD --><script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": ""
+            },
+            "headline": "Categories | ChiriTsumomma",
+            "description": "taxonomy | ChiriTsumomma",
+            "image": "https:\/\/repository-images.githubusercontent.com\/923527728\/46a32a19-69ac-45b3-91a4-c4d299fb234b",
+            "author": {
+                "@type": "Person",
+                "name": "So Momma"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "ChiriTsumomma",
+            }
+        }
+    </script>
     <link rel="alternate" type="application/rss+xml" href="//localhost:1313/ja/categories/index.xml" title="Categories | ChiriTsumomma (RSS)" />
     <!-- js.html -->
 
@@ -199,19 +226,50 @@
             
         </div>
         
-        <div class="pagewidth">
-            <div style="display:flex;height:var(--vbody);width:100%;">
-        <section class="hero" style="margin: auto; width: var(--canonic);" aria-labelledby="noArticle">
-            <picture class="hero__image">
-                <img src="https://i.pinimg.com/736x/bf/34/76/bf3476c1569c5af162779ecbb4134c3a.jpg" alt="cat is unsure on what to do with his laptop">
-            </picture>
-            <div class="hero__content">
-                <h1 id="noArticle" style="font-size:var(--large);font-weight:500;">[i18n] noArticle</h1>
-                <p>[i18n] noArticlePost</p>
-            </div>
-        </section>
-    </div>
-        </div>
+        
+            <section class="pagewidth">
+                    <h1 id="categories">[i18n] categories</h1>
+                    <!-- taxonomies.html -->
+        <ul class="taxonomy" role="presentation">
+            
+                    <li >
+                        <a href="//localhost:1313/ja/categories/%E3%83%96%E3%83%AD%E3%82%B0/"class="section-title" 
+                            aria-label="[i18n] categories: ブログ"
+                            aria-description="1 [i18n] posts"
+                            data-post-counter="1"
+                            >
+                            <span>ブログ</span>
+                        </a>
+                            <ul role="presentation">
+                                    <li><a href="//localhost:1313/ja/posts/first-post/">ブログ始めました</a></li>
+                            </ul>
+                    </li>
+                    <li >
+                        <a href="//localhost:1313/ja/categories/%E5%AD%A6%E7%BF%92%E8%A8%98%E9%8C%B2/"class="section-title" 
+                            aria-label="[i18n] categories: 学習記録"
+                            aria-description="1 [i18n] posts"
+                            data-post-counter="1"
+                            >
+                            <span>学習記録</span>
+                        </a>
+                            <ul role="presentation">
+                                    <li><a href="//localhost:1313/ja/posts/1121/">2025年1月21日の学習記録</a></li>
+                            </ul>
+                    </li>
+                    <li >
+                        <a href="//localhost:1313/ja/categories/%E6%97%A5%E8%A8%98/"class="section-title" 
+                            aria-label="[i18n] categories: 日記"
+                            aria-description="1 [i18n] posts"
+                            data-post-counter="1"
+                            >
+                            <span>日記</span>
+                        </a>
+                            <ul role="presentation">
+                                    <li><a href="//localhost:1313/ja/posts/1121/">2025年1月21日の学習記録</a></li>
+                            </ul>
+                    </li>
+        </ul>
+            </section>
         <div id="exclude" role="presentation">
             <!-- excluded last block frome some RSS reader and browser reader mode -->
             

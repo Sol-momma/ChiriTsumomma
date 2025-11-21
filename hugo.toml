@@ -72,13 +72,13 @@ enableRobotsTXT = true
 ## Sitemap configuration
 [sitemap]
     ## Change frequency setting (will affect posts listings layout): 'always', 'hourly', 'daily', 'weekly', 'monthly', 'yearly', 'never'
-    # changeFreq = 'monthly'
+    changeFreq = 'weekly'
     ## Disable sitemap generation
-    # disable = false
+    disable = false
     ## Output filename
-    # filename = 'sitemap.xml'
+    filename = 'sitemap.xml'
     ## Priority setting
-    # priority = -1
+    priority = 0.5
 
 ## RSS configuration
 [services.rss]
@@ -103,7 +103,7 @@ enableRobotsTXT = true
     ## Site title
     title = "ChiriTsumomma"
     ## Site description
-    description = "技術のちりつもブログ。HugoとVercelで構築中。"
+    description = "技術のちりつもブログ。毎日少しずつ成長を積み重ねるエンジニアの学習記録と技術メモ。"
     ## Copyright notice
     copyright = "Copyleft 2025 &copy; Sol-momma"
     ## Hide "powered by hugo" on colophon
@@ -129,10 +129,6 @@ enableRobotsTXT = true
         name = 'So Momma'
         ## Author's email (will be used for RSS feed)
         email = 'sol0608sol@gmail.com'
-        ## Co-authors information (optional)
-        coauthor = [
-            {name = "A.N. Other", bio = "This quick paragraph is written in site configuration (hugo.toml). Therefore, no markdown support. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
-        ]
 
     ## Comments configuration
     [params.comments]
@@ -227,23 +223,23 @@ enableRobotsTXT = true
         images = "https://repository-images.githubusercontent.com/923527728/46a32a19-69ac-45b3-91a4-c4d299fb234b" ## recommended resolution: 1200 x 630px
 
         ## Enable Twitter cards
-        # twitter = true
+        twitter = true
         ## Twitter creator handle
         # twitterCreator = "@username"
         ## Twitter site handle
         # twitterSite = "@username"
 
         ## Enable OpenGraph
-        # opengraph = true
+        opengraph = true
         ## Facebook App ID
         # facebookAppID = "123456789"
         ## Facebook Admin ID
         # facebookAdmin = "USER_ID"
 
         ## Schema.org (only meta, not fully supported)
-        # schema = true
+        schema = true
         ## JsonLD (cannot validate permalink)
-        # jsonLD = true
+        jsonLD = true
 
 ## Menu configuration
 [[menus.main]]
