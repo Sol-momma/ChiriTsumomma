@@ -101,11 +101,11 @@ enableRobotsTXT = true
 ## Site parameters
 [params]
     ## Site title
-    title = "Example"
+    title = "ChiriTsumomma"
     ## Site description
-    description = "An ExampleSite built with Hugo and Hugo-Brewm theme"
+    description = "技術のちりつもブログ。HugoとVercelで構築中。"
     ## Copyright notice
-    copyright = "Copyleft 2025 &copy; Author"
+    copyright = "Copyleft 2025 &copy; Sol-momma"
     ## Hide "powered by hugo" on colophon
     # HideHugoCredit = true
     ## Enable extended metadata (social cards)
@@ -126,9 +126,9 @@ enableRobotsTXT = true
     ## Author information
     [params.author]
         ## site author's name
-        name = 'Author Name'
+        name = 'So Momma'
         ## Author's email (will be used for RSS feed)
-        email = 'email@example.com'
+        email = 'sol0608sol@gmail.com'
         ## Co-authors information (optional)
         coauthor = [
             {name = "A.N. Other", bio = "This quick paragraph is written in site configuration (hugo.toml). Therefore, no markdown support. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
@@ -244,6 +244,24 @@ enableRobotsTXT = true
         # schema = true
         ## JsonLD (cannot validate permalink)
         # jsonLD = true
+
+## Menu configuration
+[[menus.main]]
+    name = "ホーム"
+    url = "/"
+    weight = 1
+
+[[menus.main]]
+    name = "記事一覧"
+    url = "/ja/posts/"
+    weight = 2
+
+[[menus.main]]
+    name = "About"
+    url = "/ja/about/"
+    weight = 3
+
+## Module configuration
 [module]
    # [[module.mounts]]
    # source = "themes/hugo-brewm/exampleSite/content"
