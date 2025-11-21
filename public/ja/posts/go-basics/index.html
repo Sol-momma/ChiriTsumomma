@@ -324,7 +324,12 @@
             <div id="doc-author" class="textsw"><span>So Momma</span>
             </div>
             <!-- timestamp.html-->
-        <time datetime="2025-01-21T12:00:00&#43;09:00">2025年1月21日</time>
+        <div id="timestamp">
+            <span>[i18n] published [i18n] on</span>
+            <time datetime="2025-01-21T12:00:00&#43;09:00">2025年1月21日</time>,
+            <span>[i18n] modified [i18n] on</span>
+            <time datetime="2025-11-22T00:15:56&#43;08:00">2025年11月22日</time>.
+        </div>
         </header>
         <!-- audio.html -->
         <section id="content" class="content " aria-labelledby="title" data-bionRead-safe>
@@ -371,12 +376,26 @@
             <div id="qr" role="img" aria-label="QR code"></div>
             <div class="verbose">
                 <div class="has-aria-label-top" aria-label="Go言語の基礎"><span>//localhost:1313/ja/posts/go-basics/</span></div>
-                <div><span>[i18n] buildTime: </span><time datetime="2025-11-22T00:15:02&#43;08:00">2025-11-22 00:15</time></div>
+                <div><span>[i18n] buildTime: </span><time datetime="2025-11-22T00:16:00&#43;08:00">2025-11-22 00:16</time></div>
                 <div><span>[i18n] accessTime: </span><time id="time-stamp"></time></div><div><span>[i18n] poweredBy </span><a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <a href="https://github.com/gohugoio/hugo/releases/tag/v0.152.2" aria-label="Hugo 0.152.2" target="_blank" rel="noopener">v0.152.2</a> & <a href="https://github.com/foxihd/hugo-brewm" target="_blank" rel="noopener">hugo-brewm</a>.</div>
             </div>
         </div>
     </div>
                 <!-- history.html -->
+        <div id="has-timeline" >
+            <strong class="section-title">[i18n] redactionHistory</strong>
+            <ol aria-label="[i18n] redactionHistory">
+                <li>
+                    <time datetime="2025-01-21T12:00:00&#43;09:00">2025年1月21日</time>
+                    <span>([i18n] published)</span>
+                </li>
+                <li>
+                    <time datetime="2025-11-22T00:15:56&#43;08:00">2025年11月22日</time>
+                    <span>([i18n] modified)</span>
+                </li>
+            </ol>
+            <p>[i18n] redactionNotes</p>
+        </div>
             
             <!-- nav.html -->
 <details class="presentation" aria-expanded="true" id="has-share" open>
