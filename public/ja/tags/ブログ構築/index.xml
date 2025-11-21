@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+    <title>ブログ構築 on ChiriTsumomma</title>
+    <link>//localhost:1313/ja/tags/%E3%83%96%E3%83%AD%E3%82%B0%E6%A7%8B%E7%AF%89/</link>
+    <description>[i18n] recent [i18n] in ブログ構築 [i18n] on ChiriTsumomma</description>
+    <generator>Hugo 0.152.2</generator>
+    <language>ja</language>
+    <managingEditor>sol0608sol@gmail.com (So Momma)</managingEditor>
+    <webMaster>sol0608sol@gmail.com (So Momma)</webMaster>
+    <lastBuildDate>Sat, 22 Nov 2025 00:15:02 +0800</lastBuildDate>
+    <atom:link href="//localhost:1313/ja/tags/%E3%83%96%E3%83%AD%E3%82%B0%E6%A7%8B%E7%AF%89/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugoブログの構築</title>
+      <link>//localhost:1313/ja/posts/hugo-setup/</link>
+      <pubDate>Tue, 21 Jan 2025 10:00:00 +0900</pubDate>
+      <author>sol0608sol@gmail.com (So Momma)</author>
+      <dc:creator>So Momma</dc:creator>
+      <guid>//localhost:1313/ja/posts/hugo-setup/</guid>
+      <description>&lt;h2 id=&#34;hugoブログの構築&#34;&gt;Hugoブログの構築&lt;/h2&gt;&#xA;&lt;p&gt;このブログはHugoとhugo-brewmテーマを使用して構築しました。&lt;/p&gt;&#xA;&lt;h3 id=&#34;セットアップ手順&#34;&gt;セットアップ手順&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Hugoのインストール&lt;/li&gt;&#xA;&lt;li&gt;テーマの設定&lt;/li&gt;&#xA;&lt;li&gt;Vercelへのデプロイ&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;シンプルで高速な静的サイトジェネレーターです。&lt;/p&gt;</description>
+      <content:encoded>&lt;h2 id=&#34;hugoブログの構築&#34;&gt;Hugoブログの構築&lt;/h2&gt;&#xA;&lt;p&gt;このブログはHugoとhugo-brewmテーマを使用して構築しました。&lt;/p&gt;&#xA;&lt;h3 id=&#34;セットアップ手順&#34;&gt;セットアップ手順&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Hugoのインストール&lt;/li&gt;&#xA;&lt;li&gt;テーマの設定&lt;/li&gt;&#xA;&lt;li&gt;Vercelへのデプロイ&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;シンプルで高速な静的サイトジェネレーターです。&lt;/p&gt;&#xA;</content:encoded>
+      <category>設定</category>
+      <category>ホームページ</category>
+    </item>
+  </channel>
+</rss>
