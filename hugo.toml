@@ -249,9 +249,8 @@ enableRobotsTXT = true
    # [[module.mounts]]
    # source = "themes/hugo-brewm/exampleSite/content"
    # target = "content"
-  [[module.mounts]]
-    source = "content"
-    target = "content"
+  ## content は言語ごとの contentDir（config/_default/languages.toml）で読む。
+  ## ここで content 全体を割り当てると content/ja が「ja」セクション扱いになり /ja/ja/... に出てしまう。
   [[module.mounts]]
     source = "static"
     target = "static"
