@@ -5,26 +5,26 @@
 
 [[main]]
     name = "文章列表"
-    url = "/ja/zh/posts/"
+    url = "/zh/posts/"
     weight = 2
 
 [[main]]
     name = "系列"
     identifier = "series"
-    pageRef = "/ja/zh/series"
+    pageRef = "/series"
     weight = 3
 
     [[main]]
         name = "Go學習"
         identifier = "go-series"
-        pageRef = "/ja/zh/series/go學習"
+        pageRef = "/series/go學習"
         parent = "series"
         weight = 1
 
     [[main]]
         name = "Python 技巧"
         identifier = "python-series"
-        pageRef = "/ja/zh/series/python-tips"
+        pageRef = "/series/python-tips"
         parent = "series"
         weight = 2
 
@@ -37,14 +37,14 @@
     [[main]]
         name = "專案"
         identifier = "project"
-        pageRef = "/ja/zh/posts/"
+        pageRef = "/posts/"
         parent = "works"
         weight = 1
 
     [[main]]
         name = "技術筆記"
         identifier = "tech-notes"
-        pageRef = "/ja/zh/posts/"
+        pageRef = "/posts/"
         parent = "works"
         weight = 2
 
@@ -59,6 +59,6 @@
 
 [[main]]
     name = "關於"
-    url = "/ja/zh/about/"
+    url = "/zh/about/"
     weight = 6
 
