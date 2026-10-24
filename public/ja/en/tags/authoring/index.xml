@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Authoring on ChiriTsumomma</title><link>/en/tags/authoring/</link><description>Recent Posts in Authoring on ChiriTsumomma</description><generator>Hugo 0.147.9</generator><language>en-US</language><managingEditor>sol0608sol@gmail.com (So Momma)</managingEditor><webMaster>sol0608sol@gmail.com (So Momma)</webMaster><lastBuildDate>Sun, 25 Oct 2026 03:29:23 +0800</lastBuildDate><atom:link href="/en/tags/authoring/index.xml" rel="self" type="application/rss+xml"/><item><title>Markdown Syntax Guide</title><link>/en/posts/markdown-guide/</link><pubDate>Tue, 21 Jan 2025 11:00:00 +0900</pubDate><author>sol0608sol@gmail.com (So Momma)</author><dc:creator>So Momma</dc:creator><guid>/en/posts/markdown-guide/</guid><description>&lt;h2 id="markdown-syntax-guide">Markdown Syntax Guide&lt;/h2>
+&lt;p>This blog uses Markdown for writing articles.&lt;/p>
+&lt;h3 id="basic-syntax">Basic Syntax&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Bold&lt;/strong>: &lt;code>**Bold**&lt;/code>&lt;/li>
+&lt;li>&lt;em>Italic&lt;/em>: &lt;code>*Italic*&lt;/code>&lt;/li>
+&lt;li>&lt;code>Code&lt;/code>: Wrap with backticks&lt;/li>
+&lt;/ul>
+&lt;p>It&amp;rsquo;s a simple and readable syntax.&lt;/p></description><content:encoded>&lt;h2 id="markdown-syntax-guide">Markdown Syntax Guide&lt;/h2>
+&lt;p>This blog uses Markdown for writing articles.&lt;/p>
+&lt;h3 id="basic-syntax">Basic Syntax&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Bold&lt;/strong>: &lt;code>**Bold**&lt;/code>&lt;/li>
+&lt;li>&lt;em>Italic&lt;/em>: &lt;code>*Italic*&lt;/code>&lt;/li>
+&lt;li>&lt;code>Code&lt;/code>: Wrap with backticks&lt;/li>
+&lt;/ul>
+&lt;p>It&amp;rsquo;s a simple and readable syntax.&lt;/p></content:encoded><category>Authoring</category><category>Blog</category></item></channel></rss>

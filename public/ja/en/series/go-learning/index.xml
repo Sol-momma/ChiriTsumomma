@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Go Learning on ChiriTsumomma</title><link>/en/series/go-learning/</link><description>Recent Posts in Go Learning on ChiriTsumomma</description><generator>Hugo 0.147.9</generator><language>en-US</language><managingEditor>sol0608sol@gmail.com (So Momma)</managingEditor><webMaster>sol0608sol@gmail.com (So Momma)</webMaster><lastBuildDate>Sun, 25 Oct 2026 03:29:23 +0800</lastBuildDate><atom:link href="/en/series/go-learning/index.xml" rel="self" type="application/rss+xml"/><item><title>Go Language Basics</title><link>/en/posts/go-basics/</link><pubDate>Tue, 21 Jan 2025 12:00:00 +0900</pubDate><author>sol0608sol@gmail.com (So Momma)</author><dc:creator>So Momma</dc:creator><guid>/en/posts/go-basics/</guid><description>&lt;h2 id="go-language-basics">Go Language Basics&lt;/h2>
+&lt;p>I&amp;rsquo;ll summarize what I&amp;rsquo;ve learned about the Go language.&lt;/p>
+&lt;h3 id="features">Features&lt;/h3>
+&lt;ul>
+&lt;li>Simple syntax&lt;/li>
+&lt;li>Fast compilation&lt;/li>
+&lt;li>Support for concurrency&lt;/li>
+&lt;/ul>
+&lt;p>I often use it for backend development.&lt;/p></description><content:encoded>&lt;h2 id="go-language-basics">Go Language Basics&lt;/h2>
+&lt;p>I&amp;rsquo;ll summarize what I&amp;rsquo;ve learned about the Go language.&lt;/p>
+&lt;h3 id="features">Features&lt;/h3>
+&lt;ul>
+&lt;li>Simple syntax&lt;/li>
+&lt;li>Fast compilation&lt;/li>
+&lt;li>Support for concurrency&lt;/li>
+&lt;/ul>
+&lt;p>I often use it for backend development.&lt;/p></content:encoded><category>Tech Notes</category></item></channel></rss>

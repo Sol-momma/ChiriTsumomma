@@ -1,0 +1,10 @@
+// Cloudflare Workers の静的アセット配信（無料枠）。ビルドは scripts/cf-build.sh、出力は public/
+// Hugo のバージョンは .hugo-version（Vercel の HUGO_VERSION と同じ値）
+{
+  "name": "chiri-tsumomma",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "404-page"
+  }
+}
