@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Cloudflare Pages のビルドコマンド。HUGO_VERSION（.hugo-version と同じ値）で固定した Hugo extended を使う。
+# Cloudflare のビルドコマンド。HUGO_VERSION（.hugo-version と同じ値）で固定した Hugo extended を使う。
 set -euo pipefail
 V="${HUGO_VERSION:-$(cat .hugo-version)}"
 git submodule update --init --recursive
