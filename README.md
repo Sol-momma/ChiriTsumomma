@@ -1,97 +1,67 @@
 # ChiriTsumomma
 
-個人ブログサイト。Hugo + hugo-brewmテーマで構築されています。
+技術の学びを少しずつ積み重ねる（ちりつも）個人ブログです。Hugo と hugo-brewm テーマで作り、日本語・英語・中国語の3言語で公開しています。
 
-## 概要
+A personal tech blog by Sol-momma for study notes and small write-ups, built with Hugo and the hugo-brewm theme and published in Japanese, English and Chinese.
 
-「毎日少しずつ成長」をモットーに、技術的なアウトプットを積み上げていくブログです。
-日々の学習ログや、開発で詰まったポイントの備忘録として更新していきます。
+Live: https://chiri.sol-momma.com
 
-## 技術スタック
+![Top page](docs/images/home.png)
 
-- **Static Site Generator**: [Hugo](https://gohugo.io/)
-- **Theme**: [hugo-brewm](https://github.com/foxihd/hugo-brewm)
-- **Deployment**: Vercel
+## Features
 
-## セットアップ
+- Posts in three languages (`ja`, `en`, `zh`) with a language switcher
+- Post list, categories, tags, series and an about page
+- Site search and an accessibility menu provided by the theme
+- Static output only, so it can be served from any static host
 
-### 前提条件
+## Tech stack
 
-- Hugo (v0.135.0以上)
-- Git
+- [Hugo](https://gohugo.io/) extended, version pinned in `.hugo-version`
+- [hugo-brewm](https://github.com/foxihd/hugo-brewm) theme, included as a git submodule
+- [Cloudflare Workers](https://developers.cloudflare.com/workers/static-assets/) static assets for hosting (`wrangler.jsonc`)
 
-### インストール
+## Getting started
 
-```bash
-# リポジトリをクローン
-git clone <repository-url>
+There are no npm dependencies. You need Git and Hugo extended (the version in `.hugo-version`).
+
+```sh
+git clone --recurse-submodules https://github.com/Sol-momma/ChiriTsumomma.git
 cd ChiriTsumomma
-
-# Hugoサーバーを起動
-hugo server
+hugo server               # http://localhost:1313
 ```
 
-開発サーバーは `http://localhost:1313` で起動します。
+To build the same way as production, run the build script. It downloads the pinned Hugo release into `/tmp` and writes the site to `public/`.
 
-## プロジェクト構造
-
-```
-ChiriTsumomma/
-├── content/          # コンテンツファイル（Markdown）
-│   ├── posts/       # ブログ記事
-│   └── about.md     # Aboutページ
-├── static/          # 静的ファイル（画像など）
-├── themes/          # Hugoテーマ
-│   └── hugo-brewm/ # hugo-brewmテーマ
-├── hugo.toml        # Hugo設定ファイル
-└── README.md        # このファイル
+```sh
+bash scripts/cf-build.sh
 ```
 
-## 記事の作成
-
-新しい記事を作成するには、`content/posts/` ディレクトリにMarkdownファイルを追加します。
-
-```bash
-# 新しい記事を作成
-hugo new posts/my-new-post.md
-```
-
-記事のフロントマターには以下を含めてください：
+To add a post, create a Markdown file under `content/<lang>/posts/`:
 
 ```yaml
 ---
-title: "記事タイトル"
-date: 2025-01-21T00:00:00+09:00
+title: "Post title"
+date: 2026-10-25T00:00:00+09:00
 type: post
 draft: false
 ---
 ```
 
-## ビルド
+## Project structure
 
-```bash
-# サイトをビルド
-hugo
-
-# ビルド結果は public/ ディレクトリに出力されます
+```text
+.
+├── config/            # languages and menus
+├── content/           # posts and pages, one folder per language (ja, en, zh)
+├── i18n/              # translated UI strings
+├── static/            # images and other static files
+├── themes/hugo-brewm/ # theme (git submodule)
+├── scripts/           # production build script
+├── hugo.toml          # site configuration
+└── wrangler.jsonc     # Cloudflare Workers settings
 ```
 
-## デプロイ
+## License and credits
 
-Vercelにデプロイする場合：
-
-1. Vercelにプロジェクトを接続
-2. ビルドコマンド: `hugo`
-3. 出力ディレクトリ: `public`
-
-## ライセンス
-
-このプロジェクトのコンテンツは個人の著作物です。
-
-## 著者
-
-**So Momma (モンマ ソウ)**
-
-- ソフトウェアエンジニア
-- スキル: Go, Python, JavaScript, Hugo, Next.js, Git, Docker, Firebase
-
+The posts and other content are the author's own work; no license is granted for reuse. The theme is [hugo-brewm](https://github.com/foxihd/hugo-brewm) by foxihd, under the MIT License.
