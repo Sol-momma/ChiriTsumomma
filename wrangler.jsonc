@@ -2,7 +2,7 @@
 // Hugo のバージョンは .hugo-version（Vercel の HUGO_VERSION と同じ値）
 {
   "name": "chiri-tsumomma",
-  "workers_dev": true,
+  "workers_dev": false,
   "routes": [{ "pattern": "chiri.sol-momma.com", "custom_domain": true }],
   "compatibility_date": "2026-10-01",
   "assets": {
